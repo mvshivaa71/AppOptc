@@ -6957,7 +6957,3 @@ window.details = {
         specialName: "Tonta Knowledge",
     },
 };
-	
-
-	
-};
