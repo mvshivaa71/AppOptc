@@ -6,7 +6,7 @@
                 <div class="column" ng-repeat="unitNumber in range(0,6)" dropzone="slot" attach-picker>
 
                     <div class="quick-fill" ng-class="{ visible: team[unitNumber].uid }" ng-click="quickFill(unitNumber)">
-                        Quick fill
+                        Auto-Relleno 
                     </div>
 
                     <div class="unitContainer" draggable="slot" removable>
@@ -58,7 +58,7 @@
 
             <div id="transient" class="alert alert-danger" ng-show="options.transient" ng-click="options.transient = false">
                 <i class="fa fa-lock"></i>
-                Transient mode enabled. Click to disable.
+                Modo transitorio activado. Haga clic para desactivar.
             </div>
 
         </div>

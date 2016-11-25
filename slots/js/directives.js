@@ -42,7 +42,7 @@ directives.slotWheel = function() {
             scope.pickLevel = function(e) {
                 var n;
                 if (e.which == 2 || e.ctrlKey || e.metaKey) n = 5;
-                else n = parseInt(prompt('Ability level:'), 10);
+                else n = parseInt(prompt('Nivel Habilidad:'), 10);
                 if (isNaN(n) || n < 0 || n > 5) return;
                 scope.team[scope.unitNumber].slots[scope.slotNumber].level = n;
             };

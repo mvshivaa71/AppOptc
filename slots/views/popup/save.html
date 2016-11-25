@@ -5,21 +5,21 @@
     <div class="custom-modal">
         <div id="saveslot" class="modal-dialog">
             <div class="modal-content animated fadeInDown">
-                <div class="modal-header">Save data</div>
+                <div class="modal-header">Guardar Datos</div>
                 <div class="modal-body">
 
                     <form ng-submit="doSave()" name="saveForm" id="saveForm">
                         <input type="text" id="slotName" placeholder="Name" ng-model="lastSlot" required auto-focus class="modal-filter">
                         <div class="modal-div padded slim" ng-show="overwriting">
-                            <div class="alert alert-danger">Saving will overwrite an existing slot.</div>
+                            <div class="alert alert-danger">Se va a sobrescribir una configuración de slots existente.</div>
                         </div>
                     </form>
 
                 </div>
 
                 <div class="modal-footer">
-                    <button class="btn btn-default" ui-sref="^">Cancel</button> 
-                    <button class="btn btn-primary" form="saveForm" ng-disabled="saveForm.$invalid">Save</button> 
+                    <button class="btn btn-default" ui-sref="^">Cancelar</button> 
+                    <button class="btn btn-primary" form="saveForm" ng-disabled="saveForm.$invalid">Guardar</button> 
                 </div>
 
             </div>
