@@ -161,7 +161,7 @@ controllers.SummaryCtrl = function($scope, $rootScope, $state, $stateParams) {
             return {
                 points: x,
                 level: (level == abilities[n].levels.length ? 'MAX' : level),
-                description: (level < 1 ? 'Inactive' : abilities[n].levels[level - 1][1]),
+                description: (level < 1 ? 'Inactivo' : abilities[n].levels[level - 1][1]),
                 missing: (level < abilities[n].levels.length ? abilities[n].levels[level][0] - x : -1),
                 next: (level < abilities[n].levels.length ? abilities[n].levels[level][1] : null),
                 overflow: (level == abilities[n].levels.length ? x - abilities[n].levels.slice(-1)[0][0] : 0)
