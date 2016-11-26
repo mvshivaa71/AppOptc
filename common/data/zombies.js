@@ -15,7 +15,7 @@ window.zombies = {
         type: 'healer',
         multiplier: 3
     },
-    71: { // Miss Miercoles
+    71: { // Miss Valentine
         type: 'healer',
         multiplier: 2
     },
@@ -55,7 +55,7 @@ window.zombies = {
     },
     318: { // Kalifa evolved
         type: 'healer',
-        amount: 1000,
+        amount: 500,
     },
     326: { // Wapol
         type: 'healer',
@@ -141,7 +141,7 @@ window.zombies = {
     },
     663: { // Young Vivi
         type: 'healer',
-        multiplier: 2
+        multiplier: 3
     },
     664: { // Young Vivi evolved
         type: 'healer',
@@ -179,6 +179,14 @@ window.zombies = {
         type: 'healer',
         multiplier: 2
     },
+    828: { //Kid Law
+        type: 'zombie',
+        threshold: 0.5
+    },
+    829: { //Kid Law Evolution
+        type: 'zombie',
+        threshold: 0.3
+    },
     841: { // Monet
         type: 'healer',
         multiplier: 3
@@ -201,6 +209,90 @@ window.zombies = {
     },
     912: { // SH Sanji
         type: 'healer',
-        multiplier: 4
-    }
+        multiplier: 2
+    },
+    949: { //Fortnight Thatch
+        type: 'healer',
+        multiplier: 2
+    },
+    965: {//Saint Charloss
+        type: 'healer',
+        amount: 500 
+    },
+    1008: {//Sakura Monet
+        type: 'healer',
+        multiplier: 3
+    },
+    1014: {//Tony Tony Chopper, Animal King
+        type: 'healer',
+        multiplier: 2
+    },
+    1052: {//Kid Robin
+        type: 'healer',
+        amount: 1000
+    },
+    1062: {//Gloriosa
+        type: 'healer',
+        multiplier: 2
+    },
+    1133: {
+        type: 'healer',
+        multiplier: 2
+    },
+    1141: {//Story Moira
+        type: 'healer',
+        multiplier: 3
+    },
+    1195: {//Colo Ganfor
+        type: 'healer',
+        multiplier: 2
+    },
+    1196: {//Colo Ganfor
+        type: 'healer',
+        multiplier: 5
+    },
+    1241: {//Fortnight Koala
+        type: 'healer',
+        multiplier: 1
+    },
+    1242: {//Fortnight Koala
+        type: 'healer',
+        multiplier: 2
+    },
+    1250: {//Colo Marco
+        type: 'healer',
+        multiplier: 2.5
+    },
+    1251: {//Colo Marco
+        type: 'healer',
+        multiplier: 2.5
+    },
+    1305: {//Halloween Sugar
+        type: 'healer',
+        amount: 500
+    },
+    1305: {//Halloween Sugar
+        type: 'healer',
+        amount: 1000
+    },
+    1309: {//Colo Kinemon
+        type: 'healer',
+        multiplier: 1
+    },
+    1310: {//Colo Kinemon
+        type: 'healer',
+        multiplier: 2
+    },
+    1330: {//Gancho
+        type: 'healer',
+        multiplier: 2
+    },
+    1331: {//Mansherry
+        type: 'healer',
+        multiplier: 2
+    },
+    1332: {//Mansherry
+        type: 'healer',
+        multiplier: 3
+    },
 };
