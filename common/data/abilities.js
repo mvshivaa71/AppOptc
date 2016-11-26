@@ -36,7 +36,7 @@ window.abilities = [
     },
 
     {
-        name: 'Curación por turnos',
+        name: 'Autoheal',
         levels: [
             [ 5, 'Cura 100 de HP cada turno' ],
             [ 8, 'Cura 200 de HP cada turno' ],
