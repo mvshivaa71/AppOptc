@@ -134,13 +134,13 @@ window.matchers = [
     {
         name: 'Potenciadores de tipo',
         target: 'special',
-        matcher: /Aumenta.+ (el ATK|la HP|el RCV|el ATK y la HP|el ATK y el RCV|la HP y el RCV|el ATK, la HP y el RCV) de[^,].+(STR|DEX|QCK|PSY|INT)\b/i
+        matcher: /Aumenta el ATK de los personajes(STR|DEX|QCK|PSY|INT)\b/i
     },
 
     {
         name: 'Potenciadores de clase',
         target: 'special',
-        matcher: /Aumenta.+ (el ATK|la HP|el RCV|el ATK y la HP|el ATK y el RCV|la HP y el RCV|el ATK, la HP y el RCV) de[^,]+(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i
+        matcher: /Aumenta el ATK de los personajes(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i
     },
 
     {
