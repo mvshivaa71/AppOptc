@@ -23,14 +23,14 @@ var notes = {
         "0 orbes - #2x ATK, 1 orbe - #3x ATK, 2 orbes - #4x ATK, 3 orbes - #5x ATK, 4 orbes - #6x ATK, 5 orbes - #7x ATK, 6 orbes - #8x ATK.",
     perfectDificil: "Reduce el tiempo para hacer un Perfect (La animación del personaje se mantiene igual). ", 
     perfectFacil: "Aumenta el tiempo para hacer un Perfect (La animación del personaje se mantiene igual). ",
-    silencio: "Silencio se refiere a los efectos que retrasan la carga de los especiales. ",
+    silencio: "Silencio se refiere al efecto que impide activar un especial cargado. ",
     paralisis: "La Parálisis provoca que un personaje tenga la probabilidad de no atacar y romper la cadena. ",
     reducirCargas: "Reducir la carga de los especiales funciona como si se tuviera un turno más para cargar el especial. ",
     boostProportional: "Por debajo del #1% -> #2x, entre el #1% y el #3% -> #4x y por encima del #3% -> #5x. ",
     boostAcumulado: "Los aumentos son acumulativos. Los personajes #1 y #2 recibirán ambos aumentos. ",
     boostNoAcumulado: "Estos aumentos no se acumulan para personajes que tengan ambas clases. ",
 	afinidad:"La Afinidad de Tipo aumenta o disminuye el daño entre tipos. Por ejemplo, una unidad [STR] normalmente hace 2x a una unidad [DEX] y a una unidad [QCK] 0.5x. En este caso, con Afinidad de Tipo harán #1x a [DEX] y #2x a [QCK]. ",
-	nocuracion: "Este debuff impide completamente las capacidades de curación (orbes [RCV], especiales, etc.). Este debuff está presente en Akainu Raid Boss."
+	nocuracion: "Este debuff impide completamente utilizar las capacidades de curación (orbes [RCV], especiales, etc.). Este debuff está presente en Akainu Raid Boss."
 };
 
 /***********
