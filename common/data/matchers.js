@@ -5,7 +5,7 @@ window.matchers = [
     {
         name: 'Capitanes potenciadores de tipo',
         target: 'captain',
-        matcher: /Aumenta (ATK|HP|RCV|ATK y la HP|ATK y el RCV|HP y el RCV|ATK, la HP y el RCV) de[^,]+(STR|DEX|QCK|PSY|INT)\b/i
+        matcher: /Aumenta.+ (ATK|la HP|el RCV|el ATK y la HP|el ATK y el RCV|la HP y el RCV|el ATK, la HP y el RCV) de[^,]+(STR|DEX|QCK|PSY|INT)\b/i
     },
 
     {
