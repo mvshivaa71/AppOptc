@@ -23,7 +23,7 @@ window.matchers = [
     {
         name: 'Capitanes potenciadores de HP',
         target: 'captain',
-        matcher: /Aumenta.* ((la|el) HP|el ATK y la HP|el ATK, la HP).(de los personajes|de todos los personajes)|Aumenta.+y su HP/i
+        matcher: /Aumenta.* ((la|el) HP|el ATK y la HP|el ATK y el RCV|el ATK, la HP).(de los personajes|de todos los personajes)|Aumenta.+y su HP/i
     },
 
     {
