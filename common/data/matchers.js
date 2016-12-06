@@ -366,7 +366,7 @@ window.matchers = [
     {
         name: 'Envenenadores',
         target: 'special',
-        matcher: /(envenena|^envenenamiento)/i
+        matcher: /envenena/i
     },
 
     {
