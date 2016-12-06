@@ -140,7 +140,8 @@ window.matchers = [
     {
         name: 'Potenciadores de clase',
         target: 'special',
-        matcher: /Aumenta el ATK de los personajes.+(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i
+        matcher: /Aumenta el ATK de los personajes.+(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i,
+	include: [ 715, 716, 915, 916, 945, 946 ]
     },
 
     {
