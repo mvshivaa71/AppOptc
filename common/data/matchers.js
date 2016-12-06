@@ -203,14 +203,17 @@ window.matchers = [
     {
         name: 'Manipuladores de orbes',
         target: 'special',
-        matcher: /(Cambia.+orbes)/i
+        matcher: /(Cambia.+orbes|cambia.+todos los demás)/i,
+	include: [ 583 ],
+	exclude: [ 417, 418, 763  ]
     },
 
     {
         name: 'Manipuladores de todos los orbes',
         target: 'special',
         matcher: /(cambia[^,]+todos los orbes|cambia[^,]*todos los demás)/i,
-        include: [ 516, 517 ]
+        include: [ 516, 517, 830, 831 ],
+	exclude: [ 894,  ]
     },
 
     {
