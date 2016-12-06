@@ -311,13 +311,13 @@ window.matchers = [
     {
         name: 'Reductores de daño',
         target: 'special',
-        matcher: /Reduce.+daño.+ recibido/i
+        matcher: /Reduce.+daño.+recibido/i
     },
 
     {
         name: 'Nulificadores de daño',
         target: 'special',
-        matcher: /Reduce.+daño.+ recibido.+100%/i
+        matcher: /Reduce.+daño.+recibido.+100%/i
     },
 
     {
