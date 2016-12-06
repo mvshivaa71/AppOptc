@@ -147,7 +147,8 @@ window.matchers = [
     {
         name: 'Especiales 1.5x ATK',
         target: 'special',
-        matcher: /Aumenta.+ ATK.+ 1.5x/i
+        matcher: /Aumenta.+ ATK.+ 1.5x/i,
+	include: [ 964, 965 ]
     },
 
     {
@@ -159,7 +160,8 @@ window.matchers = [
     {
         name: 'Especiales 2x ATK',
         target: 'special',
-        matcher: /Aumenta.+ ATK.+ 2x/i
+        matcher: /Aumenta.+ ATK.+ 2x/i,
+	exclude: [ 847, 848 ]
     },
 
     {
