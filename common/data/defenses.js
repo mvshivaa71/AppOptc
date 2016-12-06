@@ -52,7 +52,7 @@ window.defenses = [
     [ 'Giantess'                            , 'Hancock Raid'                         , 'Ultimate', 375, 250 ],
     [ 'Hancock'                             , 'Hancock Raid'                         , 'Ultimate', 865, 260 ],
     [ 'Hancock (def up)'                    , 'Hancock Raid'                         , 'Ultimate', 865, 38850 ],
-    /* * * * * Story Islands * * * * */
+    /* * * * * Islas Historia * * * * */
     [ 'Crocodile (def up)'                  , 'Nanohana, chapter 15'                 , '' , 383, 1500 ],
     [ 'Mr. 1'                               , 'Alubarna, chapter 8'                  , '' , 401, 2050 ],
     [ 'Mr. 1 (def up)'                      , 'Alubarna, chapter 8'                  , '' , 401, 10250 ],
@@ -61,7 +61,7 @@ window.defenses = [
     [ 'Crocodile'                           , 'Alubarna, chapter 15, round 1'        , '' , 384, 175 ],
     [ 'Crocodile'                           , 'Alubarna, chapter 15, round 10'       , '' , 384, 180 ],
     [ 'Crocodile (def up)'                  , 'Alubarna, chapter 15, round 10'       , '' , 384, 4860 ],
-    /* * * * * Fortnight Islands * * * * */
+    /* * * * * Islas Quincenales * * * * */
     [ 'Buggy'                               , 'Buggy Fortnight'                      , 'Expert', 39, 50 ],
     [ 'Alvida'                              , 'Alvida Fortnight'                     , 'Expert', 30, 40000 ],
     [ 'Butchie'                             , 'Kuro Fortnight'                       , 'Expert', 42, 500 ],
@@ -184,7 +184,7 @@ window.defenses = [
     [ 'Mr. 3'                               , 'Mountaintop Banquet Fortnight'        , 'Expert', 898, 150 ] ,
     [ 'Crocodile'                           , 'Mountaintop Banquet Fortnight'        , 'Expert', 897, 1000 ] ,
     [ 'Crocodile (def up)'                  , 'Mountaintop Banquet Fortnight'        , 'Expert', 897, 30000 ] ,
-    /* * * * * Colosseum * * * * */
+    /* * * * * Coliseo * * * * */
     [ 'Dr. Kureha'                          , 'Colosseum, 1st Hina Round'            , 'Chaos' , 333, 20 ],
     [ 'Hotori and Kotori'                   , 'Colosseum, 2nd Hina Round'            , 'Chaos' , 504, 250 ],
     [ 'Hamburg'                             , 'Colosseum, 3rd Hina Round'            , 'Chaos' , 565, 200 ],
@@ -193,7 +193,7 @@ window.defenses = [
     [ 'Pell'                                , 'Colosseum, 4th Hina Round'            , 'Chaos' , 505, 150 ],
     [ 'Pell'                                , 'Colosseum, 5th Hina Round'            , 'Chaos' , 505, 150 ],
     [ 'Hina'                                , 'Colosseum, 5th Hina Round'            , 'Chaos' , 804, 150 ],
-    /* * * * * Others * * * * */
+    /* * * * * Otros * * * * */
     [ 'Thatch'                              , 'Whitebeard\'s island, 11th round'     , '', 448, 50 ],
     [ 'Namur'                               , 'Whitebeard\'s island, 12th round'     , '', 450, 500 ],
     [ 'Blamenco'                            , 'Whitebeard\'s island, 13th round'     , '', 258, 250 ],
@@ -237,13 +237,13 @@ window.defenses = [
     [ 'Garp'                                , 'Aokiji\'s island, 19th round'         , '', 306, 500 ],
     [ 'Sengoku'                             , 'Aokiji\'s island, 19th round'         , '', 458, 1000 ],
     [ 'Aokiji'                              , 'Aokiji\'s island, 20th round'         , '', 575, 500 ],
-    // Turtles
-    [ 'Baby Turtle'                         , ''                                     , '', 109, 10000 ],
-    [ 'Adult Turtle'                        , ''                                     , '', 114, 20000 ],
-    [ 'Elder Turtle'                        , ''                                     , '', 193, 100000 ],
-    [ 'Princess Turtle'                     , ''                                     , '', 595, 500000 ],
+    // Tortugas
+    [ 'Tortuga pequeña'                         , ''                                     , '', 109, 10000 ],
+    [ 'Tortuga Daymio'                        , ''                                     , '', 114, 20000 ],
+    [ 'Tortuga Elder'                        , ''                                     , '', 193, 100000 ],
+    [ 'Princesa Tortuga'                     , ''                                     , '', 595, 500000 ],
     // Evolvers
-    [ 'Hermit Crab'                         , ''                                     , '', 93, 2000 ],
-    [ 'Armored Crab'                        , ''                                     , '', 99, 10000 ],
-    [ 'Plated Lobster'                      , ''                                     , '', 304, 100000 ]
+    [ 'Cangrejo ermitaño'                         , ''                                     , '', 93, 2000 ],
+    [ 'Cangrejo'                        , ''                                     , '', 99, 10000 ],
+    [ 'Langosta'                      , ''                                     , '', 304, 100000 ]
 ];
