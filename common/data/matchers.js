@@ -5,7 +5,7 @@ window.matchers = [
     {
         name: 'Capitanes potenciadores de tipo',
         target: 'captain',
-        matcher: /Aumenta.+ (ATK|HP|RCV|ATK y la HP|ATK y el RCV|HP y el RCV|ATK, la HP y el RCV) de[^,]+(STR|DEX|QCK|PSY|INT)\b/i
+        matcher: /Aumenta (el ATK|la HP|el RCV|el ATK y la HP|el ATK y el RCV|la HP y el RCV|el ATK, la HP y el RCV).* de[^>|daño]+(STR|DEX|QCK|PSY|INT)\b/i
     },
 
     {
@@ -148,7 +148,7 @@ window.matchers = [
         name: 'Especiales 1.5x ATK',
         target: 'special',
         matcher: /Aumenta.+ ATK.+ 1.5x/i,
-	include: [ 964, 965 ]
+		include: [ 964, 965 ]
     },
 
     {
@@ -161,7 +161,7 @@ window.matchers = [
         name: 'Especiales 2x ATK',
         target: 'special',
         matcher: /Aumenta.+ ATK.+ 2x/i,
-	exclude: [ 847, 848 ]
+		exclude: [ 847, 848 ]
     },
 
     {
