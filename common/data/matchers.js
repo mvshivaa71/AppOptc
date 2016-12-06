@@ -12,6 +12,7 @@ window.matchers = [
         name: 'Capitanes potenciadores de clase',
         target: 'captain',
         matcher: /Aumenta.+ (ATK|HP|RCV|ATK y la HP|ATK y el RCV|HP y el RCV|ATK, la HP y el RCV) de[^,]+(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i
+		exclude: [ 1267, 1268 ]
     },
 
     {
@@ -141,7 +142,7 @@ window.matchers = [
         name: 'Potenciadores de clase',
         target: 'special',
         matcher: /Aumenta el ATK de los personajes.+(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i,
-	include: [ 715, 716, 915, 916, 945, 946 ]
+		include: [ 715, 716, 915, 916, 945, 946 ]
     },
 
     {
@@ -365,7 +366,7 @@ window.matchers = [
     {
         name: 'Envenenadores',
         target: 'special',
-        matcher: /envenena/i
+        matcher: /(envenena|^envenenamiento)/i
     },
 
     {
