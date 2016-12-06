@@ -134,7 +134,7 @@ window.matchers = [
     {
         name: 'Potenciadores de tipo',
         target: 'special',
-        matcher: /Aumenta el ATK de los personajes.+(STR|DEX|QCK|PSY|INT)\b/i
+        matcher: /Aumenta el ATK de los personajes \[(STR|DEX|QCK|PSY|INT)\]\b/i
     },
 
     {
