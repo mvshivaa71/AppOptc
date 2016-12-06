@@ -390,7 +390,7 @@ window.matchers = [
     {
        name: 'Reductores de Parálisis',
        target: 'special',
-       matcher: /reduce.+duración.+parálisis/i
+       matcher: /(reduce.+duración.+parálisis|elimina la parálisis)/i
     },
 	
 	/* * * * * Sailor * * * * */
