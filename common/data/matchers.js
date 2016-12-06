@@ -194,7 +194,7 @@ window.matchers = [
     {
         name: 'Potenciadores de aparición de orbes',
         target: 'special',
-        matcher: /Aumenta (ligeramente)* la probabilidad de obtener orbes/i
+        matcher: /Aumenta (ligeramente)*? la probabilidad de obtener orbes/i
     },
 
     {
