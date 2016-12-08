@@ -238,7 +238,7 @@ window.matchers = [
 	{
         name: 'Sincronizadores de orbes',
         target: 'special',
-        matcher: /Cambia.+(los orbes|su propio orbe).+a.+(favorable|favorables)/i,
+        matcher: /Cambia.+(el orbe del capitán|los orbes|su propio orbe).+a.+(favorable|favorables)/i,
         include: [ 1036, 1037 ]
     },
 
