@@ -246,7 +246,7 @@ window.matchers = [
     {
         name: 'Vaciadores de orbes',
         target: 'special',
-        matcher: /(Vacía|cambia.+a.+\[VACIO\])/i
+        matcher: /(Vacía|cambia.+a \[VACIO\])/i
     },
 
     {
