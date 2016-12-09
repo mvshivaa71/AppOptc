@@ -265,7 +265,9 @@ window.matchers = [
     {
         name: 'Daño a todos los enemigos',
         target: 'special',
-        matcher: /Hace.+a todos los enemigos/i
+        matcher: /Hace.+a todos los enemigos/i,
+	include: [ 446, 447 ],
+	include: [ 904, 917, 918, 1235, 1236 ]
     },
 
     {
