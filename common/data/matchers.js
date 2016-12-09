@@ -252,8 +252,8 @@ window.matchers = [
     {
         name: 'Rellenadores de orbes',
         target: 'special',
-        matcher: /cambia los orbes.+\[VACIO\].+a/i,
-	include: [ 397, 398, 774 ]
+        matcher: /cambia los orbes \[VACIO\].+a/i,
+	include: [ 397, 398, 705, 774, 1337, 1338 ]
     },
 
     {
