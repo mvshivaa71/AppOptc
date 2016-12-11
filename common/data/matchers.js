@@ -302,7 +302,7 @@ window.matchers = [
     },
 
     {
-        name: 'Productores RCV',
+        name: 'Generadores RCV',
         target: 'special',
         matcher: /a[\s,\[\]A-Zo]+\[RCV\]/
     },
