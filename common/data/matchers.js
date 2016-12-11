@@ -279,7 +279,7 @@ window.matchers = [
     {
         name: 'Daño fijo',
         target: 'special',
-        matcher: /Hace.+daño fijo/i
+        matcher: /daño fijo/i
     },
 
     {
