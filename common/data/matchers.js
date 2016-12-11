@@ -361,7 +361,7 @@ window.matchers = [
     {
         name: 'Recuperadores HP',
         target: 'special',
-        matcher: /Recupera/i
+        matcher: /Recupera una cantidad de HP/i
     },
 
     {
