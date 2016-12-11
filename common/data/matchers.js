@@ -79,7 +79,7 @@ window.matchers = [
     {
         name: 'Capitanes con patrón de ataque',
         target: 'captain',
-        matcher: /(tras hacer|siguiendo un orden)/i
+        matcher: /(tras hacer|siguiendo un orden|hasta que se de un golpe que no sea|por cada (Good|Great|Perfect) que hagas)/i
     },
     
     {
