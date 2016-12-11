@@ -367,7 +367,7 @@ window.matchers = [
     {
         name: 'Reductores HP del equipo',
         target: 'special',
-        matcher: /Reduce.+HP(actual )? del equipo/i
+        matcher: /Reduce la HP(actual )? del equipo/i
     },
 
     {
