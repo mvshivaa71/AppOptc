@@ -304,13 +304,14 @@ window.matchers = [
     {
         name: 'Generadores RCV',
         target: 'special',
-        matcher: /a[\s,\[\]A-Zo]+\[RCV\]/
+        matcher: /a[\s,\[\]A-Zo]+\[RCV\]/,
+	    exclude: [ 362, 363 ]
     },
 
     {
         name: 'Convertidores RCV',
         target: 'special',
-        matcher: /\[RCV\].+a/i
+        matcher: /cambia los orbes \[RCV\].+a/i
     },
 
     {
