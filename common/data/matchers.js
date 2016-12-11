@@ -392,7 +392,7 @@ window.matchers = [
     {
        name: 'Reductores carga especial',
        target: 'special',
-       matcher: /reduce la carga de los especiales/i
+       matcher: /reduce la carga (de los especiales|del especial)/i
     },
     
     {
