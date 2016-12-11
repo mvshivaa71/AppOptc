@@ -311,7 +311,8 @@ window.matchers = [
     {
         name: 'Convertidores RCV',
         target: 'special',
-        matcher: /cambia los orbes \[RCV\].+a/i
+        matcher: /los orbes \[RCV\].+a/i,
+	    include: [ 705, 835, 836, 1291, 1292 ]
     },
 
     {
@@ -347,7 +348,8 @@ window.matchers = [
     {
         name: 'Eliminadores de orbes Negativo',
         target: 'special',
-        matcher: /(vacía.+\[NEGATIVO\]|cambia.+\[NEGATIVO\].+a|incluyendo.+\[NEGATIVO\])/i,
+        matcher: /(vacía.+\[NEGATIVO\]|cambia.+\[NEGATIVO\].+a|incluidos.+\[NEGATIVO\])/i,
+	    exclude: [ 1330 ]
     },
 
     {
