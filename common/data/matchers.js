@@ -298,7 +298,7 @@ window.matchers = [
     {
         name: 'Reductores de defensa',
         target: 'special',
-        matcher: /Reduce.+defensa/i
+        matcher: /Reduce la defensa/i
     },
 
     {
