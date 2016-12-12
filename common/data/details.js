@@ -7325,40 +7325,4 @@ window.details = {
 		],
 		specialNotes:"El tóxico empieza con su ATK 0.5x y se incrementa 3x al final de cada turno hasta un máximo de 1.500.000 puntos de daño por turno"
 	},
-	1375: { 
-		captain:"Aumenta el ATK de los personajes Powerhouse 2.5x, reduce la HP actual del equipo un 50% y dobla el daño recibido",
-		specialName:"Deadly Fangs of Rage",
-		special: "Hace su ATK 20x como daño [QCK] a un solo enemigo. Aumenta su propio ATK 1.5x e incrementa la efectividad de su propio orbe 1.5x durante 1 turno. Cambia su propio orbe a [QCK]",
-		specialNotes: "El aumento de ATK y la efectividad de orbe solo funciona con el Dellinger que haya usado el especial "
-	},
-	1376: { 
-		captain:"Aumenta el ATK de los personajes Powerhouse 2.75x, reduce la HP actual del equipo un 20% y dobla el daño recibido",
-		specialName:"Deadly Fangs of Rage",
-		special: "Hace su ATK 20x como daño [QCK] a un solo enemigo. Aumenta su propio ATK 1.5x e incrementa la efectividad de su propio orbe 1.5x durante 1 turno. Cambia su propio orbe a [QCK]",
-		specialNotes: "El aumento de ATK y la efectividad de orbe solo funciona con el Dellinger que haya usado el especial "
-	},
-	1377: { 
-		captain:"Aumenta el ATK y el RCV de los personajes Slasher y Shooter 1.3x",
-		specialName:"Sincere Devotion",
-		special: "Recupera una cantidad de HP equivalente a su RCV 18x. Reduce el daño recibido en un 50% durante 1 turno",
-		sailor:"Aumenta la cantidad curada por cada orbe [RCV] 150 puntos"
-	},
-	1378: { 
-		captain:"Aumenta el ATK y el RCV de los personajes Slasher y Shooter 1.75x",
-		specialName:"Sincere Devotion",
-		special: "Recupera una cantidad de HP equivalente a su RCV 18x. Reduce el daño recibido en un 50% durante 1 turno",
-		sailor:"Aumenta la cantidad curada por cada orbe [RCV] 150 puntos"
-	},
-	1379: { 
-		captain:"Aumenta el ATK de los personajes Cerebral 2x y aumenta la probabilidad de obtener orbes favorables ",
-		specialName:"A Decision Made over Sake",
-		special: "Reduce la duración de la Parálisis 3 turnos. Incrementa la efectividad de los orbes 2x durante 1 turno para los personajes Cerebral y Free Spirit. Hace que los orbes [RCV] y [TND] cuenten como favorables para los personajes Cerebral y Free Spirit durante 1 turno",
-		specialNotes:"#{paralisis}^ #{orb : 2x}"
-	},
-	1380: { 
-		captain:"Aumenta el ATK de los personajes Cerebral 2.5x y aumenta la probabilidad de obtener orbes favorables ",
-		specialName:"A Decision Made over Sake",
-		special: "Reduce la duración de la Parálisis 3 turnos. Incrementa la efectividad de los orbes 2x durante 1 turno para los personajes Cerebral y Free Spirit. Hace que los orbes [RCV] y [TND] cuenten como favorables para los personajes Cerebral y Free Spirit durante 1 turno",
-		specialNotes:"#{paralisis}^ #{orb : 2x}"
-	},
 };
