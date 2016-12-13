@@ -253,7 +253,7 @@ window.matchers = [
         name: 'Rellenadores de orbes',
         target: 'special',
         matcher: /cambia los orbes \[VACIO\].+a/i,
-	include: [ 397, 398, 705, 774, 1337, 1338 ]
+	include: [ 397, 398, 705, 774, 1337, 1338, 1383, 1384 ]
     },
 
     {
@@ -349,7 +349,8 @@ window.matchers = [
         name: 'Eliminadores de orbes Negativo',
         target: 'special',
         matcher: /(vacía.+\[NEGATIVO\]|cambia.+\[NEGATIVO\].+a|incluidos.+\[NEGATIVO\])/i,
-	    exclude: [ 1330 ]
+	include: [ 1383, 1384 ],
+	exclude: [ 1330 ]
     },
 
     {
