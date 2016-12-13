@@ -1835,13 +1835,13 @@ window.details = {
 		captain:"Aumenta el ATK de los personajes [STR] 2x y aumenta el daño de los especiales 2x",
 		captainNotes:"#{noFixedPerc}",
 		specialName:"Manly Flaming Sword",
-		special: "Otorga durante un turno 1.5x ATK a [STR] y hace su ATK 15x como [STR] a todos los enemigos"
+		special: "Aumenta el ATK de los personajes [STR] 1.5x durante 1 turno y hace su ATK 15x como daño [STR] a todos los enemigos"
 	},
 	455: { 
 		captain:"Aumenta el ATK de los personajes [STR] 2x y aumenta el daño de los especiales 2x",
 		captainNotes:"#{noFixedPerc}",
 		specialName:"Manly Flaming Sword",
-		special: "Otorga durante un turno 1.5x ATK a [STR] y hace su ATK 15x como [STR] a todos los enemigos"
+		special: "Aumenta el ATK de los personajes [STR] 1.5x durante 1 turno y hace su ATK 15x como daño [STR] a todos los enemigos"
 	},
 	456: { 
 		captain:"Aumenta el ATK de los personajes Shooter 2x y su RCV 1.5x",
@@ -3845,13 +3845,13 @@ window.details = {
 	847: { 
 		captain:"Aumenta el ATK de todos los personajes 1.5x si la HP del equipo se encuentra por debajo del 30% al principio del turno",
 		specialName:"Sturdy Boat: Launch",
-		special: "Reduce la duración de el Despair 5 turnos, aumenta el ATK de todos los personajes 1.05x durante 3 turnos, reduce el daño recibido en un 10% durante 3 turnos, incrementa la efectividad de los orbes 1.15x durante 3 turnos y recupera una cantidad de HP equivalente a su RCV 2x al final de cada turno durante 3 turnos",
+		special: "Reduce la duración del Despair 5 turnos, aumenta el ATK de todos los personajes 1.05x durante 3 turnos, reduce el daño recibido en un 10% durante 3 turnos, incrementa la efectividad de los orbes 1.15x durante 3 turnos y recupera una cantidad de HP equivalente a su RCV 2x al final de cada turno durante 3 turnos",
 		specialNotes:"#{orb : 1.15x}"
 	},
 	848: { 
 		captain:"Aumenta el ATK de todos los personajes 2x si la HP del equipo se encuentra por debajo del 30% al principio del turno",
 		specialName:"Sturdy Boat: Launch",
-		special: "Reduce la duración de el Despair 5 turnos, aumenta el ATK de todos los personajes 1.05x durante 3 turnos, reduce el daño recibido en un 10% durante 3 turnos, incrementa la efectividad de los orbes 1.15x durante 3 turnos y recupera una cantidad de HP equivalente a su RCV 2x al final de cada turno durante 3 turnos",
+		special: "Reduce la duración del Despair 5 turnos, aumenta el ATK de todos los personajes 1.05x durante 3 turnos, reduce el daño recibido en un 10% durante 3 turnos, incrementa la efectividad de los orbes 1.15x durante 3 turnos y recupera una cantidad de HP equivalente a su RCV 2x al final de cada turno durante 3 turnos",
 		specialNotes:"#{orb : 1.15x}"
 	},
 	849: { 
@@ -5534,25 +5534,27 @@ window.details = {
 	1122: { 
 		captain:"Aumenta el ATK de los personajes [STR] [QCK] [DEX] en 2.5x pero SU PROPIO ATK es de 4x",
 		captainNotes:"Cavendish solo aumenta el ATK del Cavendish amigo o sub 2.5x, y un total de 10x a sí mismo en caso de que ambos capitanes sean Cavendish.",
-		specialName:"Sickle Weasel of Rommel",
+		specialName:"Slicing Winds of Rommel",
 		special: "Hace su ATK 15x como daño sin tipo a todos los enemigos. Elimina todos los buffs aliados y aumenta su propio ATK 1.75x, cambia su propio orbe a [QCK], incrementa la efectividad de su propio orbe 1.75x y lo fija durante 2 turnos. Durante este especial se queda transformado en Hakuba",
 		specialNotes:"El aumento de ATK y la efectividad de orbe solo funciona con el Cavendish que haya usado el especial."
 	},
 	1123: { 
 		captain:"Aumenta el ATK de los personajes [STR] [QCK] [DEX] en 2.5x pero SU PROPIO ATK es de 4x",
 		captainNotes:"Cavendish solo aumenta el ATK del Cavendish amigo o sub 2.5x, y un total de 10x a sí mismo en caso de que ambos capitanes sean Cavendish.",
-		specialName:"Sickle Weasel of Rommel",
+		specialName:"Slicing Winds of Rommel",
 		special: "Hace su ATK 15x como daño sin tipo a todos los enemigos. Elimina todos los buffs aliados y aumenta su propio ATK 1.75x, cambia su propio orbe a [QCK], incrementa la efectividad de su propio orbe 1.75x y lo fija durante 2 turnos. Durante este especial se queda transformado en Hakuba",
 		specialNotes:"El aumento de ATK y la efectividad de orbe solo funciona con el Cavendish que haya usado el especial."
 	},
 	1124: { 
 		captain:"Aumenta el ATK de los personajes Slasher 3x y reduce su multiplicador de ATK 0.1x al final de cada turno",
 		captainNotes:"Su multiplicador de ATK empezará por 3.0x en el primer turno, 2.9x en el segundo, 2.8x en el tercero y así sucesivamente. La reducción parará cuando el multiplicador llegue a 1x. El multiplicador solo afecta a los personajes Slasher.",
+		specialName:"Idle Execution",
 		special: "Cambia su propio orbe y el del capitán a favorables y hace su ATK 13x como daño [PSY] a todos los enemigos"
 	},
 	1125: { 
 		captain:"Aumenta el ATK de los personajes Slasher 3.5x y reduce su multiplicador de ATK 0.1x al final de cada turno",
 		captainNotes:"Su multiplicador de ATK empezará por 3.5x en el primer turno, 3.4x en el segundo, 3.3x en el tercero y así sucesivamente. La reducción parará cuando el multiplicador llegue a 1x. El multiplicador solo afecta a los personajes Slasher.",
+		specialName:"Idle Execution",
 		special: "Cambia su propio orbe y el del capitán a favorables y hace su ATK 13x como daño [PSY] a todos los enemigos"
 	},
 	1126: { 
@@ -5883,14 +5885,14 @@ window.details = {
 	1178: { 
 		captain:"Aumenta el ATK de los personajes [STR] 2x si la HP del equipo se encuentra por encima del 99% al principio del turno y reduce el daño recibido en un 50%",
 		specialName:"Not Rubber Gum-Gum Jet Gatling",
-		special: "Hace daño aleatorio sin tipo a todos los enemigos y aleatoriza todos los orbes incluyendo los orbes [NEGATIVO]",
+		special: "Hace daño aleatorio sin tipo a todos los enemigos y aleatoriza todos los orbes incluidos los orbes [NEGATIVO]",
 		specialNotes:"#{random : 30,000 : 150,000}"
 	},
 	1179: { 
 		captain:"Aumenta el ATK de los personajes [STR] 2.75x si la HP del equipo se encuentra por encima del 99% al principio del turno y reduce el daño recibido en un 50%",
 		specialName:"Not Rubber Gum-Gum Jet Gatling",
-		special: "Hace daño aleatorio sin tipo a todos los enemigos y aleatoriza todos los orbes incluyendo los orbes [NEGATIVO]",
-		specialNotes:""
+		special: "Hace daño aleatorio sin tipo a todos los enemigos y aleatoriza todos los orbes incluidos los orbes [NEGATIVO]",
+		specialNotes:"#{random : 30,000 : 150,000}"
 	},
 	1181: { 
 		captain:"Aumenta el ATK de los personajes [DEX] 2.5x",
@@ -6457,7 +6459,7 @@ window.details = {
 	1256: { 
 		captain:"Aumenta el ATK de los personajes Slasher y Driven 2x y reduce su RCV en un 90%",
 		specialName:"Icebreaker Breakthrough Force",
-		special: "Aleatoriza los orbes no favorables de los personajes Slasher y Driven y aumenta el ATK de todos los personajes 1.3x contra enemigos que sufren delay durante 1 turno",
+		special: "Aleatoriza los orbes no favorables de los personajes Slasher y Driven y aumenta el ATK de todos los personajes 1.3x contra enemigos con defensa aumentada durante 1 turno",
 		sailor:"Aumenta el ATK y el RCV de los personajes Driven 10 puntos"
 	},
 	1257: { 
@@ -7134,13 +7136,13 @@ window.details = {
 	},
 	1354: { 
 		captain:"Aumenta el multiplicador de cadena 2x y recupera una cantidad de HP equivalente a su RCV 1.5x al final de cada turno",
-		specialName:"Rayleigh Special",
+		specialName:"Straight Stimultaion",
 		special: "Recupera una cantidad de HP equivalente a su RCV 15x e incrementa la efectividad de los orbes 1.5x durante 1 turno",
 		specialNotes:"#{orb : 1.5x}^ #{fixed}"
 	},
 	1355: { 
 		captain:"Aumenta el multiplicador de cadena 3x y recupera una cantidad de HP equivalente a su RCV 1.5x al final de cada turno",
-		specialName:"Rayleigh Special",
+		specialName:"Straight Stimultaion",
 		special: "Recupera una cantidad de HP equivalente a su RCV 15x e incrementa la efectividad de los orbes 1.5x durante 1 turno",
 		specialNotes:"#{orb : 1.5x}^ #{fixed}"
 	},
@@ -7325,4 +7327,68 @@ window.details = {
 		],
 		specialNotes:"El tóxico empieza con su ATK 0.5x y se incrementa 3x al final de cada turno hasta un máximo de 1.500.000 puntos de daño por turno"
 	},
+	1375: { 
+		captain:"Aumenta el ATK de los personajes Powerhouse 2.5x, reduce la HP actual del equipo un 50% y dobla el daño recibido",
+		specialName:"Deadly Fangs of Rage",
+		special: "Hace su ATK 20x como daño [QCK] a un solo enemigo. Aumenta su propio ATK 1.5x e incrementa la efectividad de su propio orbe 1.5x durante 1 turno. Cambia su propio orbe a [QCK]",
+		specialNotes:"El aumento de ATK y la efectividad de orbe solo funciona con el Dellinger que haya usado el especial"
+	},
+	1376: { 
+		captain:"Aumenta el ATK de los personajes Powerhouse 2.75x, reduce la HP actual del equipo un 20% y dobla el daño recibido",
+		specialName:"Deadly Fangs of Rage",
+		special: "Hace su ATK 20x como daño [QCK] a un solo enemigo. Aumenta su propio ATK 1.5x e incrementa la efectividad de su propio orbe 1.5x durante 1 turno. Cambia su propio orbe a [QCK]",
+		specialNotes:"El aumento de ATK y la efectividad de orbe solo funciona con el Dellinger que haya usado el especial"
+	},
+	1377: { 
+		captain:"Aumenta el ATK y el RCV de los personajes Slasher y Shooter 1.3x",
+		specialName:"Sincere Devotion",
+		special: "Recupera una cantidad de HP equivalente a su RCV 18x. Reduce el daño recibido en un 50% durante 1 turno",
+		sailor:"Aumenta la cantidad curada por cada orbe [RCV] 150 puntos"
+	},
+	1378: { 
+		captain:"Aumenta el ATK y el RCV de los personajes Slasher y Shooter 1.75x",
+		specialName:"Sincere Devotion",
+		special: "Recupera una cantidad de HP equivalente a su RCV 18x. Reduce el daño recibido en un 50% durante 1 turno",
+		sailor:"Aumenta la cantidad curada por cada orbe [RCV] 150 puntos"
+	},
+	1379: { 
+		captain:"Aumenta el ATK de los personajes Cerebral 2x y aumenta la probabilidad de obtener orbes favorables",
+		specialName:"A Decision Made over Sake",
+		special: "Reduce la duración de la Parálisis 3 turnos. Incrementa la efectividad de los orbes 2x durante 1 turno para los personajes Cerebral y Free Spirit. Hace que los orbes [TND] y [RCV] cuenten como favorables para los personajes Cerebral y Free Spirit durante 1 turno"
+	},
+	1380: { 
+		captain:"Aumenta el ATK de los personajes Cerebral 2.5x y aumenta la probabilidad de obtener orbes favorables",
+		specialName:"A Decision Made over Sake",
+		special: "Reduce la duración de la Parálisis 3 turnos. Incrementa la efectividad de los orbes 2x durante 1 turno para los personajes Cerebral y Free Spirit. Hace que los orbes [TND] y [RCV] cuenten como favorables para los personajes Cerebral y Free Spirit durante 1 turno"
+	},
+	1381: { 
+		captain:"Aumenta el ATK y el RCV de los personajes Slasher y Cerebral 1.2x",
+		specialName:"Tashigi Special",
+		special: "Reduce la duración del Silencio 1 turno y recupera 12.420 puntos de HP"
+	},
+	1382: { 
+		captain:"Aumenta el ATK y el RCV de los personajes Slasher y Cerebral 1.75x",
+		specialName:"Tashigi Special",
+		special: "Reduce la duración del Silencio 1 turno y recupera 12.420 puntos de HP"
+	},
+	1383: { 
+		captain:"Aumenta el ATK de los personajes Striker 2x. Aumenta el daño recibido 1.5x",
+		specialName:"Angry Extermination of Bugs",
+		special: "Reduce la duración de la Parálisis, Encadenamientos, Despair y Silencio 1 turno y aleatoriza los orbes desfavorables, [NEGATIVO] y [VACIO]"
+	},
+	1384: { 
+		captain:"Aumenta el ATK de los personajes Striker 2.5x. Aumenta el daño recibido 1.5x",
+		specialName:"Angry Extermination of Bugs",
+		special: "Reduce la duración de la Parálisis, Encadenamientos, Despair y Silencio 1 turno y aleatoriza los orbes desfavorables, [NEGATIVO] y [VACIO]"
+	},
+	1385: { 
+		captain:"Reduce el daño recibido un 20%",
+		specialName:"Mother's Promise",
+		special: "Elimina la ceguera"
+	},
+	1386: { 
+		captain:"Reduce el daño recibido un 25%",
+		specialName:"Mother's Promise",
+		special: "Elimina la ceguera"
+	}
 };
