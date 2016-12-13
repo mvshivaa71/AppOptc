@@ -204,7 +204,7 @@ window.matchers = [
     {
         name: 'Manipuladores de orbes',
         target: 'special',
-        matcher: /(Cambia.+orbes|y el del capitán|cambia.+todos los demás)/i,
+        matcher: /(Cambia.+orbes|y el del capitán|cambia.+todos los demás)(?!intercambia)/i,
 	include: [ 583, 1139 ],
 	exclude: [ 417, 418, 763  ]
     },
@@ -373,7 +373,8 @@ window.matchers = [
     {
         name: 'Envenenadores',
         target: 'special',
-        matcher: /envenena (?!envenenamiento)/i
+        matcher: /envenena (?!envenenamiento)/i,
+	include: [ 391, 392, 437, 438 ]
     },
 
     {
