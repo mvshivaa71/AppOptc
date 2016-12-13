@@ -135,7 +135,8 @@ window.matchers = [
     {
         name: 'Potenciadores de tipo',
         target: 'special',
-        matcher: /Aumenta.(el ATK).(de los personajes|de todos los personajes).\[(STR|DEX|QCK|PSY|INT)\][^>]+/i
+        matcher: /Aumenta.(el ATK).(de los personajes|de todos los personajes).\[(STR|DEX|QCK|PSY|INT)\][^>]+/i,
+	include: [ 680, 681 ]
     },
 
     {
