@@ -142,14 +142,14 @@ window.matchers = [
         name: 'Potenciadores de clase',
         target: 'special',
         matcher: /Aumenta el ATK de los personajes.+(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i,
-		include: [ 715, 716, 915, 916, 945, 946 ]
+	include: [ 715, 716, 915, 916, 945, 946 ]
     },
 
     {
         name: 'Especiales 1.5x ATK',
         target: 'special',
         matcher: /Aumenta.+ ATK.+ 1.5x/i,
-		include: [ 964, 965 ]
+	include: [ 964, 965 ]
     },
 
     {
@@ -162,7 +162,7 @@ window.matchers = [
         name: 'Especiales 2x ATK',
         target: 'special',
         matcher: /Aumenta.+ ATK.+ 2x/i,
-		exclude: [ 847, 848 ]
+	exclude: [ 847, 848 ]
     },
 
     {
@@ -373,7 +373,7 @@ window.matchers = [
     {
         name: 'Envenenadores',
         target: 'special',
-        matcher: /(envenena|^envenenamiento)/i
+        matcher: /envenena (?!envenenamiento)/i
     },
 
     {
