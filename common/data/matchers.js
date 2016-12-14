@@ -87,7 +87,7 @@ window.matchers = [
     {
         name: 'Capitanes de orbes favorables',
         target: 'captain',
-        matcher: /Hace que los orbes \[(STR|DEX|QCK|PSY|INT|RCV|TND)\] y (\[(STR|DEX|QCK|PSY|INT|RCV|TND)\].+ orbes favorables[^>]+/i
+        matcher: /Hace que los orbes \[(STR|DEX|QCK|PSY|INT|RCV|TND)\] y \[(STR|DEX|QCK|PSY|INT|RCV|TND)\].+ orbes favorables[^>]+/i
     },
 
     {
