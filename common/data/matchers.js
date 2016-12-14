@@ -48,7 +48,8 @@ window.matchers = [
     {
         name: 'Capitanes 2x ATK y RCV',
         target: 'captain',
-        matcher: /Aumenta.+ (ATK y el RCV|ATK, RCV).+ 2x/i
+        matcher: /Aumenta.+ (ATK y el RCV|ATK, RCV).+ 2x/i,
+	exclude: [ 808 ]
     },
 
     {
