@@ -87,7 +87,7 @@ window.matchers = [
     {
         name: 'Capitanes de orbes favorables',
         target: 'captain',
-        matcher: /Hace que los orbes .+ orbes favorables/i
+        matcher: /hace que los orbes .+ cuenten como favorables/i
     },
 
     {
