@@ -68,7 +68,8 @@ window.matchers = [
     {
         name: 'Capitanes 3x ATK',
         target: 'captain',
-        matcher: /Aumenta.+ (su )?ATK.+ 3x/i
+        matcher: /Aumenta.+ (su )?ATK.+ 3x/i,
+	exclude: [ 758 ]
     },
 
     {
