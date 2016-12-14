@@ -105,7 +105,7 @@ window.matchers = [
     {
         name: 'Reductores de daño',
         target: 'captain',
-        matcher: /Reduce (cualquier )?.+daño.+ recibido/i
+        matcher: /Reduce.+daño.+ recibido/i
     },
 
     {
