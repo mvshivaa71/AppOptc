@@ -3303,7 +3303,7 @@ window.details = {
 		specialNotes:"#{orb : 1.25x}"
 	},
 	743: { 
-		captain:"Aumenta el ATK y el RCV de los personajes Free Spirit 2x",
+		captain:"Aumenta el ATK y el RCV de los personajes Free Spirit 1.5x",
 		specialName:"Ramen Beam",
 		special: "Incrementa la efectividad de los orbes 1.25x durante 2 turnos y reduce la defensa de todos los enemigos en un 80% durante 2 turnos",
 		specialNotes:"#{orb : 1.25x}"
@@ -3763,13 +3763,13 @@ window.details = {
 		special: "Cambia los orbes de la fila superior a [STR], los centrales a [DEX] y los inferiores a [QCK]"
 	},
 	832: { 
-		captain:"Aumenta el ATK de los personajes Free Spirit dependiendo de la HP del equipo y reduce la HP actual del equipo 10% al final de cada turno",
+		captain:"Aumenta el ATK de los personajes Free Spirit proporcionalmente a la HP del equipo y reduce la HP actual del equipo 10% al final de cada turno",
 		captainNotes:"#{captainProportional : menor : 1 + 1.5 * (1 - (HP restante) / (HP total)) : 1 : 2.5}",
 		specialName:"Burn Bazooka",
 		special: "Aumenta el ATK de los personajes Free Spirit 1.5x durante 1 turno y hace daño [STR] aleatorio a todos los enemigos"
 	},
 	833: { 
-		captain:"Aumenta el ATK de los personajes Free Spirit dependiendo de la HP del equipo y reduce la HP actual del equipo 10% al final de cada turno",
+		captain:"Aumenta el ATK de los personajes Free Spirit proporcionalmente a la HP del equipo y reduce la HP actual del equipo 10% al final de cada turno",
 		captainNotes:"#{captainProportional : menor : 1 + 1.75 * (1 - (HP restante) / (HP total)) : 1 : 2.75}",
 		specialName:"Burn Bazooka",
 		special: "Aumenta el ATK de los personajes Free Spirit 1.5x durante 1 turno y hace daño [STR] aleatorio a todos los enemigos"
@@ -3879,7 +3879,7 @@ window.details = {
 		special: "Una vez lanzado el especial, si todos los miembros del equipo hacen Perfect, aumenta el ATK de los personajes Powerhouse y Fighter 1.2x durante 3 turnos"
 	},
 	854: { 
-		captain:"Aumenta el ATK de los personajes [DEX] 1.5x y reduce el daño en 10%",
+		captain:"Aumenta el ATK de los personajes [DEX] 1.5x y reduce el daño recibido un 10%",
 		specialName:"Guard Point: Winter Coat",
 		special: "Reduce el daño recibido en un 50% por 3 turnos y aumenta la probabilidad de obtener orbes [DEX] durante 3 turnos"
 	},
@@ -6875,13 +6875,13 @@ window.details = {
 		sailor:"Reduce la duración de la Ceguera 5 turnos"
 	},
 	1317: { 
-		captain:"Aumenta el ATK de los personajes [STR] [PSY] 2.5x",
+		captain:"Aumenta el ATK de los personajes [STR] y [PSY] 2.5x",
 		specialName:"Super Large Iron Ball",
 		special: "Hace su ATK 30x como daño [STR] fijo a todos los enemigos ignorando cualquier bufo defensivo o escudo enemigo. Retrasa a los enemigos 1 turno. Reduce la defensa de todos los enemigos en un 80% durante 1 turno",
 		sailor:"Aumenta la HP de todos los personajes 75 puntos"
 	},
 	1318: { 
-		captain:"Aumenta el ATK de los personajes [STR] [PSY] 2.5x",
+		captain:"Aumenta el ATK de los personajes [STR] y [PSY] 2.5x",
 		specialName:"Super Large Iron Ball",
 		special: "Hace su ATK 30x como daño [STR] fijo a todos los enemigos ignorando cualquier bufo defensivo o escudo enemigo. Retrasa a los enemigos 1 turno. Reduce la defensa de todos los enemigos en un 80% durante 1 turno",
 		sailor:"Aumenta la HP de todos los personajes 75 puntos"
@@ -6901,13 +6901,13 @@ window.details = {
 		sailor:"Reduce la duración de la Parálisis 1 turno"
 	},
 	1321: { 
-		captain:"Aumenta el ATK de los personajes Cerebral y Slasher 2.5x y reduce el daño recibido en un 10% si el equipo se encuentra formado por personajes [STR] [DEX] [QCK] [PSY] [INT]",
+		captain:"Aumenta el ATK de los personajes Cerebral y Slasher 2.25x y reduce el daño recibido en un 10% si el equipo se encuentra formado por personajes [STR], [DEX], [QCK], [PSY] e [INT]",
 		specialName:"Front Line Dissection",
 		special: "Hace su ATK 15x como daño [DEX] a todos los enemigos. Aumenta el ATK de todos los personajes 1.5x durante 2 turnos contra enemigos que sufren delay",
 		sailor:"Aumenta el ATK de los personajes Slasher y Cerebral 75 puntos si tu capitán es Cerebral"
 	},
 	1322: { 
-		captain:"Aumenta el ATK de los personajes Cerebral y Slasher 2.5x y reduce el daño recibido en un 10% si el equipo se encuentra formado por personajes [STR] [DEX] [QCK] [PSY] [INT]",
+		captain:"Aumenta el ATK de los personajes Cerebral y Slasher 2.5x y reduce el daño recibido en un 10% si el equipo se encuentra formado por personajes [STR], [DEX], [QCK], [PSY] e [INT]",
 		specialName:"Front Line Dissection",
 		special: "Hace su ATK 15x como daño [DEX] a todos los enemigos. Aumenta el ATK de todos los personajes 1.5x durante 2 turnos contra enemigos que sufren delay",
 		sailor:"Aumenta el ATK de los personajes Slasher y Cerebral 75 puntos si tu capitán es Cerebral"
