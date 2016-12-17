@@ -208,7 +208,7 @@ window.matchers = [
     {
         name: 'Manipuladores de orbes',
         target: 'special',
-        matcher: /(((?:(?!Intercambia).)*$\r?\n?|Cambia).+orbes|y el del capitán|((?:(?!intercambia).)*$\r?\n?|cambia).+todos los demás)/i
+        matcher: /^Cambia.+orbes|y el del capitán|((?:(?!intercambia).)*$\r?\n?|cambia).+todos los demás)/i
     },
 
     {
