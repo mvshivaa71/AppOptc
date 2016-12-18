@@ -243,6 +243,7 @@ CharUtils.checkMatcher = function(matcher, id) {
     if (regexCache[name] && regexCache[name].hasOwnProperty(id)) return regexCache[name][id];
     else if (!target) result = false;
     else if (matcher.include && matcher.include.indexOf(id) != -1) result = true;
+	else if (matcher.exclude && matcher.exclude.indexOf(id) != -1) result = false;
     else {
         if (target.constructor != String) target = JSON.stringify(target);
         result = matcher.matcher.test(target);
