@@ -166,7 +166,7 @@ directives.addOrbOptions = function($timeout, $compile, MATCHER_IDS) {
             var filter = $('<div id="controllers" ng-class="{ enabled: filters.custom[' + TARGET + '] }">' +
                     '<span class="separator">&darr;</span></div>');
             var separator = filter.find('.separator');
-            [ 'STR', 'DEX', 'QCK', 'PSY', 'INT', 'RCV', 'TND' ].forEach(function(type) {
+            [ 'STR', 'DEX', 'QCK', 'PSY', 'INT', 'RCV', 'TND', 'NEGATIVO', 'VACIO', 'BOMBA', 'G' ].forEach(function(type) {
                 var template = '<span class="filter orb %s" ng-class="{ active: filters.%f.indexOf(\'%s\') > -1 }" ' +
                     'ng-model="filters.%f" ng-click="onOrbClick($event,\'%s\')">%S</span>';
                 separator.before($(template.replace(/%s/g,type).replace(/%S/g,type[0]).replace(/%f/g,'ctrlFrom')));
@@ -264,6 +264,8 @@ directives.compare = function() {
                 scope.compareCooldown = window.cooldowns[suggestion];
                 scope.isCompareCaptainHybrid = (scope.compareDetails && scope.compareDetails.captain &&
                     scope.compareDetails.captain.global);
+				scope.isCompareSailorHybrid = (scope.compareDetails && scope.compareDetails.sailor &&
+                    scope.compareDetails.sailor.global);
                 scope.isCompareSpecialHybrid = (scope.compareDetails && scope.compareDetails.special &&
                     scope.compareDetails.special.global);
                 scope.isCompareSpecialStaged = (scope.compareDetails && scope.compareDetails.special &&
@@ -312,6 +314,7 @@ directives.addTags = function($stateParams, $rootScope) {
             if (flags.rr) element.append($('<span class="tag flag">Sólo Rare Recruit</div>'));
             if (flags.lrr) element.append($('<span class="tag flag">Limitado Sólo Rare Recruit</div>'));
             if (flags.promo) element.append($('<span class="tag flag">Sólo por Código Promocional</div>'));
+			if (flags.shop) element.append($('<span class="tag flag">Unidades Tienda Ray</div>'));
             if (flags.special) element.append($('<span class="tag flag">Personajes Limitados</div>'));
             if (CharUtils.checkFarmable(id, { 'Story Island': true }))
                 element.append($('<span class="tag flag">Sólo en Modo Historia</div>'));
@@ -334,6 +337,14 @@ directives.addTags = function($stateParams, $rootScope) {
                     else name = name.replace(/s$/,'');
                     name = name.replace(/iing/,'ying');
                     element.append($('<span class="tag captain">' + name + '</div>'));
+                }
+				// sailor effects
+                if (matcher.target.indexOf('sailor') === 0 && matcher.matcher.test(data[matcher.target]) && !(data[matcher.target] === undefined)) {
+                    name = matcher.name;
+                    /*if (!/sailor$/.test(name)) name = name.replace(/ers$/,'ing').replace(/s$/,'') + ' - Sailor';
+                    else name = name.replace(/s$/,'');
+                    name = name.replace(/iing/,'ying');*/
+                    element.append($('<span class="tag sailor">' + name + '</div>'));
                 }
                 // specials
                 if (matcher.target.indexOf('special') === 0 && matcher.matcher.test(data[matcher.target])) {

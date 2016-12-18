@@ -121,13 +121,13 @@ angular.module('optc') .run(function($rootScope, $timeout, $storage, MATCHER_IDS
         // filter by drop
         if (filters.drop) {
             var isFarmable = CharUtils.isFarmable(id);
-            if (filters.drop == 'Farmable') {
+            if (filters.drop == 'Farmeable') {
                 if (id == 1 || !isFarmable) return false;    
                 if (farmableLocations !== null) {
                     var farmable = CharUtils.checkFarmable(id, farmableLocations);
                     if (!farmable) return false;
                 }
-            } else if (filters.drop != 'Farmable') {
+            } else if (filters.drop != 'Farmeable') {
                 if (id != 1 && isFarmable) return false; 
                 if (filters.nonFarmable) {
                     // RR
@@ -151,7 +151,7 @@ angular.module('optc') .run(function($rootScope, $timeout, $storage, MATCHER_IDS
         if (filters.noFodder && Utils.isFodder(unit)) return false;
         if (filters.noFortnights && flags.fnonly) return false;
         if (filters.noRaids && flags.raid) return false;
-        if (filters.noSpecials && (flags.lrr || flags.promo || flags.special)) return false;
+        if (filters.noSpecials && (flags.lrr || flags.promo || flags.special || flags.shop )) return false;
         // filter by server
         if (filters.server) {
             if (filters.server == 'Unidades Global' && !flags.global) return false;
@@ -272,7 +272,7 @@ angular.module('optc') .run(function($rootScope, $timeout, $storage, MATCHER_IDS
 
     $timeout(function() {
         jQuery.fn.dataTable.ext.search.push(tableFilter);
-        var types = { story: 'Story Island', fortnight: 'Fortnight', raid: 'Raid', colosseum: 'Colosseum' };
+        var types = { story: 'Story Island', fortnight: 'Quincenal', raid: 'Raid', colosseum: 'Coliseo' };
         $rootScope.$watch('table',function(table) {
             tableData = table;
             if (table.parameters && table.parameters.filters && table.parameters.filters.farmable) {

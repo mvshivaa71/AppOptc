@@ -4,7 +4,7 @@
  * Common data *
  ***************/
 
-var filters = { custom: [ ], classes: [ ], stars: [ ], cost: [ 1, 55 ] };
+var filters = { custom: [ ], classes: [ ], stars: [ ], cost: [ 1, 99 ] };
 
 /***************
  * Controllers *
@@ -48,8 +48,8 @@ app.controller('SidebarCtrl',function($scope, $rootScope, $stateParams, $timeout
     });
 
     $scope.clearFilters = function() {
-        filters = { custom: [ ], classes: [ ], stars: [ ], cost: [ 1, 55 ] };
-        $rootScope.filters = { custom: [ ], classes: [ ], stars: [ ], cost: [ 1, 55 ] };
+        filters = { custom: [ ], classes: [ ], stars: [ ], cost: [ 1, 99 ] };
+        $rootScope.filters = { custom: [ ], classes: [ ], stars: [ ], cost: [ 1, 99 ] };
     };
 
     $scope.onFilterClick = function(e, value) {
@@ -139,6 +139,17 @@ app.controller('DetailsCtrl',function($scope, $rootScope, $state, $stateParams, 
                     location: location
                 });
             });
+		
+			//Super Hack Job to show Karoo as a socket for Vivi
+            if (family == "Nefertari Vivi"){
+                if (!$scope.families.filter(function(e) { return e.uid == 445; }).length>0){
+                    $scope.families.push({
+                        uid: 445,
+                        name: units[444].name,
+                        location:  {data: ["Todas las Dificultades"], name: "Escuadrón de Patos Supersónicos! Quincenal", thumb:445}
+                    });
+                }
+            }
         });
     }
 
@@ -165,6 +176,7 @@ app.controller('DetailsCtrl',function($scope, $rootScope, $state, $stateParams, 
     };
     $scope.getPrevious = function() { return $stateParams.previous.concat($scope.id); };
     $scope.isCaptainHybrid = ($scope.details && $scope.details.captain && $scope.details.captain.global);
+	$scope.isSailorHybrid = ($scope.details && $scope.details.sailor && $scope.details.sailor.global);
     $scope.isSpecialHybrid = ($scope.details && $scope.details.special && $scope.details.special.global);
     $scope.isSpecialStaged = ($scope.details && $scope.details.special && $scope.details.special.constructor == Array);
 
@@ -217,7 +229,7 @@ app.controller('ColumnsCtrl',function($scope, $rootScope, $state, $stateParams, 
 
     $scope.columns = { 'HP/ATK': false, 'HP/RCV': false, 'ATK/RCV': false, 'ATK/CMB': false,
         'CMB': false, 'ATK/coste': false, 'HP/coste': false, 'Mínimo cooldown': false,
-        'Cooldown inicial': false };
+        'Cooldown inicial': false,'MAX EXP': false };
 
     var additionalColumns = $storage.get('charColumns', [ ]);
 
