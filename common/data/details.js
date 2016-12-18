@@ -2346,7 +2346,7 @@ window.details = {
 		special: "Reduce la defensa de todos los enemigos en un 100% durante 1 turno"
 	},
 	553: { 
-		captain:"Aumenta el ATK de los personajes [DEX] 2.5x si la HP del equipo se encuentra por debajo del 30% al principio del turno",
+		captain:"Aumenta el ATK de los personajes [DEX] 2.75x si la HP del equipo se encuentra por debajo del 30% al principio del turno",
 		specialName:"Ashura Ugui",
 		special: "Hace 1000 puntos de daño fijo a todos los enemigos y cambia los orbes adyacentes a [DEX]",
 		specialNotes:"#{fixed}",
@@ -2510,7 +2510,7 @@ window.details = {
 	583: { 
 		captain:"Aumenta el ATK y el RCV de los personajes Shooter 1.5x",
 		specialName:"Disrupting Fire",
-		special: "Cambia su propio orbe a [INT], cambia el orbe del capitán propio a [DEX] y aumenta el [RCV] de los personajes Shooter 300 puntos durante 3 turnos"
+		special: "Cambia su propio orbe a [INT]y el del capitán propio a [DEX] y aumenta el [RCV] de los personajes Shooter 300 puntos durante 3 turnos"
 	},
 	584: { 
 		captain:"Reduce la carga de todos los especiales 3 turnos al principio de la batalla y reduce TODOS TUS STATS 90% (GAME OVER)",
@@ -2826,13 +2826,13 @@ window.details = {
 		captain:"Aumenta el ATK de los personajes [INT] 2x y su RCV 1.5x",
 		specialName:"Thunder Lance Tempo",
 		special: "Hace 5000 puntos de daño fijo a un solo enemigo e incrementa la efectividad de los orbes 1.5x durante 1 turno",
-		specialNotes:"#{fixed}^ #{orb : 1.5x}"
+		specialNotes:"#{fixed} <br> #{orb : 1.5x}"
 	},
 	651: { 
 		captain:"Aumenta el ATK de los personajes [INT] 2x y su RCV 1.5x",
 		specialName:"Thunder Lance Tempo",
 		special: "Hace 5000 puntos de daño fijo a un solo enemigo e incrementa la efectividad de los orbes 1.5x durante 1 turno",
-		specialNotes:"#{fixed}^ #{orb : 1.5x}"
+		specialNotes:"#{fixed} <br> #{orb : 1.5x}"
 	},
 	652: { 
 		captain:"Aumenta el ATK de los personajes [DEX] 2x si tienen orbe favorable y reduce la carga de todos los especiales 1 turno al principio de la batalla",
@@ -2845,7 +2845,7 @@ window.details = {
 		special: "Reduce la HP actual de los enemigos un 20% y reduce el daño recibido en un 50% durante 1 turno"
 	},
 	654: { 
-		captain:"Aumenta el ATK de los personajes [DEX] 2.25x si tienen orbe favorable y reduce la carga de todos los especiales 3 turnos al principio de la batalla",
+		captain:"Aumenta el ATK de los personajes [DEX] 2.75x si tienen orbe favorable y reduce la carga de todos los especiales 3 turnos al principio de la batalla",
 		specialName:"Heart-Smashing Horn",
 		special: "Reduce la HP actual de los enemigos un 20% y reduce el daño recibido en un 50% durante 1 turno"
 	},
@@ -3576,14 +3576,14 @@ window.details = {
 		captainNotes:"Su multiplicador de ATK empezará siendo 3.0x en el primer turno, 2.9x en el segundo, 2.8x en el tercero y así sucesivamente. La reducción parará cuando el multiplicador llegue a 1x. El multiplicador solo afecta a los personajes Powerhouse.",
 		specialName:"Gum-Gum Storm",
 		special: "Inflige 10 golpes de daño [INT] aleatorio a enemigos aleatorios y retrasa 1 turno a todos los enemigos",
-		specialNotes:"#{randomHits : 10}^ #{random : 1,000 : 30,000 : por cada golpe}"
+		specialNotes:"#{randomHits : 10} <br> #{random : 1,000 : 30,000 : por cada golpe}"
 	},
 	795: { 
 		captain:"Aumenta el ATK de los personajes Powerhouse 3.5x, reduce la HP actual del equipo un 10% y reduce su propio multiplicador de ATK 0.1x al final de cada turno",
 		captainNotes:"Su multiplicador de ATK empezará siendo 3.5x en el primer turno, 3.4x en el segundo, 3.3x en el tercero y así sucesivamente. La reducción parará cuando el multiplicador llegue a 1x. El multiplicador solo afecta a los personajes Powerhouse.",
 		specialName:"Gum-Gum Storm",
 		special: "Inflige 10 golpes de daño [INT] aleatorio a enemigos aleatorios y retrasa 1 turno a todos los enemigos",
-		specialNotes:"#{randomHits : 10}^ #{random : 1,000 : 30,000 : por cada golpe}"
+		specialNotes:"#{randomHits : 10} <br> #{random : 1,000 : 30,000 : por cada golpe}"
 	},
 	796: { 
 		captain:"Aumenta el ATK de los personajes Cerebral 2x",
@@ -3685,13 +3685,13 @@ window.details = {
 		captain:"Aumenta el ATK de todos los personajes 2.5x siguiendo un orden de [STR] > [INT] > [DEX]",
 		specialName:"Brick Bat",
 		special: "Inflige 10 golpes de 5000 puntos de daño fijo a enemigos aleatorios",
-		specialNotes:"#{fixed}^ #{randomHits : 10}"
+		specialNotes:"#{fixed} <br> #{randomHits : 10}"
 	},
 	816: { 
 		captain:"Aumenta el ATK de todos los personajes 2.5x siguiendo un orden de [STR] > [INT] > [DEX]",
 		specialName:"Brick Bat",
 		special: "Inflige 10 golpes de 5000 puntos de daño fijo a enemigos aleatorios",
-		specialNotes:"#{fixed}^ #{randomHits : 10}"
+		specialNotes:"#{fixed} <br> #{randomHits : 10}"
 	},
 	817: { 
 		specialName:"[PSY] Slot Change [STR]",
@@ -3994,7 +3994,7 @@ window.details = {
 				"cooldown": [19,14]
 			}
 		],
-		specialNotes:"#{orb: 1.5x o 1.75x}^ #{stages}"
+		specialNotes:"#{orb: 1.5x o 1.75x} <br> #{stages}"
 	},
 	874: { 
 		captain:"Aumenta el ATK de los personajes Fighter 3x si la HP del equipo se encuentra por debajo del 30% al principio del turno",
@@ -4009,7 +4009,7 @@ window.details = {
 				"cooldown": [19,14]
 			}
 		],
-		specialNotes:"#{orb: 1.5x o 1.75x}^ #{stages}"
+		specialNotes:"#{orb: 1.5x o 1.75x} <br> #{stages}"
 	},
 	875: { 
 		captain:"Aumenta el ATK de los personajes Driven y Cerebral 2.25x",
@@ -4912,14 +4912,14 @@ window.details = {
 		captain:"Aumenta el ATK de los personajes Powerhouse 2x",
 		specialName:"Eight-Impact Fist! Blow of Resentment",
 		special: "Incrementa la efectividad de los orbes durante 2 turnos. El aumento dependerá de la cantidad de HP que se tenga cuando se active el especial",
-		specialNotes:"#{boostProportional : 30 : 1.75 : 70 : 1.5 : 1.25}^ #{orb : 1.25x, 1.5x o 1.75x}"
+		specialNotes:"#{boostProportional : 30 : 1.75 : 70 : 1.5 : 1.25} <br> #{orb : 1.25x, 1.5x o 1.75x}"
 	},
 	1025: { 
 		captain:"Aumenta el ATK de los personajes Powerhouse 2x y la HP de los personajes Striker 2x",
 		captainNotes:"#{boostAcumulado : Powerhouse : Striker}",
 		specialName:"Eight-Impact Fist! Blow of Resentment",
 		special: "Incrementa la efectividad de los orbes durante 2 turnos. El aumento dependerá de la cantidad de HP que se tenga cuando se active el especial",
-		specialNotes:"#{boostProportional : 30 : 1.75 : 70 : 1.5 : 1.25}^ #{orb : 1.25x, 1.5x o 1.75x}"
+		specialNotes:"#{boostProportional : 30 : 1.75 : 70 : 1.5 : 1.25} <br> #{orb : 1.25x, 1.5x o 1.75x}"
 	},
 	1026: { 
 		captain:"Aumenta el ATK y el RCV de los personajes Fighter 1.5x",
@@ -4968,14 +4968,14 @@ window.details = {
 		captainNotes:"Aumento de ATK: 1 Striker - 1.25x. 2 Strikers - 1.5x. 3 Strikers - 1.75x. 4 Strikers - 2x. 5 Stikers - 2.5x. 6 Strikers - 2.75x",
 		specialName:"Bari Bari No Pistol",
 		special: "Sobrevives a cualquier golpe sin importar la HP del equipo durante 1 turno y hace daño variable sin tipo a un solo enemigo",
-		specialNotes:"#{specialProportional : menor : 150 * ( 1 - (HP restante) / (HP total) )}^ #{zombie}"
+		specialNotes:"#{specialProportional : menor : 150 * ( 1 - (HP restante) / (HP total) )} <br> #{zombie}"
 	},
 	1035: { 
 		captain:"Aumenta el ATK de los personajes Striker dependiendo del número de personajes Striker que haya en el equipo. Si Bartolomeo no ataca, se reduce el daño recibido en un 30% cada turno",
 		captainNotes:"Aumento de ATK: 1 Striker - 1.25x. 2 Strikers - 1.5x. 3 Strikers - 1.75x. 4 Strikers - 2x. 5 Stikers - 2.5x. 6 Strikers - 2.75x",
 		specialName:"Bari Bari No Pistol",
 		special: "Sobrevives a cualquier golpe sin importar la HP del equipo durante 1 turno y hace daño variable sin tipo a un solo enemigo",
-		specialNotes:"#{specialProportional : menor : 150 * ( 1 - (HP restante) / (HP total) )}^ #{zombie}"
+		specialNotes:"#{specialProportional : menor : 150 * ( 1 - (HP restante) / (HP total) )} <br> #{zombie}"
 	},
 	1036: { 
 		captain:"Aumenta el ATK de los personajes Free Spirit 2x tras hacer 3 Perfects seguidos",
@@ -5053,13 +5053,13 @@ window.details = {
 		captain:"Aumenta el ATK de los personajes Free Spirit 2.75x tras hacer Good>Great>Perfect",
 		specialName:"Dragon Claw Fist: Dragon's Breath",
 		special: "Hace daño aleatorio sin tipo a todos los enemigos. Durante 2 turnos, cada personaje que ataca ve aumentado el daño que causa en una cantidad equivalente al ATK de Sabo 55x, como daño adicional sin tipo, si se hace un Good, un Great o un Perfect en dicho turno",
-		specialNotes:"#{random : 10.000 : 30.000} ^ Este daño adicional solo puede ser aumentado por especiales condicionados."
+		specialNotes:"#{random : 10.000 : 30.000}  <br> Este daño adicional solo puede ser aumentado por especiales condicionados."
 	},
 	1047: { 
 		captain:"Aumenta el ATK de los personajes Free Spirit 3.5x tras hacer Good>Great>Perfect",
 		specialName:"Dragon Claw Fist: Dragon's Breath",
 		special: "Hace daño aleatorio sin tipo a todos los enemigos. Durante 2 turnos, cada personaje que ataca ve aumentado el daño que causa en una cantidad equivalente al ATK de Sabo 55x, como daño adicional sin tipo, si se hace un Good, un Great o un Perfect en dicho turno",
-		specialNotes:"#{random : 10.000 : 30.000} ^ Este daño adicional solo puede ser aumentado por especiales condicionados."
+		specialNotes:"#{random : 10.000 : 30.000}  <br> Este daño adicional solo puede ser aumentado por especiales condicionados."
 	},
 	1048: { 
 		captain:"Aumenta el ATK y el RCV de los personajes [PSY] 1.2x",
@@ -5596,7 +5596,7 @@ window.details = {
 				"cooldown": [26,20]
 			}
 		],
-		specialNotes:"Después de que el especial llegue a la 3 carga, el daño aumenta 23.75x por turno por otros 20 turnos adicionales. El máximo multiplicador llega a 487.25x del ATK del personaje a todos los enemigos. ^ #{stages}"
+		specialNotes:"Después de que el especial llegue a la 3 carga, el daño aumenta 23.75x por turno por otros 20 turnos adicionales. El máximo multiplicador llega a 487.25x del ATK del personaje a todos los enemigos.  <br> #{stages}"
 	},
 	1131: { 
 		captain:"Aumenta el ATK y la HP de los personajes Powerhouse 1.5x",
@@ -5615,7 +5615,7 @@ window.details = {
 				"cooldown": [26,20]
 			}
 		],
-		specialNotes:"Después de que el especial llegue a la 3 carga, el daño aumenta 23.75x por turno por otros 20 turnos adicionales. El máximo multiplicador llega a 487.25x del ATK del personaje a todos los enemigos. ^ #{stages}"
+		specialNotes:"Después de que el especial llegue a la 3 carga, el daño aumenta 23.75x por turno por otros 20 turnos adicionales. El máximo multiplicador llega a 487.25x del ATK del personaje a todos los enemigos.  <br> #{stages}"
 	},
 	1132: { 
 		captain:"Aumenta el ATK y la HP de los personajes Fighter 1.5x",
@@ -5768,13 +5768,13 @@ window.details = {
 		captain:"Aumenta el ATK de los personajes Shooter, Striker y Powerhouse 1.75x",
 		specialName:"Poison Puffer Fish",
 		special: "Reduce la HP actual de los enemigos un 20%, envenena gravemente a un enemigo y envenena al restante levemente",
-		specialNotes:"#{strongpoison}^ #{poison}"
+		specialNotes:"#{strongpoison} <br> #{poison}"
 	},
 	1159: { 
 		captain:"Aumenta el ATK de los personajes Shooter, Striker y Powerhouse 2.25x",
 		specialName:"Poison Puffer Fish",
 		special: "Reduce la HP actual de los enemigos un 20%, envenena gravemente a un enemigo y envenena al restante levemente",
-		specialNotes:"#{strongpoison}^ #{poison}"
+		specialNotes:"#{strongpoison} <br> #{poison}"
 	},
 	1160: { 
 		captain:"Aumenta el ATK y el RCV de los personajes Free Spirit 1.5x",
@@ -5811,13 +5811,13 @@ window.details = {
 	},
 	1166: { 
 		captain:"Da la posibilidad de duplicar un drop al finalizar la partida",
-		captainNotes:"",
+		captainNotes:"La habilidad de doblar el drop no funciona si este personaje no era tu capitán al iniciar la batalla. Esta habilidad se acumula con la de otros capitanes que tengan la misma habilidad, otorgando dos posibilidades de drop extra.",
 		specialName:"Lucky-Lucky Fruit",
 		special: "Aumenta la probabilidad de obtener orbes favorables y reduce el ATK de los enemigos durante 1 turno"
 	},
 	1167: { 
 		captain:"Aumenta el ATK de todos los personajes 1.2x y da la posibilidad de duplicar un drop al finalizar la partida",
-		captainNotes:"",
+		captainNotes:"La habilidad de doblar el drop no funciona si este personaje no era tu capitán al iniciar la batalla. Esta habilidad se acumula con la de otros capitanes que tengan la misma habilidad, otorgando dos posibilidades de drop extra.",
 		specialName:"Lucky-Lucky Fruit",
 		special: "Aumenta la probabilidad de obtener orbes favorables y reduce el ATK de los enemigos durante 1 turno"
 	},
@@ -5857,7 +5857,7 @@ window.details = {
 		sailor:"Aumenta el RCV de los personajes [PSY] 15 puntos"
 	},
 	1174: { 
-		captain:"Aumenta el ATK de los personajes [DEX] 2.5x si la HP del equipo se encuentra por debajo del 30% al principio del turno",
+		captain:"Aumenta el ATK de los personajes [DEX] 2.75x si la HP del equipo se encuentra por debajo del 30% al principio del turno",
 		specialName:"Ashura Ugui",
 		special: "Hace 1000 puntos de daño fijo a todos los enemigos y cambia los orbes adyacentes a [DEX]",
 		specialNotes:"",
@@ -5922,7 +5922,7 @@ window.details = {
 	},
 	1185: { 
 		captain:"Aumenta el ATK de los personajes Slasher y Cerebral 1.75x y da la posibilidad de duplicar un drop al finalizar la partida",
-		captainNotes:"",
+		captainNotes:"La habilidad de doblar el drop no funciona si este personaje no era tu capitán al iniciar la batalla. Esta habilidad se acumula con la de otros capitanes que tengan la misma habilidad, otorgando dos posibilidades de drop extra.",
 		specialName:"Extreme Speed - One Sword Style, Ten Slashes",
 		special: [
 			{
@@ -5939,7 +5939,7 @@ window.details = {
 	},
 	1186: { 
 		captain:"Aumenta el ATK de los personajes Slasher y Cerebral 1.75x y da la posibilidad de duplicar un drop al finalizar la partida",
-		captainNotes:"",
+		captainNotes:"La habilidad de doblar el drop no funciona si este personaje no era tu capitán al iniciar la batalla. Esta habilidad se acumula con la de otros capitanes que tengan la misma habilidad, otorgando dos posibilidades de drop extra.",
 		specialName:"Extreme Speed - One Sword Style, Ten Slashes",
 		special: [
 			{
@@ -6330,7 +6330,7 @@ window.details = {
 				"cooldown": [20,17]
 			}
 		],
-		specialNotes:"#{randomHits : 10}^ #{stages}"
+		specialNotes:"#{randomHits : 10} <br> #{stages}"
 	},
 	1240: { 
 		captain:"Reduce las cargas de todos los especiales 1 turno al principio de la batalla, aumenta el ATK de todos los personajes 2x y el RCV 1.3x. Si se usa 'Yasakani no Magatama' (especial de Borsalino), en dicho turno aumentará el ATK 3x",
@@ -6349,7 +6349,7 @@ window.details = {
 				"cooldown": [20,17]
 			}
 		],
-		specialNotes:"#{randomHits : 10}^ #{stages}"
+		specialNotes:"#{randomHits : 10} <br> #{stages}"
 	},
 	1241: { 
 		captain:"Aumenta el multiplicador de cadena 1.5x y recupera una cantidad de HP equivalente a su RCV 1x al final de cada turno",
@@ -6583,14 +6583,14 @@ window.details = {
 		sailor:"Reduce la duración de la Ceguera 5 turnos"
 	},
 	1273: { 
-		captain:"Aumenta el ATK de los personajes Fighter y Powerhouse 1.5x y su HP 1.15x",
+		captain:"Aumenta el ATK de los personajes Fighter y Powerhouse 1.5x y su HP 1.2x",
 		captainNotes:"#{boostAcumulado : Striker : Powerhouse}",
 		specialName:"Champion of the Wild Roar",
 		special: "Hace una cantidad de daño como daño [STR] a todos los enemigos. Aumenta el ATK de los personajes Fighter 1.5x durante 5 turnos",
 		sailor:"Aumenta la HP de todos los personajes 75 puntos"
 	},
 	1274: { 
-		captain:"Aumenta el ATK de los personajes Fighter y Powerhouse 1.6x y su HP 1.15x",
+		captain:"Aumenta el ATK de los personajes Fighter y Powerhouse 1.6x y su HP 1.2x",
 		captainNotes:"#{boostAcumulado : Striker : Powerhouse}",
 		specialName:"Champion of the Wild Roar",
 		special: "Hace una cantidad de daño como daño [STR] a todos los enemigos. Aumenta el ATK de los personajes Fighter 1.5x durante 5 turnos",
@@ -6710,7 +6710,7 @@ window.details = {
 				"cooldown": [26,16]
 			}
 		],
-		specialNotes:"La reducción dependerá de la HP del equipo cuando activemos el especial: reducirá un 50% si la HP se encuentra por encima del 50%, un 80% si la HP se encuentra entre el 50% y el 10% y un 100% si la HP se encuentra por debajo del 10%.^ #{stages}"
+		specialNotes:"La reducción dependerá de la HP del equipo cuando activemos el especial: reducirá un 50% si la HP se encuentra por encima del 50%, un 80% si la HP se encuentra entre el 50% y el 10% y un 100% si la HP se encuentra por debajo del 10%. <br> #{stages}"
 	},
 	1294: { 
 		captain:"Aumenta el ATK de los personajes Fighter 2x y hace una cantidad de daño [PSY] a todos los enemigos equivalente al daño recibido 4x en el turno anterior al final de cada turno",
@@ -6725,7 +6725,7 @@ window.details = {
 				"cooldown": [26,16]
 			}
 		],
-		specialNotes:"La reducción dependerá de la HP del equipo cuando activemos el especial: reducirá un 50% si la HP se encuentra por encima del 50%, un 80% si la HP se encuentra entre el 50% y el 10% y un 100% si la HP se encuentra por debajo del 10%.^ #{stages}"
+		specialNotes:"La reducción dependerá de la HP del equipo cuando activemos el especial: reducirá un 50% si la HP se encuentra por encima del 50%, un 80% si la HP se encuentra entre el 50% y el 10% y un 100% si la HP se encuentra por debajo del 10%. <br> #{stages}"
 	},
 	1295: { 
 		captain:"Aumenta el ATK y el RCV de los personajes [STR] 1.5x",
@@ -6826,13 +6826,13 @@ window.details = {
 		captain:"Aumenta el ATK de todos los personajes 2.25x. En caso de que tengan orbe [STR], aumenta su ATK un 1.75x adicional. Además, aumenta la probabilidad de obtener orbes [STR]",
 		captainNotes:"Si un personaje tiene orbe [STR], el aumento acumulado de ATK será 3.9375x, sin importar su tipo.",
 		specialName:"Meteor Volcano",
-		special: "Hace gran daño sin tipo a todos los enemigos, aleatoriza los orbes que no sean [STR] y aumenta el ATK de los personajes cuyo coste sea igual o superior a 50 1.75x durante 2 turnos"
+		special: "Hace su ATK 120x como daño sin tipo a todos los enemigos, aleatoriza los orbes que no sean [STR] y aumenta el ATK de los personajes cuyo coste sea igual o superior a 50 1.75x durante 2 turnos"
 	},
 	1314: { 
 		captain:"Aumenta el ATK de todos los personajes 2.25x. En caso de que tengan orbe [STR], aumenta su ATK un 1.75x adicional. Además, aumenta la probabilidad de obtener orbes [STR]",
 		captainNotes:"Si un personaje tiene orbe [STR], el aumento acumulado de ATK será 3.9375x, sin importar su tipo.",
 		specialName:"Meteor Volcano",
-		special: "Hace gran daño sin tipo a todos los enemigos, aleatoriza los orbes que no sean [STR] y aumenta el ATK de los personajes cuyo coste sea igual o superior a 50 1.75x durante 2 turnos"
+		special: "Hace su ATK 120x como daño sin tipo a todos los enemigos, aleatoriza los orbes que no sean [STR] y aumenta el ATK de los personajes cuyo coste sea igual o superior a 50 1.75x durante 2 turnos"
 	},
 	1315: { 
 		captain:"Aumenta el ATK de todos los personajes 2.5x tras hacer 2 Perfects, 2.75x tras hacer 3 Perfects, 3x tras hacer 4 Perfects, 3.5x tras hacer 5 Perfects",
@@ -6968,6 +6968,7 @@ window.details = {
 	},
 	1329: { 
 		captain:"Reduce la carga de los especiales de los personajes Fighter y Free Spirit 1 turno al principio de la batalla. Da la posibilidad de duplicar un drop al finalizar la partida",
+		captainNotes:"",
 		specialName:"The Work of Fairies",
 		special: [
 			{
@@ -7031,12 +7032,12 @@ window.details = {
 	},
 	1335: { 
 		captain:"Reduce la carga de todos los especiales 2 turnos al principio de la batalla. Aumenta el ATK de los personajes Free Spirit 1.5x",
-		specialName:"Wedding Sabo Special",
+		specialName:"Gentleman's Welcome",
 		special: "Cambia el orbe del capitán amigo a favorable y aumenta 0.5x el multiplicador de cadena durante 1 turno"
 	},
 	1336: { 
 		captain:"Reduce la carga de todos los especiales 3 turnos al principio de la batalla. Aumenta el ATK de los personajes Free Spirit 2x",
-		specialName:"Wedding Sabo Special",
+		specialName:"Gentleman's Welcome",
 		special: "Cambia el orbe del capitán amigo a favorable y aumenta 0.5x el multiplicador de cadena durante 1 turno"
 	},
 	1337: { 
@@ -7138,39 +7139,39 @@ window.details = {
 		captain:"Aumenta el multiplicador de cadena 2x y recupera una cantidad de HP equivalente a su RCV 1.5x al final de cada turno",
 		specialName:"Straight Stimultaion",
 		special: "Recupera una cantidad de HP equivalente a su RCV 15x e incrementa la efectividad de los orbes 1.5x durante 1 turno",
-		specialNotes:"#{orb : 1.5x}^ #{fixed}"
+		specialNotes:"#{orb : 1.5x} <br> #{fixed}"
 	},
 	1355: { 
 		captain:"Aumenta el multiplicador de cadena 3x y recupera una cantidad de HP equivalente a su RCV 1.5x al final de cada turno",
 		specialName:"Straight Stimultaion",
 		special: "Recupera una cantidad de HP equivalente a su RCV 15x e incrementa la efectividad de los orbes 1.5x durante 1 turno",
-		specialNotes:"#{orb : 1.5x}^ #{fixed}"
+		specialNotes:"#{orb : 1.5x} <br> #{fixed}"
 	},
 	1356: { 
 		captain:"Aumenta el ATK de los personajes Powerhouse 1.5x",
-		specialName:"Pekoms Special",
+		specialName:"Serious Threat",
 		special: "Cambia los orbes [RCV] y [VACIO] de los personajes Fighter a favorables y hace que los Perfect sean más fáciles de acertar durante 1 turno",
 		specialNotes:"#{perfectFacil}"
 	},
 	1357: { 
 		captain:"Aumenta el ATK, la HP y el RCV de los personajes Powerhouse 1.5x",
-		specialName:"Pekoms Special",
+		specialName:"Serious Threat",
 		special: "Cambia los orbes [RCV] y [VACIO] de los personajes Fighter a favorables y hace que los Perfect sean más fáciles de acertar durante 1 turno",
 		specialNotes:"#{perfectFacil}"
 	},
 	1358: { 
 		captain:"Aumenta el ATK de los personajes Cerebral 1.5x y la HP de los personajes Striker 1.5x",
-		specialName:"Tamago Special",
+		specialName:"The Long Legged Gentleman's Resolution",
 		special: "Aumenta el RCV de todos los personajes 1.75x durante 1 turno y retrasa a todos los enemigos 1 turno"
 	},
 	1359: { 
 		captain:"Aumenta el ATK de los personajes Cerebral 1.75x y la HP de los personajes Striker 1.75x",
-		specialName:"Tamago Special",
+		specialName:"The Long Legged Gentleman's Resolution",
 		special: "Aumenta el RCV de todos los personajes 1.75x durante 1 turno y retrasa a todos los enemigos 1 turno"
 	},
 	1360: { 
 		captain:"Aumenta el ATK de los personajes con Cost 30 o inferior 2x y su HP 1.2x",
-		specialName:"Winter Luffy Special",
+		specialName:"Gum-Gum Twin Jet Pistol: Snowflake",
 		special: "Cambia su propio orbe a [QCK] y hace su ATK 15x como daño [QCK] a un enemigo"
 	},
 	1361: { 
@@ -7216,7 +7217,7 @@ window.details = {
 				"cooldown": [18,13]
 			}
 		],
-		specialNotes:"#{paralisis}^ #{silencio}^ #{stages}",
+		specialNotes:"#{paralisis} <br> #{silencio} <br> #{stages}",
 		sailor:"Esta unidad resiste totalmente al Silencio"
 	},
 	1366: { 
@@ -7236,7 +7237,7 @@ window.details = {
 				"cooldown": [18,13]
 			}
 		],
-		specialNotes:"#{paralisis}^ #{silencio}^ #{stages}",
+		specialNotes:"#{paralisis} <br> #{silencio} <br> #{stages}",
 		sailor:"Esta unidad resiste totalmente al Silencio"
 	},
 	1367: { 
@@ -7252,7 +7253,7 @@ window.details = {
 				"cooldown": [20,15]
 			}
 		],
-		specialNotes:"#{orb: 1.5x o 1.75x}^ #{stages}",
+		specialNotes:"#{orb: 1.5x o 1.75x} <br> #{stages}",
 		sailor:"Aumenta la HP, el RCV y el ATK de todos los personajes 50 puntos"
 	},
 	1368: { 
@@ -7268,7 +7269,7 @@ window.details = {
 				"cooldown": [20,15]
 			}
 		],
-		specialNotes:"#{orb: 1.5x o 1.75x}^ #{stages}",
+		specialNotes:"#{orb: 1.5x o 1.75x} <br> #{stages}",
 		sailor:"Aumenta la HP, el RCV y el ATK de todos los personajes 50 puntos"
 	},
 	1369: { 
@@ -7354,12 +7355,14 @@ window.details = {
 	1379: { 
 		captain:"Aumenta el ATK de los personajes Cerebral 2x y aumenta la probabilidad de obtener orbes favorables",
 		specialName:"A Decision Made over Sake",
-		special: "Reduce la duración de la Parálisis 3 turnos. Incrementa la efectividad de los orbes 2x durante 1 turno para los personajes Cerebral y Free Spirit. Hace que los orbes [TND] y [RCV] cuenten como favorables para los personajes Cerebral y Free Spirit durante 1 turno"
+		special: "Reduce la duración de la Parálisis 3 turnos. Incrementa la efectividad de los orbes 2x durante 1 turno para los personajes Cerebral y Free Spirit. Hace que los orbes [TND] y [RCV] cuenten como favorables para los personajes Cerebral y Free Spirit durante 1 turno",
+		specialNotes:"#{paralisis} <br> #{orb : 2x}"
 	},
 	1380: { 
 		captain:"Aumenta el ATK de los personajes Cerebral 2.5x y aumenta la probabilidad de obtener orbes favorables",
 		specialName:"A Decision Made over Sake",
-		special: "Reduce la duración de la Parálisis 3 turnos. Incrementa la efectividad de los orbes 2x durante 1 turno para los personajes Cerebral y Free Spirit. Hace que los orbes [TND] y [RCV] cuenten como favorables para los personajes Cerebral y Free Spirit durante 1 turno"
+		special: "Reduce la duración de la Parálisis 3 turnos. Incrementa la efectividad de los orbes 2x durante 1 turno para los personajes Cerebral y Free Spirit. Hace que los orbes [TND] y [RCV] cuenten como favorables para los personajes Cerebral y Free Spirit durante 1 turno",
+		specialNotes:"#{paralisis} <br> #{orb : 2x}"
 	},
 	1381: { 
 		captain:"Aumenta el ATK y el RCV de los personajes Slasher y Cerebral 1.2x",
@@ -7390,5 +7393,28 @@ window.details = {
 		captain:"Reduce el daño recibido un 25%",
 		specialName:"Mother's Promise",
 		special: "Elimina la ceguera"
+	},
+	1388: { 
+		captain:"Aumenta el ATK de los personajes [DEX] 2.5x",
+		specialName:"Ittoriyu: Unfortunate Port Bird",
+		special: "Reduce la HP actual de los enemigos un 10%. Reduce la carga de los especiales de los personajes [DEX] en 1 turno"
+	},
+	1389: { 
+		captain:"Reduce la carga de todos los especiales 1 turno al principio de la batalla. Aumenta el ATK de los personajes [INT] 2x y su RCV 1.5x",
+		specialName:"Weather Egg: Thunder Breed Tempo",
+		special: "Hace su ATK 20x como daño [INT] a todos los enemigos. Incrementa la efectividad de los orbes 1.75x durante 1 turno para los personajes [INT]",
+		specialNotes:"#{orb : 1.75x}"
+	},
+	1390: { 
+		captain:"Aumenta el ATK de los personajes con coste 40 o inferior 1.5x y reduce el ATK y la HP de los personajes con coste 41 o superior 0.5x. Duplica el drop al final de la partida.",
+		captainNotes:"La habilidad de doblar el drop no funciona si este personaje no era tu capitán al iniciar la batalla. Esta habilidad se acumula con la de otros capitanes que tengan la misma habilidad, otorgando dos drop extra.",
+		specialName:"Chop-Chop Clown Car",
+		special: "Aleatoriza todos los orbes. Aumenta el ATK de los personajes con coste 40 o inferior 1.75x durante 2 turnos"
+	},
+	1391: { 
+		captain:"Aumenta el ATK de los personajes con coste 40 o inferior 1.5x y reduce el ATK y la HP de los personajes con coste 41 o superior 0.5x. Duplica el drop al final de la partida.",
+		captainNotes:"La habilidad de doblar el drop no funciona si este personaje no era tu capitán al iniciar la batalla. Esta habilidad se acumula con la de otros capitanes que tengan la misma habilidad, otorgando dos drop extra.",
+		specialName:"Chop-Chop Clown Car",
+		special: "Aleatoriza todos los orbes. Aumenta el ATK de los personajes con coste 40 o inferior 1.75x durante 2 turnos"
 	}
 };
