@@ -38,7 +38,7 @@
     <span ng-repeat="type in [ 'Solo RR', 'No en RR' ]" class="filter width-6 drop" ng-model="filters.rr"
         ng-class="{ active: filters.rr == type }" ng-click="onFilterClick($event,type)">{{type}}</span>
 	<span ng-repeat="type in [ 'Sockets Farmeable', 'Sockets No Farmeable' ]" class="filter width-6 drop" ng-model="filters.socket"
-        ng-class="{ active: filters.socket == type }" ng-click="onFilterClick($event,type)">{{type}}&nbsp;&nbsp;&nbsp;</span>
+        ng-class="{ active: filters.socket == type }" ng-click="onFilterClick($event,type)">{{type}}&nbsp;&nbsp;&nbsp;&nbsp;</span>
 </div>
 
 <div class="filter-container conditional" ng-show="filters.drop == 'Farmeable'">
