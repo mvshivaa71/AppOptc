@@ -6,7 +6,7 @@ window.effects = {
     // Use p.type instead of p.unit.type here
 
     'Baroque Works (pre-v4.0)': {
-        description: 'Stats of non-Fighter units reduced by 90%',
+        description: 'Las stats de los personajes no Fighter se reducen un 90%',
         thumb: 462,
         id: 1, // don't change this
         atk: function(p) { return !p.class.has('Fighter') ? 0.1 : 1; },
@@ -15,7 +15,7 @@ window.effects = {
     },
 
     'Baroque Works': {
-        description: 'ATK of non-Fighter, non-Booster, non-Evolver units reduced by 90%',
+        description: 'Las stats de los personajes no Fighter, no Booster y no Evolver se reducen un 90%',
         thumb: 462,
         id: 2, // don't change this
         atk: function(p) { return p.class.has('Fighter') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; },
@@ -23,8 +23,8 @@ window.effects = {
         rcv: function(p) { return p.class.has('Fighter') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; }
     },
 
-    'Prisoner Crocodile (pre-v4.0)': {
-        description: 'Stats of non-Striker units reduced by 90%',
+    'Prisionero Crocodile (pre-v4.0)': {
+        description: 'Las stats de los personajes no Striker se reducen un 90%',
         thumb: 510,
         id: 3, // don't change this
         atk: function(p) { return !p.class.has('Striker') ? 0.1 : 1; },
@@ -32,8 +32,8 @@ window.effects = {
         rcv: function(p) { return !p.class.has('Striker') ? 0.1 : 1; }
     },
 
-    'Prisoner Crocodile': {
-        description: 'Stats of non-Striker, non-Booster, non-Evolver units reduced by 90%',
+    'Prisionero Crocodile': {
+        description: 'Las stats de los personajes no Striker, no Booster y no Evolver se reducen un 90%',
         thumb: 510,
         id: 4, // don't change this
         atk: function(p) { return p.class.has('Striker') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; },
@@ -41,8 +41,8 @@ window.effects = {
         rcv: function(p) { return p.class.has('Striker') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; }
     },
 
-    'Jailer Domino (pre-v4.0)': {
-        description: 'Stats of non-Shooter units reduced by 90%',
+    'Carcelera Domino (pre-v4.0)': {
+        description: 'Las stats de los personajes no Shooter se reducen un 90%',
         thumb: 538,
         id: 5, // don't change this
         atk: function(p) { return !p.class.has('Shooter') ? 0.1 : 1; },
@@ -50,8 +50,8 @@ window.effects = {
         rcv: function(p) { return !p.class.has('Shooter') ? 0.1 : 1; }
     },
 
-    'Jailer Domino': {
-        description: 'Stats of non-Shooter, non-Booster, non-Evolver units reduced by 90%',
+    'Carcelera Domino': {
+        description: 'Las stats de los personajes no Shooter, no Booster y no Evolver se reducen un 90%',
         thumb: 538,
         id: 6, // don't change this
         atk: function(p) { return p.class.has('Shooter') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; },
@@ -59,8 +59,8 @@ window.effects = {
         rcv: function(p) { return p.class.has('Shooter') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; }
     },
 
-    'Chief Guard Sadi-chan (pre-v4.0)': {
-        description: 'Stats of non-Slasher units reduced by 90%',
+    'Jefa Guardiana Sadi-chan (pre-v4.0)': {
+        description: 'Las stats de los personajes no Slasher se reducen un 90%',
         thumb: 550,
         id: 7, // don't change this
         atk: function(p) { return !p.class.has('Slasher') ? 0.1 : 1; },
@@ -68,8 +68,8 @@ window.effects = {
         rcv: function(p) { return !p.class.has('Slasher') ? 0.1 : 1; }
     },
 
-    'Chief Guard Sadi-chan': {
-        description: 'Stats of non-Slasher, non-Booster, non-Evolver units reduced by 90%',
+    'Jefa Guardiana Sadi-chan': {
+        description: 'Las stats de los personajes no Slasher, no Booster y no Evolver se reducen un 90%',
         thumb: 550,
         id: 8, // don't change this
         atk: function(p) { return p.class.has('Slasher') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; },
@@ -77,9 +77,9 @@ window.effects = {
         rcv: function(p) { return p.class.has('Slasher') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; }
     },
 
-    'Warriors of Shandia': {
-        // Note: The debuff is applied to normal attacks but not to specials
-        description: 'Stats of characters whose homeland is not a sky island reduced by 20%',
+    'Guerreros de Shandia': {
+        // Note: El debuf se aplica a los ataques normales, pero no a los especiales
+        description: 'Las stats de los personajes que no pertenezcan a Skypea se reducen un 20%',
         thumb: 583,
         id: 9, // don't change this
         atk: function(p) {
@@ -102,10 +102,10 @@ window.effects = {
         }
     },
 
-    'Warriors of Shandia, Last Round': {
-        // Note: The debuff is applied to normal attacks but not to specials
+    'Guerreros de Shandia, Última Ronda': {
+        // Note: El debuf se aplica a los ataques normales, pero no a los especiales
         // Note 2: The 50% reduction is applied to enemy's defense as well, for whatever reason
-        description: 'Stats of characters whose homeland is not a sky island reduced by 20%, ATK of PSY characters reduced by 50%',
+        description: 'Las stats de los personajes que no pertenezcan a Skypea se reducen un 20% y el ATK de los personajes PSY se reduce un 50%',
         thumb: 583,
         id: 10, // don't change this
         atk: function(p) {
@@ -117,7 +117,7 @@ window.effects = {
     },
 
     'Gan Fall': {
-        description: 'Stats of non-Free Spirit, non-Booster, non-Evolver units reduced by 90%',
+        description: 'Las stats de los personajes no Free Spirit, no Booster y no Evolver se reducen un 90%',
         thumb: 713,
         id: 11, // don't change this
         atk: function(p) { return p.class.has('Free Spirit') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; },
@@ -125,131 +125,131 @@ window.effects = {
         rcv: function(p) { return p.class.has('Free Spirit') || p.class.has('Booster') || p.class.has('Evolver') ? 1 : 0.1; }
     },
 
-    'Orb amplification (1.05x)': {
-        description: 'Orb effects amplified by 1.05x',
+    'Potenciación de orbes (1.05x)': {
+        description: 'Potenciación de orbes 1.05x',
         thumb: 768,
         id: 12, // don't change this
         orb: function(p) { return p.orb == 2.0 ? 1.05 : (p.orb == 0.5 ? 20/21 : 1); }
     },
 
-    'Orb amplification (1.10x)': {
-        description: 'Orb effects amplified by 1.10x',
+    'Potenciación de orbes (1.10x)': {
+        description: 'Potenciación de orbes 1.10x',
         thumb: 415,
         id: 13, // don't change this
         orb: function(p) { return p.orb == 2.0 ? 1.1 : (p.orb == 0.5 ? 10/11 : 1); }
     },
 
-    'Chain multiplier limiter (2.0x)': {
-        description: 'Limits chain multiplier to 2.0x',
+    'Limitador multiplicador de cadena (2.0x)': {
+        description: 'Multiplicador de cadena limitado a 2.0x',
         thumb: 772,
         id: 14, // don't change this
         chainLimiter: function() { return 2.0; }
     },
 
-    'Hit barrier (11 hits)': {
-        description: 'Nullifies the first 11 hits in the chain',
+    'Escudo de golpes (11 golpes)': {
+        description: 'Anula los 11 primeros golpes de la cadena',
         thumb: 794,
         id: 15, // don't change this
         comboShield: 11
     },
 
-    'Nightmare Luffy, 2nd stage': {
-        description: 'Limits chain multiplier to 2.0x, nullifies the first 11 hits in the chain',
+    'Nightmare Luffy, 2ª pantalla': {
+        description: 'Multiplicador de cadena limitado a 2.0x y anula los 11 primeros golpes de la cadena',
         thumb: 795,
         id: 16, // don't change this
         comboShield: 11,
         chainLimiter: function() { return 2.0; }
     },
 
-    'Attack reduction (50%)': {
-        description: 'ATK of all units reduced by 50%',
+    'Reducción de ATK (50%)': {
+        description: 'El ATK de todos los personajes se reduce un 50%',
         thumb: 546,
         id: 17, // don't change this
         atk: function(p) { return 0.5; }
     },
 
-    'Attack reduction (70%)': {
-        description: 'ATK of all units reduced by 70%',
+    'Reducción de ATK (70%)': {
+        description: 'El ATK de todos los personajes se reduce un 70%',
         thumb: 765,
         id: 18, // don't change this
         atk: function(p) { return 0.3; }
     },
 
-    'Kuma': {
-        description: 'Damage of STR and DEX characters nullified',
+    'Kuma Raid Boss': {
+        description: 'El daño de los personajes STR y DEX se anula',
         thumb: 836,
         id: 19,  // don't change this
         atk: function(p) { return p.type == 'STR' || p.type == 'DEX' ? 0 : 1; }
     },
 
     'Shu (Expert)': {
-        description: 'Attack of Slasher units reduced by 50%',
+        description: 'El ATK de los personajes Slasher se reduce un 50%',
         thumb: 773,
         id: 20, // don't change this
         atk: function(p) { return p.class.has("Slasher") ? 0.5 : 1; }
     },
 
     'Shu (Master)': {
-        description: 'Attack of Slasher units reduced by 70%',
+        description: 'El ATK de los personajes Slasher se reduce un 70%',
         thumb: 773,
         id: 21, // don't change this
         atk: function(p) { return p.class.has("Slasher") ? 0.3 : 1; }
     },
 
-    'Attack reduction (20%)': {
-        description: 'ATK of all units reduced by 20%',
+    'Reducción de ATK (20%)': {
+        description: 'El ATK de todos los personajes se reduce un 20%',
         thumb: 567,
         id: 22, // don't change this
         atk: function(p) { return 0.8; }
     },
 
-    'Hit barrier (26 hits)': {
-        description: 'Nullifies the first 26 hits in the chain',
+    'Escudo de golpes (26 golpes)': {
+        description: 'Anula los 26 primeros golpes de la cadena',
         thumb: 375,
         id: 23, // don't change this
         comboShield: 26
     },
 
-    'There\'s the G!': {
-        description: 'Activates [G] orb support even when Lao-G is not in the team',
+    '¡Aquí está la G!': {
+        description: 'Activa los orbes [G] cuando Lao-G no se encuentra en el equipo',
         thumb: 880,
         id: 24, // don't change this
         gOrbsEnabled: true
     },
     
-    'Coliseum Franky': {
-        description: 'Activates [G] orb Support, boosts Orbs by 1.5x',
+    'Franky Coliseo': {
+        description: 'Activa los orbes [G] y potenciación de orbes 1.5x',
         thumb: 560,
         id: 25, // don't change this
         orb: function(p) { return p.orb == 2.0 ? 1.5 : (p.orb == 0.5 ? 10/15 : 1); },
         gOrbsEnabled: true
     },
 
-    'Coliseum Killer': {
-        description: 'ATK of all units reduced by 95%',
+    'Killer Coliseo': {
+        description: 'El ATK de todos los personajes se reduce un 95%',
         thumb: 1043,
         id: 26, // don't change this
         atk: function(p) { return 0.05; }
     },
     
-    'Coliseum Kid': {
-        description: 'Perfect hit barrier (2 hits)',
+    'Kid Coliseo': {
+        description: 'Escudo de Perfects (2 golpes)',
         thumb: 966,
         id: 27,
         comboShield: 2,
         comboType: 'Perfect'
     },
     
-    'Coliseum Fukuro': {
-        description: 'Perfect hit barrier (3 hits)',
+    'Fukuro Coliseo': {
+        description: 'Escudo de Perfects (3 golpes)',
         thumb: 758,
         id: 28,
         comboShield: 3,
         comboType: 'Perfect'
     },
     
-    'Coliseum Cricket': {
-        description: 'Fixed threshold barrier (200,000)',
+    'Cricket Coliseo': {
+        description: 'Escudo de daño limitado (200,000)',
         thumb: 428,
         id: 29,
         barrierThreshold: 200000,
@@ -257,14 +257,14 @@ window.effects = {
     },
     
     'Sabo Raid Boss': {
-        description: 'Reduces Chain By Half',
+        description: 'Reduce el multiplicador de cadena a la mitad',
         thumb: 1047,
         id: 30,
         chainModifier: function(p) { return 0.5; }
     },
     
     'Pirate Ship Competition! \"Dead End\" Opens!': {
-        description: 'STR/DEX/QCK ATK 1.6x and HP 0.1x. INT/PSY ATK 0.2x and HP 2x',
+        description: 'STR/DEX/QCK ATK 1.6x y HP 0.1x. INT/PSY ATK 0.2x y HP 2x',
         thumb: 1072,
         id: 31,
         atk: function(p) { return (p.type == "STR" || p.type == "DEX" || p.type == "QCK") ? 1.6 : 0.2; },
@@ -272,47 +272,47 @@ window.effects = {
         
     },
     
-    '3-hit Good Barrier': {
-        description: 'You need to hit 3 Goods before you do any Damage',
+    'Escudo de 3 golpes Good': {
+        description: 'Hay que hacer 3 Goods antes de poder hacer daño',
         thumb: null,
         id: 32,
         comboShield: 3,
         comboType: 'Good'
     },
     
-    '3-hit Great Barrier': {
-        description: 'You need to hit 3 Greats before you do any Damage',
+    'Escudo de 3 golpes Great': {
+        description: 'Hay que hacer 3 Greats antes de poder hacer daño',
         thumb: null,
         id: 33,
         comboShield: 3,
         comboType: 'Great'
     },
     
-    '10-Hit Hit Barrier': {
-        description: 'You will only do damage once the combo meter reaches 10 hits',
+    'Escudo de 10 golpes': {
+        description: 'Anula los 10 primeros golpes de la cadena',
         thumb: null,
         id: 34,
         comboShield: 10
     },
     
-    '1.25x Orb Boost': {
-        description: 'Used by Christmas Law in Saga Coliseum',
+    'Potenciación de orbes 1.25x': {
+        description: 'Usado por Law Navidad en el Coliseo de Saga',
         thumb: 856,
         id: 35,
         orb: function(p) { return p.orb == 2.0 ? 1.5 : (p.orb == 0.5 ? 10/15 : 1); }
     },
     
-    '700k Damage Treshold Barrier': {
-        description: 'Used by Saga. You cannot do more that 700k damage in one hit',
+    'Limitador de daño de 700k': {
+        description: 'Usado por Saga. No se puede hacer más de 700,000 puntos de daño con un golpe',
         thumb: 1089,
         id: 36,
         barrierThreshold: 700000,
         barrierReduction: 0.99
     },
     
-    'Dr. Indigo & Scarlet! Fortnight': {
+    'Dr. Indigo & Scarlet! Quincenal': {
         //OLD description: 'Boosts ATK of Driven and Powerhouse characters by 2x, other classes get .5x ATK. Boosts HP of Slasher and Fighter characters by 2x, other classes get .5x HP.',
-        description: 'Boosts ATK of Driven characters by 2x and boosts HP for Powerhouse characters by 2x.',
+        description: 'Aumenta el ATK de los personajes Driven 2x y aumenta la HP de los personajes Powerhouse 2x.',
         thumb: 1095,
         id: 37,
         atk: function(p) { 
@@ -343,8 +343,8 @@ window.effects = {
                         }
     },
     
-    'Coliseum Tashigi': {
-        description: '25 hit barrier and 2x chain limit',
+    'Tashigi Coliseo': {
+        description: 'Escudo de 25 golpes y limitador de multiplicador de cadena a 2.0x',
         thumb: 783,
         id: 38,
         comboShield: 25,
@@ -352,7 +352,7 @@ window.effects = {
     },
     
     'Robin and Nami\'s Secret Undercover Investigation': {
-        description: 'Boosts ATK of Cerebral and Free Spirit characters by 2x, other classes get .5x ATK. Boosts HP of Striker and Shooter characters by 2x, other classes get .5x HP.',
+        description: 'Aumenta el ATK de los personajes Cerebral y Free Spirit 2x, las otras clases adquieren .5x ATK. Aumenta la HP de los personajes Striker y Shooter characters 2x, las otras clases adquieren .5x HP.',
         thumb: 1112,
         id: 39,
         atk: function(p) { 
@@ -383,7 +383,7 @@ window.effects = {
     },
     
     'Gild Tesoro - 40 Stamina': {
-        description: 'Boosts the Orbs and ATK of all characters by 1.2x',
+        description: 'Potencia orbes y ATK de todos los personajes 1.2x',
         thumb: 1162,
         id: 40,
         orb: function(p) { return p.orb == 2.0 ? 1.2 : (p.orb == 0.5 ? 5/6 : 1); },
@@ -391,7 +391,7 @@ window.effects = {
     },
     
     'Gild Tesoro - 60 Stamina': {
-        description: 'Boosts the Orbs and ATK of all characters by 1.4x',
+        description: 'Potencia orbes y ATK de todos los personajes 1.4x',
         thumb: 1163,
         id: 41,
         orb: function(p) { return p.orb == 2.0 ? 1.4 : (p.orb == 0.5 ? 5/7 : 1); },
