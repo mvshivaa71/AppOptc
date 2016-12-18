@@ -49,7 +49,7 @@ window.matchers = [
         name: 'Capitanes 2x ATK y RCV',
         target: 'captain',
         matcher: /Aumenta.+ (ATK y el RCV|ATK, RCV).+ 2x/i,
-	exclude: [ 808 ]
+		exclude: [ 808 ]
     },
 
     {
@@ -69,7 +69,7 @@ window.matchers = [
         name: 'Capitanes 3x ATK',
         target: 'captain',
         matcher: /Aumenta.+ (su )?ATK.+ 3x/i,
-	exclude: [ 758, 1008, 1141, 1235 ]
+		exclude: [ 758, 1008, 1141, 1235 ]
     },
 
     {
@@ -106,7 +106,7 @@ window.matchers = [
         name: 'Reductores de daño',
         target: 'captain',
         matcher: /Reduce.+daño.+recibido/i,
-	exclude: [ 1375, 1376 ]
+		exclude: [ 1375, 1376 ]
     },
 
     {
@@ -139,21 +139,21 @@ window.matchers = [
         name: 'Potenciadores de tipo',
         target: 'special',
         matcher: /Aumenta.(el ATK).(de los personajes|de todos los personajes).\[(STR|DEX|QCK|PSY|INT)\][^>]+/i,
-	include: [ 680, 681 ]
+		include: [ 680, 681 ]
     },
 
     {
         name: 'Potenciadores de clase',
         target: 'special',
         matcher: /Aumenta el ATK de los personajes.+(Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)/i,
-	include: [ 715, 716, 915, 916, 945, 946 ]
+		include: [ 715, 716, 915, 916, 945, 946 ]
     },
 
     {
         name: 'Especiales 1.5x ATK',
         target: 'special',
         matcher: /Aumenta.+ ATK.+ 1.5x/i,
-	include: [ 964, 965 ]
+		include: [ 964, 965 ]
     },
 
     {
@@ -166,7 +166,7 @@ window.matchers = [
         name: 'Especiales 2x ATK',
         target: 'special',
         matcher: /Aumenta.+ ATK.+ 2x/i,
-	exclude: [ 847, 848 ]
+		exclude: [ 847, 848 ]
     },
 
     {
@@ -244,7 +244,7 @@ window.matchers = [
         target: 'special',
         matcher: /Cambia.+(el orbe del capitán|los orbes|su propio orbe).+a.+(favorable|favorables)/i,
         include: [ 1036, 1037 ],
-	exclude: [ 1330 ]
+		exclude: [ 1330 ]
     },
 
     {
@@ -257,7 +257,7 @@ window.matchers = [
         name: 'Rellenadores de orbes',
         target: 'special',
         matcher: /cambia los orbes \[VACIO\].+a/i,
-	include: [ 397, 398, 705, 774, 1337, 1338, 1383, 1384 ]
+		include: [ 397, 398, 705, 774, 1337, 1338, 1383, 1384 ]
     },
 
     {
@@ -270,8 +270,8 @@ window.matchers = [
         name: 'Daño a todos los enemigos',
         target: 'special',
         matcher: /Hace.+a todos los enemigos/i,
-	include: [ 446, 447 ],
-	include: [ 904, 917, 918, 1235, 1236 ]
+		include: [ 446, 447 ],
+		exclude: [ 904, 917, 918, 1235, 1236 ]
     },
 
     {
@@ -353,8 +353,8 @@ window.matchers = [
         name: 'Eliminadores de orbes Negativo',
         target: 'special',
         matcher: /(vacía.+\[NEGATIVO\]|cambia.+\[NEGATIVO\].+a|incluidos.+\[NEGATIVO\])/i,
-	include: [ 1383, 1384 ],
-	exclude: [ 1330 ]
+		include: [ 1383, 1384 ],
+		exclude: [ 1330 ]
     },
 
     {
@@ -379,7 +379,7 @@ window.matchers = [
         name: 'Envenenadores',
         target: 'special',
         matcher: /envenena (?!envenenamiento)/i,
-	include: [ 391, 392, 437, 438 ]
+		include: [ 391, 392, 437, 438 ]
     },
 
     {
