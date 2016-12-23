@@ -95,6 +95,12 @@ window.matchers = [
         target: 'captain',
         matcher: /Aumenta.+multiplicador de cadena/i
     },
+	
+    {
+        name: 'Capitanes Combo',
+        target: 'captain',
+        matcher: /a partir del .+en la cadena/i
+    },
 
     {
         name: 'Reductores de cooldown',
@@ -181,10 +187,16 @@ window.matchers = [
         matcher: /(si en ese turno.+Aumenta.+ATK|Una vez lanzado el especial.+Aumenta.+ATK)/i
     },
 	
-	{
+    {
         name: 'Potenciadores Afinidad de Tipo',
         target: 'special',
         matcher: /Aumenta la Afinidad de Tipo/i
+    },
+    
+    {
+        name: 'Potenciadores de ATK Combo',
+        target: 'special',
+        matcher: /Aumenta el ATK de todos los personajes.+ a partir del.+ golpe de la cadena/i
     },
 
     {
