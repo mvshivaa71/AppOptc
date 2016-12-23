@@ -3811,7 +3811,13 @@ window.captains = {
     1384: {
         atk: function(p) { return p.unit.class.has("Striker") ? 2.5 : 1; },
     },
-    
+    1387: {
+        hitAtk: function(p) {
+            return p.modifiers.slice(0, p.chainPosition).subcontains(["Perfect", "Perfect", "Perfect", "Perfect"]) ? 2.8125 : 2.25;
+        },
+        hitModifiers: ["Perfect", "Perfect", "Perfect", "Perfect", "Perfect", "Perfect"],
+        hp: function(p) { return 1.25; },
+    },
     1388: {
         atk: function(p) { return p.unit.type == "DEX" ? 2.5 : 1; },
     },
@@ -3826,5 +3832,12 @@ window.captains = {
     1391: {
         atk: function(p) { return p.unit.cost <= 40 ? 1.5 : 0.5; },
         hp: function(p) { return p.unit.cost <= 40 ? 1 : 0.5; }
+    },
+    1392: {
+        atk: function(p) { return p.unit.class.has("Striker") ? 2 : 1; },
+        hp: function(p) { return p.unit.type == "PSY" ? 1.25 : 1; },
+    },
+    1391: {
+        atk: function(p) { return p.unit.cost <= 30 ? 2 : 1; },
     },
 };
