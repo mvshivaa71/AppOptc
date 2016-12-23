@@ -4932,15 +4932,15 @@ window.details = {
 		special: "Cambia el orbe del capitán propio a favorable e intercambia la posición de los orbes 3 veces"
 	},
 	1028: { 
-		captain:"Aumenta el ATK de todos los personajes 2.5x a partir del golpe 21º de la cadena",
+		captain:"Aumenta el ATK de todos los personajes 2.5x a partir del 21º golpe de la cadena",
 		specialName:"Rah-Rah-Rah Rampage",
-		special: "Hace daño aleatorio a todos los enemigos y aumenta el ATK de todos los personajes 1.75x a partir del golpe 30 de la cadena durante 3 turnos",
+		special: "Hace daño aleatorio a todos los enemigos y aumenta el ATK de todos los personajes 1.75x a partir del 30º golpe de la cadena durante 3 turnos",
 		specialNotes:""
 	},
 	1029: { 
-		captain:"Aumenta el ATK de todos los personajes 2.5x a partir del golpe 21º de la cadena y 3.5x a partir del 36º",
+		captain:"Aumenta el ATK de todos los personajes 2.5x a partir del 21º golpe de la cadena y 3.5x a partir del 36º",
 		specialName:"Rah-Rah-Rah Rampage",
-		special: "Hace daño aleatorio a todos los enemigos y aumenta el ATK de todos los personajes 1.75x a partir del golpe 30 de la cadena durante 3 turnos",
+		special: "Hace daño aleatorio a todos los enemigos y aumenta el ATK de todos los personajes 1.75x a partir del 30º golpe de la cadena durante 3 turnos",
 		specialNotes:""
 	},
 	1030: { 
@@ -7394,6 +7394,12 @@ window.details = {
 		specialName:"Mother's Promise",
 		special: "Elimina la ceguera"
 	},
+	1387: { 
+		captain:"Aumenta el ATK de todos los personajes 2.25x y su HP 1.25x. Aumenta el ATK de todos los personajes un 1.25x adicional tras hacer 4 Perfects seguidos",
+		captainNotes:"Tras hacer 4 Perfects seguidos, el aumento de ATK será 2.8125x",
+		specialName:"Luffy+ Special",
+		special: "Hace su ATK 40x como daño [STR] a todos los enemigos y retrasa a todos los enemigos 1 turno"
+	},
 	1388: { 
 		captain:"Aumenta el ATK de los personajes [DEX] 2.5x",
 		specialName:"Ittoriyu: Unfortunate Port Bird",
@@ -7416,5 +7422,16 @@ window.details = {
 		captainNotes:"La habilidad de doblar el drop no funciona si este personaje no era tu capitán al iniciar la batalla. Esta habilidad se acumula con la de otros capitanes que tengan la misma habilidad, otorgando dos drop extra.",
 		specialName:"Chop-Chop Clown Car",
 		special: "Aleatoriza todos los orbes. Aumenta el ATK de los personajes con coste 40 o inferior 1.75x durante 2 turnos"
-	}
+	},
+	1392: { 
+		captain:"Aumenta el ATK de los personajes Striker 2x y la HP de los personajes PSY 1.25x",
+		captainNotes:"#{boostAcumulado : Striker : PSY}",
+		specialName:"Large Cutting Axe",
+		special: "Hace su ATK 25x como daño [PSY] a todos los enemigos. Si en ese turno todos los personajes hacen Perfect, aumenta el ATK de los personajes [PSY] 1.75x durante el turno siguiente"
+	},
+	1393: { 
+		captain:"Aumenta el ATK de los personajes con coste 30 o inferior 2x",
+		specialName:"Three Forked Tongue",
+		special: "Aumenta el ATK de todos los personajes 1.1x, aumenta ligeramente la probabilidad de obtener orbes favorables e incrementa la efectividad de los orbes 1.1x durante 7 turnos"
+	},
 };
