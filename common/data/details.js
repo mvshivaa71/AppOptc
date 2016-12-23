@@ -6302,15 +6302,15 @@ window.details = {
 		sailor:"Reduce la duración de la Ceguera 3 turnos"
 	},
 	1237: { 
-		captain:"Aumenta el ATK de todos los personajes 2x a partir del golpe 15º en la cadena",
+		captain:"Aumenta el ATK de todos los personajes 2x a partir del 15º golpe en la cadena",
 		specialName:"Shark Cutter - Flash",
-		special: "Hace su ATK 20x como daño [STR] a todos los enemigos. Aumenta el ATK de todos los personajes x2 durante 1 turno después de alcanzar el 30º golpe",
+		special: "Hace su ATK 20x como daño [STR] a todos los enemigos. Aumenta el ATK de todos los personajes x2 a partir del 30º golpe de la cadena durante 1 turno",
 		sailor:"Hace que los orbes [QCK] cuenten como favorables para esta unidad"
 	},
 	1238: { 
-		captain:"Aumenta el ATK de todos los personajes 2x a partir del golpe 15º en la cadena y 3x a partir del 30º",
+		captain:"Aumenta el ATK de todos los personajes 2x a partir del 15º golpe en la cadena y 3x a partir del 30º",
 		specialName:"Shark Cutter - Flash",
-		special: "Hace su ATK 20x como daño [STR] a todos los enemigos. Aumenta el ATK de todos los personajes x2 durante 1 turno después de alcanzar el 30º golpe",
+		special: "Hace su ATK 20x como daño [STR] a todos los enemigos. Aumenta el ATK de todos los personajes x2 a partir del 30º golpe de la cadena durante 1 turno",
 		sailor:"Hace que los orbes [QCK] cuenten como favorables para esta unidad"
 	},
 	1239: { 
