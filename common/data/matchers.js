@@ -85,7 +85,7 @@ window.matchers = [
     },
     
     {
-        name: 'Capitanes de orbes "falsos"',
+        name: 'Capitanes de falsos orbes favorables',
         target: 'captain',
         matcher: /hace que los orbes .+ cuenten como favorables/i
     },
@@ -290,7 +290,7 @@ window.matchers = [
     },
 	
     {
-        name: 'Falsificadores de orbes',
+        name: '"Falsificadores" de orbes',
         target: 'special',
         matcher: /hace que los orbes.+cuenten como/i
     },
