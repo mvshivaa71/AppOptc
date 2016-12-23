@@ -99,7 +99,7 @@ window.matchers = [
     {
         name: 'Capitanes Combo',
         target: 'captain',
-        matcher: /a partir del .+en la cadena/i
+        matcher: /a partir del .+de la cadena/i
     },
 
     {
