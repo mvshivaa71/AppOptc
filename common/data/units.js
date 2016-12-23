@@ -1385,9 +1385,20 @@ window.units = [
 	 [ "Soldado de Juguete, Soldado Relámpago", "QCK", ["Striker", "Shooter"], 4, 20, 4, 4, 99, 3000000, 792, 557, 151, 1552, 1300, 300, 1 ],
 	 [ "Rebecca, Superviviente de la Ex-Familia Real", "PSY", ["Striker", "Free Spirit"], 3, 9, 5, 1, 35, 136167, 70, 27, 40, 502, 301, 197, 1 ],
 	 [ "Rebecca, Objetivo por su Pertenencia a la Ex-Familia Real", "PSY", ["Striker", "Free Spirit"], 4, 15, 4, 3, 70, 1066998, 441, 239, 153, 819, 492, 348, 1 ],
-	 [ "", "STR", ["Fighter", "Free Spirit"], null, null, null, null, null, null , null, null, null, null, null, null , null ],
+	 [ "Timeskip Monkey D. Luffy", "STR", ["Fighter", "Free Spirit"], 5, 30, 4, 3, 99, null , 1005, 560, 113, 2255, 1499, 284, null ],
 	 [ "Timeskip Roronoa Zoro: Yakkoudori ", "DEX", ["Slasher", "Driven"], 5, 30, 4, 3, 99, 3000000, 803, 669, 55, 2501, 1434, 233, 1 ],
 	 [ "Timeskip Nami: Thunder Breed Tempo", "INT", ["Striker", "Cerebral"], 5, 30, 4, 3, 99, 3000000, 705, 496, 181, 1970, 1200, 420, 1 ],
-	 [ "Legend Buggy", "INT", ["Driven", "Shooter"], 5, 30, 5, 3, 70, 1066998, 296, 199, 133, 1310, 577, 299, null ],
-	 [ "Legend Buggy evolucionado", "INT", ["Driven", "Shooter"], 6, 40, 5, 5, 99, 5000000, 1244, 504, 220, 2506, 1149, 491, null ]
+	 [ "Buggy el Payaso, Capitán de los Piratas Buggy", "INT", ["Driven", "Shooter"], 5, 30, 5, 3, 70, 1066998, 296, 199, 133, 1310, 577, 299, 1 ],
+	 [ "Capitán Buggy el Payaso, Capitán de los Piratas Buggy", "INT", ["Driven", "Shooter"], 6, 40, 5, 5, 99, 5000000, 1244, 504, 220, 2506, 1149, 491, 1 ],
+	 [ "Sentomaru Historia", "PSY", ["Slasher", "Striker"], 4, 20, 5, 3, 99, null , null, null, null, 2805, 955, 201, null ],
+	 [ "Demalo Black ", "INT", ["Shooter", "Driven"], 4, 15, 7, 1, 99, null , 102, 105, 49, null, null, null , null ],
+	 [ "", "STR", ["Fighter", "Free Spirit"], null, null, null, null, null, null , null, null, null, null, null, null , null ],
+	 [ "", "STR", ["Fighter", "Free Spirit"], null, null, null, null, null, null , null, null, null, null, null, null , null ],
+	 [ "", "STR", ["Fighter", "Free Spirit"], null, null, null, null, null, null , null, null, null, null, null, null , null ],
+	 [ "", "STR", ["Fighter", "Free Spirit"], null, null, null, null, null, null , null, null, null, null, null, null , null ],
+	 [ "", "STR", ["Fighter", "Free Spirit"], null, null, null, null, null, null , null, null, null, null, null, null , null ],
+	 [ "", "STR", ["Fighter", "Free Spirit"], null, null, null, null, null, null , null, null, null, null, null, null , null ],
+	 [ "Gladius Coliseo", "STR", ["Driven", "Shooter"], 4, 25, null, null, null, null , null, null, null, null, null, null , null ],
+	 [ "Gladius Coliseo evo", "STR", ["Driven", "Shooter"], 5, 40, null, null, null, null , null, null, null, null, null, null , null ],
+	 [ "Dalton Coliseo", "PSY", ["Slasher", "Cerebral"], 4, 20, null, null, null, null , null, null, null, null, null, null , null ]
 ];
