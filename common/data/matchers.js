@@ -264,6 +264,12 @@ window.matchers = [
         include: [ 1036, 1037 ],
 		exclude: [ 1330 ]
     },
+	
+    {
+        name: 'Falsificadores de orbes',
+        target: 'special',
+        matcher: /hace que los orbes.+cuenten como/i
+    },
 
     {
         name: 'Vaciadores de orbes',
