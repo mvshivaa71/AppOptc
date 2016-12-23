@@ -85,9 +85,15 @@ window.matchers = [
     },
     
     {
-        name: 'Capitanes de orbes favorables',
+        name: 'Capitanes de orbes "falsos"',
         target: 'captain',
         matcher: /hace que los orbes .+ cuenten como favorables/i
+    },
+	
+    {
+        name: 'Capitanes de orbes favorables',
+        target: 'captain',
+        matcher: /aumentando.+ATK.+si tienen orbe favorable/i
     },
 
     {
@@ -205,6 +211,24 @@ window.matchers = [
         matcher: /Aumenta el ATK de todos los personajes.+ a partir del.+ golpe de la cadena/i
     },
 
+    {
+        name: 'Potenciadores de cadena',
+        target: 'special',
+        matcher: /Aumenta.+el multiplicador de cadena/i
+    },
+
+    {
+        name: 'Fijadores de cadena',
+        target: 'special',
+        matcher: /Fija el multiplicador de cadena/i
+    },
+	
+    {
+        name: 'Especiales de daño adicional',
+        target: 'special',
+        matcher: /cada personaje que ataca ve aumentado el daño que causa/i
+    },
+	
     {
         name: 'Fijadores de orbes',
         target: 'special',
