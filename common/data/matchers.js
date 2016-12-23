@@ -138,6 +138,12 @@ window.matchers = [
         target: 'captain',
         matcher: /hace.+al final de cada turno/i
     },
+    
+   {
+        name: 'Duplicadores de drop',
+        target: 'captain',
+        matcher: /(duplicar un drop|duplica el drop)/i
+    },
 
     /* * * * * especiales * * * * */
 
