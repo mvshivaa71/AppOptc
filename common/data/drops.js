@@ -718,7 +718,7 @@ window.drops = {
             thumb: 228,
             global: true,
             condition: "None",
-            "All Difficulties": [ 33, 35, 84, 95, 105, 107, 110, 112, -228, -34, -26, -25, -24, -23, -22 ]
+            "Todas las dificultades": [ 33, 35, 84, 95, 105, 107, 110, 112, -228, -34, -26, -25, -24, -23, -22 ]
         },
 
         {
@@ -739,7 +739,7 @@ window.drops = {
             condition: "None",
             challenge:'Total number of hits above 50,000',
             challengeData: [['5 Times','1x Yellow Elder'],['15 Times','1x ATK Cotton Candy'],['25 Times','3x Rainbow Gems']],
-            "All Difficulties": [ 31, 33, 262, 264, 87, 88, 98, 99, 113, -265, -263, -225, -210, -64, -56, -32 ]
+            "Todas las dificultades": [ 31, 33, 262, 264, 87, 88, 98, 99, 113, -265, -263, -225, -210, -64, -56, -32 ]
         },
 
         {
@@ -749,7 +749,7 @@ window.drops = {
             condition: "None",
             challenge: 'Cumulative Damage dealt to enemies in a single run',
             challengeData: [['600,000 Damage','1x Green Elder'],['1,400,000 Damage','1y Rainbow Gem & 1x HP Cotton Candy'],['3,000,000 Damage','2x Rainbow Gems, 1x Forbidden Tome']],
-            "All Difficulties": [ 67, 69, 86, 97, 112, -219, -212, -206, -204, -73, -52, -50 ]
+            "Todas las dificultades": [ 67, 69, 86, 97, 112, -219, -212, -206, -204, -73, -52, -50 ]
         },
 
         {
@@ -766,7 +766,7 @@ window.drops = {
             thumb: 318,
             global: true,
             condition: 'You may only bring STR units into this island',
-            "All Difficulties": [ 86, 97, 110, 112, 317, 319, -259, -253, -216, -215, -62, -56 ]
+            "Todas las dificultades": [ 86, 97, 110, 112, 317, 319, -259, -253, -216, -215, -62, -56 ]
         },
 
         {
@@ -774,7 +774,7 @@ window.drops = {
             thumb: 322,
             global: true,
             condition: 'You may only bring DEX units for 15 and 30 Stamina',
-            "All Difficulties": [ 85, 96, 111, 112, 321, 323, 325, -251, -218, -75, -74, -54, -21 ]
+            "Todas las dificultades": [ 85, 96, 111, 112, 321, 323, 325, -251, -218, -75, -74, -54, -21 ]
         },
 
         {
@@ -795,7 +795,7 @@ window.drops = {
             condition: 'You may only bring QCK units for 15 and 30 Stamina',
             challenge: 'High Score calculated with Crew Cost, Turns Taken and Tap Accuracy',
             challengeData: [['200,000 Points','1x Red Elder'],['400,000 Points','1x HP Cotton Candy'],['700,000 Points','3x Rainbow Gems']],
-            "All Difficulties": [ 28, 40, 60, 213, 215, 340, -292, -291, -290, -261, -257, -214, -71, -44 ]
+            "Todas las dificultades": [ 28, 40, 60, 213, 215, 340, -292, -291, -290, -261, -257, -214, -71, -44 ]
         },
 
         {
@@ -805,7 +805,7 @@ window.drops = {
             condition: 'You may only bring PSY units for 15 and 30 Stamina',
             challenge: 'High Score calculated with Crew Cost, Turns Taken and Tap Accuracy',
             challengeData: [['10,000 Points','1x Black Elder'],['40,000 Points','1x Rainbow Gem, 1x ATK Cotton Candy'],['70,000 Points','2x Rainbow Gems, 1x Damage Reduction Forbidden Tome']],
-            "All Difficulties": [ 385, 387, -388, -335, -314, -36, -16, -11 ]
+            "Todas las dificultades": [ 385, 387, -388, -335, -314, -36, -16, -11 ]
         },
 
         {
@@ -815,7 +815,7 @@ window.drops = {
             condition: 'You can only get STR, QCK, INT and Food Orbs',
             challenge: 'Total number of hits over 50,000',
             challengeData: [['3 Times','1x Green Elder'],['12 Times','1x RCV Cotton Candy'],['25 Times','3x Rainbow Gems']],
-            "All Difficulties": [ 391, 393, 394, -394, -393, -329, -316, -47, -34, -4 ]
+            "Todas las dificultades": [ 391, 393, 394, -394, -393, -329, -316, -47, -34, -4 ]
         },
 
         {
@@ -823,7 +823,7 @@ window.drops = {
             thumb: 405,
             global: true,
             condition: 'You can only get QCK, DEX, PSY and Food Orbs',
-            "All Difficulties": [ 404, 406, 407, -407, -406, -333, -312, -208, -26, -20 ]
+            "Todas las dificultades": [ 404, 406, 407, -407, -406, -333, -312, -208, -26, -20 ]
         },
 
         {
@@ -831,7 +831,7 @@ window.drops = {
             thumb: 420,
             global: true,
             condition: "None",
-            "All Difficulties": [ 36, 37, 47, 48, 49, 50, 51, 59, 63, 211, 233, 420, 421, 422, -422, -332, -308, -225, -206, -204, -8 ]
+            "Todas las dificultades": [ 36, 37, 47, 48, 49, 50, 51, 59, 63, 211, 233, 420, 421, 422, -422, -332, -308, -225, -206, -204, -8 ]
         },
 
         {
@@ -841,7 +841,7 @@ window.drops = {
             condition: 'You can only get STR, DEX, INT and PSY Orbs',
             challenge: 'Cumulative Damage dealt to enemies in a single run',
             challengeData: [['500,000 Damage','1x Black Elder'],['1,500,000 Damage','1x ATK Cotton Candy'],['3,000,000 Damage','3x Rainbow Gems']],
-            "All Difficulties": [ 423, 425, -425, -327, -310, -223, -219, -214, -202 ]
+            "Todas las dificultades": [ 423, 425, -425, -327, -310, -223, -219, -214, -202 ]
         },
 
         {
@@ -851,7 +851,7 @@ window.drops = {
             challenge: 'Damage dealt in a single Round',
             challengeData: [['350,000','1x Black Elder'], ['900,000','1x HP Cotton Candy'], ['2,000,000','3x Rainbow Gems']],
             condition: 'Each non-Okama in your Team will take 60 Damage each turn',
-            "All Difficulties": [ 433, 434, 435, -384, -372, -371, -359, -217, -210, -19 ]
+            "Todas las dificultades": [ 433, 434, 435, -384, -372, -371, -359, -217, -210, -19 ]
         },
 
         {
@@ -861,7 +861,7 @@ window.drops = {
             condition: 'Higher Chance of Food orbs',
             challenge: 'Cumulative Damage dealt to enemies in a single run',
             challengeData: [['450,000 Damage','1x Yellow Elder'],['1,250,000 Damage','1x RCV Cotton Candy'],['3,000,000 Damage','3x Rainbow Gems']],
-            "All Difficulties": [ 290, 293, 294, 295, 334, 379, 381, 382, 429, 441, 442, 443, 444, -378, -368, -363, -251, -73, -15 ]
+            "Todas las dificultades": [ 290, 293, 294, 295, 334, 379, 381, 382, 429, 441, 442, 443, 444, -378, -368, -363, -251, -73, -15 ]
         },
 
         {
@@ -871,7 +871,7 @@ window.drops = {
             condition: '30: Non-Fighter, Evolver, or Booster class characters are weakend; 15: Striker and Slasher class characters are weakened (Note: Multi-class characters such as Fighter / Powerhouse are not affected)',
             challenge: 'Damage dealt in a single Round',
             challengeData: [['???','1x ??? Elder'], ['???','1x ?? Cotton Candy'], ['???','3x Rainbow Gems']],
-            "All Difficulties": [ 460, 461, -398, -396, -370, -361, -253, -236, -234 ]
+            "Todas las dificultades": [ 460, 461, -398, -396, -370, -361, -253, -236, -234 ]
         },
 
         {
@@ -881,7 +881,7 @@ window.drops = {
             condition: '30: Non-Striker, Evolver, or Booster class characters are weakend; 15: Fighter and Shooter class characters are weakened (Note: Multi-class characters such as Striker / Slasher are not affected)',
             challenge: 'Total Damage dealt to enemies in one turn',
             challengeData: [['120,000 Damage','1x Blue Elder'],['600,000 Damage','1x HP Cotton Candy, 1x Rainbow Gem'],['2,500,000 Damage','1x CDR Forbidden Tome, 2x Rainbow Gems']],
-            "All Difficulties": [ 509, 511, -402, -400, -374, -357, -259, -212, -209 ]
+            "Todas las dificultades": [ 509, 511, -402, -400, -374, -357, -259, -212, -209 ]
         },
 
         {
@@ -891,7 +891,7 @@ window.drops = {
             condition: '30: Non-Shooter, Evolver, or Booster class characters are weakend; 15: Fighter and Slasher class characters are weakened',
             challenge: 'Cumulative Damage dealt to enemies in a single run',
             challengeData: [['600,000 Damage','1x Yellow Elder'],['2,000,000 Damage','1x HP Cotton Candy, 1x Rainbow Gem'],['5,000,000 Damage','1x Matching Orb Forbidden Tome, 2x Rainbow Gems']],
-            "All Difficulties": [ 537, 539, 540, -539, -428, -416, -365, -257, -59 ]
+            "Todas las dificultades": [ 537, 539, 540, -539, -428, -416, -365, -257, -59 ]
         },
 
         {
@@ -901,7 +901,7 @@ window.drops = {
             condition: '30: Non-Slasher, Evolver, or Booster class characters are weakend; 15: Striker and Shooter class characters are weakened',
             challenge: 'High Score calculated with Clear Speed and Crew Cost. (Crew cost can basically be ignored)',
             challengeData: [['60,000 Points','1x Black Elder'],['160,000 Points','1x ATK Cotton Candy'],['300,000 Points','3x Rainbow Gems']],
-            "All Difficulties": [ 549, 551, 552, -552, -551, -432, -426, -408, -329, -308, -255 ]
+            "Todas las dificultades": [ 549, 551, 552, -552, -551, -432, -426, -408, -329, -308, -255 ]
         },
 
         {
@@ -910,7 +910,7 @@ window.drops = {
             global: true,
             challenge: 'Total number of hits over 50,000',
             challengeData: [['3 Times','1x Red Elder'],['12 Times','1x RCV Cotton Candy'],['34 Times','3x Rainbow Gems & 1x Forbidden Tome']],
-            "All Difficulties": [ 570, 572, 573, -431, -429, -410, -333, -332, -327, -316, -75 ]
+            "Todas las dificultades": [ 570, 572, 573, -431, -429, -410, -333, -332, -327, -316, -75 ]
         },
 
         {
@@ -920,7 +920,7 @@ window.drops = {
             condition: 'All Units considered from the “Sea” will lose 20% to all stats',
             challenge: 'Total number of hits over 50,000',
             challengeData: [['4 Times','1x Black Elder'],['16 Times','1x ATK Cotton Candy'],['38 Times','3x Rainbow Gems']],
-            "All Difficulties": [ 581, 582, 583, 584, -584, -544, -466, -412, -371, -335, -314, -291 ]
+            "Todas las dificultades": [ 581, 582, 583, 584, -584, -544, -466, -412, -371, -335, -314, -291 ]
         },
 
         {
@@ -937,7 +937,7 @@ window.drops = {
             thumb: 607,
             global: true,
             condition: 'You cannot use any two units that are the same',
-            "All Difficulties": [ 606, 608, 609, -502, -457, -449, -312, -52, -50 ]
+            "Todas las dificultades": [ 606, 608, 609, -502, -457, -449, -312, -52, -50 ]
         },
 
         {
@@ -947,7 +947,7 @@ window.drops = {
             condition: 'No Units above the cost of 49 is allowed',
             challenge: 'Total number of hits over 50,000',
             challengeData: [['4 Times','1x Blue Elder'],['8 Times','1x Rainbow Gem, 1x HP Cotton Candy'],['22 Times','2x Rainbow Gems, 1x Orb Matching Forbidden Tome']],
-            "All Difficulties": [ 634, 636, 637, -636, -464, -451, -396, -370, -367, -359, -64 ]
+            "Todas las dificultades": [ 634, 636, 637, -636, -464, -451, -396, -370, -367, -359, -64 ]
         },
 
         {
@@ -955,7 +955,7 @@ window.drops = {
             thumb: 656,
             global: true,
             condition: 'You can only get STR, QCK, DEX, PSY and INT orbs',
-            "All Difficulties": [ 655, 657, 658, -658, -500, -465, -455, -453, -398, -357, -60 ]
+            "Todas las dificultades": [ 655, 657, 658, -658, -500, -465, -455, -453, -398, -357, -60 ]
         },
 
         {
@@ -963,7 +963,7 @@ window.drops = {
             thumb: 664,
             global: true,
             condition: 'Heatwave causes damage every 2 turns',
-            "Japan": [ 663, 665, 667, -667, -522, -508, -506, -459, -378, -221, -73 ],
+            "Japón": [ 663, 665, 667, -667, -522, -508, -506, -459, -378, -221, -73 ],
             "Global": [ 663, 665, 667, -667, -639, -508, -506, -459, -378, -221, -73 ]
         },
 
@@ -972,7 +972,7 @@ window.drops = {
             thumb: 688,
             global: true,
             condition: 'Bomb orbs appear',
-            "Japan": [ 687, 689, -542, -524, -528, -429, -428, -402, -365, -218 ],
+            "Japón": [ 687, 689, -542, -524, -528, -429, -428, -402, -365, -218 ],
             "Global": [ 687, 689, -542, -645, -647, -429, -428, -402, -365, -218 ]
         },
 
@@ -983,7 +983,7 @@ window.drops = {
             condition: '30: Non-Free Spirit, Evolver, or Booster class characters are weakend; 15: Striker and Shooter class characters are weakened',
             challenge: 'Cumulative Damage dealt to enemies in a single run',
             challengeData: [['600,000','1x Blue Elder'],['2,000,000','1x RCV Cotton Candy, 1x Rainbow Gem'],['5,000,000','1x Anti-Lock Forbidden Tome, 2x Rainbow Gems']],
-            "Japan": [ 712, 714, 715, -716, -546, -541, -520, -400, -202, -363, -204 ],
+            "Japón": [ 712, 714, 715, -716, -546, -541, -520, -400, -202, -363, -204 ],
             "Global": [ 712, 714, 715, -716, -643, -546, -541, -400, -202, -363, -204 ]
         },
 
@@ -992,7 +992,7 @@ window.drops = {
             thumb: 724,
             global: true,
             condition: 'You can only bring INT, PSY and QCK units',
-            "Japan": [ 721, 723, -590, -564, -563, -530, -526, -384, -361, -219 ],
+            "Japón": [ 721, 723, -590, -564, -563, -530, -526, -384, -361, -219 ],
             "Global": [ 721, 723, -590, -564, -563, -530, -641, -384, -361, -219 ]
         },
 
@@ -1001,7 +1001,7 @@ window.drops = {
             thumb: 743,
             global: true,
             condition: 'You can only bring STR, QCK and DEX units',
-            "Japan": [ 740, 742, -560, -558, -586, -567, -566, -412, -225, -18 ],
+            "Japón": [ 740, 742, -560, -558, -586, -567, -566, -412, -225, -18 ],
             "Global": [ 740, 742, -671, -673, -586, -567, -566, -412, -225, -18 ]
         },
 
@@ -1010,7 +1010,7 @@ window.drops = {
             thumb: 761,
             global: true,
             condition: "None",
-            "Japan": [ 761, 762, 763, 764, 765, -610, -588, -565, -556, -426, -408, -261, -217 ],
+            "Japón": [ 761, 762, 763, 764, 765, -610, -588, -565, -556, -426, -408, -261, -217 ],
             "Global": [ 761, 762, 763, 764, 765, -426, -408, -332, -308, -292, -261, -217, -8 ]
         },
 
@@ -1019,7 +1019,7 @@ window.drops = {
             thumb: 766,
             global: true,
             condition: "None",
-            "Japan": [ 762, 766, 767, 768, 769, -629, -611, -569, -554, -431, -410, -367, -223 ],
+            "Japón": [ 762, 766, 767, 768, 769, -629, -611, -569, -554, -431, -410, -367, -223 ],
             "Global": [ 762, 766, 767, 768, 769, -431, -367, -291, -253, -251, -223, -212, -75 ]
         },
 
@@ -1030,7 +1030,7 @@ window.drops = {
             condition: 'You can only bring Fighter and Powerhouse units',
             challenge: 'High Score calculated with Crew Cost, Turns Taken and Tap Accuracy',
             challengeData: [['100,000','1x Purple Elder'],['400,000','1x RCV Candy, 1x Rainbow Gem'],['750,000','1x Auto-Heal Skullbook, 2x Rainbow Gem']],
-            "Japan": [ 796, 798, 799, 800, -800, -639, -628, -562, -414, -432, -380, -75 ],
+            "Japón": [ 796, 798, 799, 800, -800, -639, -628, -562, -414, -432, -380, -75 ],
             "Global": [ 796, 798, 799, 800, -800, -677, -628, -562, -414, -432, -380, -75 ]
         },
 
@@ -1039,7 +1039,7 @@ window.drops = {
             thumb: 808,
             global: true,
             condition: 'You can only bring Slasher and Cerebral units. (No Evolution/Booster)',
-            "Japan": [ 807, 809, 811, -811, -645, -641, -631, -502, -11, -12, -9 ],
+            "Japón": [ 807, 809, 811, -811, -645, -641, -631, -502, -11, -12, -9 ],
             "Global": [ 807, 809, 811, -811, -760, -675, -631, -502, -11, -12, -9 ],
         },
 
@@ -1050,7 +1050,7 @@ window.drops = {
             condition: 'You can only bring Impact and Free Spirit units. (No Evo/Boosters)',
             challenge: 'Total Damage dealt to enemies in one turn',
             challengeData: [['100,000 Damage','1x DEX Elder Turtle'],['500,000 Damage','1x Rainbow Gem, 1x ATK Cotton Candy'],['2,000,000 Damage','2x Rainbow Gems, 1x Auto-Heal Forbidden Tome']],
-            "Japan": [ 847, 849, 850, -849, -647, -617, -616, -615, -578, -508, -455 ],
+            "Japón": [ 847, 849, 850, -849, -647, -617, -616, -615, -578, -508, -455 ],
             "Global": [ 847, 849, 850, -849, -750, -617, -616, -615, -578, -508, -455 ]
         },
 
@@ -1061,7 +1061,7 @@ window.drops = {
             condition: 'You can only bring Shooter and Driven units. (No Evo/Boosters)',
             challenge: 'Cumulative Damage dealt to enemies in a single run',
             challengeData: [['400,000 Damage','1x QCK Elder Turtle'],['1,400,000 Damage','1x ATK Cotton Candy, 1x Rainbow Gem'],['4,000,000 Damage','2x Rainbow Gems, 1x Despair Forbidden Tome']],
-            "All Difficulties": [ 328, 330, 331, 333, 851, 853, 854, -854, -649, -643, -614, -463, -457, -327, -22 ]
+            "Todas las dificultades": [ 328, 330, 331, 333, 851, 853, 854, -854, -649, -643, -614, -463, -457, -327, -22 ]
         },
 
         {
@@ -1070,42 +1070,42 @@ window.drops = {
             condition: "None",
             challenge:'Total number of hits above 50,000',
             challengeData: [['4 Times','1x INT Elder'],['9 Times','1x ATK Cotton Candy, 1x Rainbow Gem'],['22 Times','1x Anti-Silence Forbidden Tome, 2x Rainbow Gems']],
-            "All Difficulties": [ 41, 42, 53, 235, 395, 397, 419, 426, 427, 432, 563, 564, 866, 867, 868, -709, -673, -671, -633, -500, -467, -465, -451, -431 ]
+            "Todas las dificultades": [ 41, 42, 53, 235, 395, 397, 419, 426, 427, 432, 563, 564, 866, 867, 868, -709, -673, -671, -633, -500, -467, -465, -451, -431 ]
         },
 
         {
             name: "Riverside Banquet! Enter the Crazy Ones!",
             thumb: 885,
             condition: 'Highly increased chance of TND, Bomb, and G orbs',
-            "All Difficulties": [ 885, 886, 887, -887, -704, -703, -677, -675, -504, -453, -416 ]
+            "Todas las dificultades": [ 885, 886, 887, -887, -704, -703, -677, -675, -504, -453, -416 ]
         },
 
         {
             name: "Mountaintop Banquet! Enter the Generals!",
             thumb: 897,
             condition: 'Only STR/DEX/QCK/PSY/INT orbs will appear',
-            "All Difficulties": [ 897, 898, 899, -899, -754, -702, -701, -669, -528, -466, -449, -464 ]
+            "Todas las dificultades": [ 897, 898, 899, -899, -754, -702, -701, -669, -528, -466, -449, -464 ]
         },
 
         {
             name: "Men are Forbidden!? The Secret Flower Garden",
             thumb: 918,
             condition: 'You can only bring DEX units',
-            "All Difficulties": [ 917, 919, 920, -920, -791, -756, -720, -706, -705, -542, -541, -522 ]
+            "Todas las dificultades": [ 917, 919, 920, -920, -791, -756, -720, -706, -705, -542, -541, -522 ]
         },
         
         {
             name: "Hannyabal's Great Ambition",
             thumb: 929,
             condition: 'You can only bring STR units',
-            "All Difficulties": [ 928, 930, 931, -752, -758, -520, -729, -733, -787, -930, -544, -506 ]
+            "Todas las dificultades": [ 928, 930, 931, -752, -758, -520, -729, -733, -787, -930, -544, -506 ]
         },
         
         {
             name: "Encounter! Whitebeard Pirates",
             thumb: 946,
             condition: "You can only bring PSY units",
-            "All Difficulties": [ 946, 947, 948, 949, -718, -750, -760, -526, -793, -735, -546, -738]
+            "Todas las dificultades": [ 946, 947, 948, 949, -718, -750, -760, -526, -793, -735, -546, -738]
         },
         
         {
@@ -1114,14 +1114,14 @@ window.drops = {
             condition: "You can only bring INT units",
             challenge: 'High Score calculated with Crew Cost, Turns Taken and Tap Accuracy',
             challengeData: [['150,000','1x Blue Elder'],['420,000','1x HP Cotton Candy, 1x Rainbow Gem'],['700,000','2x Rainbow Gems, 1x Orb Forbidden Tome']],
-            "All Difficulties": [ 979, 980, 981, 949, -459, -838, -842, -524, -789, -736, -731, -563 ]
+            "Todas las dificultades": [ 979, 980, 981, 949, -459, -838, -842, -524, -789, -736, -731, -563 ]
         },
         
         {
             name: "Let's Find Our Captain! Heart Pirates!",
             condition: "You can only bring QCK units",
             thumb: 1003,
-            "All Difficulties": [ 1002, 1004, 1005, -748, -844, -558, -846, -737, -1006, -785, -564 ]
+            "Todas las dificultades": [ 1002, 1004, 1005, -748, -844, -558, -846, -737, -1006, -785, -564 ]
         },
         
         {
@@ -1130,21 +1130,21 @@ window.drops = {
             condition: "None",
             global: true,
             "Global": [ 1010, 1012, 1013, 1014, -1014, -530, -840, -671, -880, -739, -812, -565 ],
-            "Japan": [ 1010, 1012, 1013, 1014, -1014, -530, -840, -560, -880, -739, -812, -565 ]
+            "Japón": [ 1010, 1012, 1013, 1014, -1014, -530, -840, -560, -880, -739, -812, -565 ]
         },
         
         {
             name: "Temptation!? The Queen of Kamabakka Queendom!",
             thumb: 1037,
             condition: "Only DEX/RCV/TND orbs will appear",
-            "All Dificulties": [ 1036, 1038, -874, -876, -878, -554, -813, -814, -566]
+            "Todas las dificultades": [ 1036, 1038, -874, -876, -878, -554, -813, -814, -566]
         },
         
         {
             name: "The One Who Seeks the Truth of History: Archaeologist Nico Olvia",
             thumb: 1049,
             condition: "Only TND/RCV/INT orbs will appear",
-            "All Difficulties": [ 1048, 1050, 1052, -556, -567, -586, -614, -816, -870, -872, -908]
+            "Todas las dificultades": [ 1048, 1050, 1052, -556, -567, -586, -614, -816, -870, -872, -908]
         },
         
         {
@@ -1153,7 +1153,7 @@ window.drops = {
             global: true,
             //OLD condition: "STR/DEX/QCK units get their ATK boosted by 1.6x and their HP reduced by 90%. INT/PSY units get their ATK reduced by 80% and their HP boosted by 2.0x",
             condition: "STR/DEX/QCK units get their ATK boosted by 1.6x. INT/PSY units get their HP boosted by 2.0x",
-            "All Difficulties": [ 1069, 1071, 1073, -562, -906, -914, -645, -890, -587, -629, -888, -1070]
+            "Todas las dificultades": [ 1069, 1071, 1073, -562, -906, -914, -645, -890, -587, -629, -888, -1070]
         },
         
         {
@@ -1162,7 +1162,7 @@ window.drops = {
             global: true,
             //OLD condition: "Boosts ATK of Driven and Powerhouse characters by 2x, other classes get .5x ATK. Boosts HP of Slasher and Fighter characters by 2x, other classes get .5x HP. (This STACKS for characters with multiple classes)",
             condition: "Boosts ATK of Driven characters by 2x and boosts HP for Powerhouse characters by 2x.",
-            "All Difficulties": [ 1094, 1096, 1098, -649, -910, -647, -891, -590, -611, -893, -1098, -912]
+            "Todas las dificultades": [ 1094, 1096, 1098, -649, -910, -647, -891, -590, -611, -893, -1098, -912]
         },
         
         {
@@ -1170,14 +1170,14 @@ window.drops = {
             thumb: 1112,
             global: true,
             condition: "Boosts ATK of Cerebral and Free Spirit characters by 2x, other classes get .5x ATK. Boosts HP of Striker and Shooter characters by 2x, other classes get .5x HP. (This STACKS for characters with multiple classes)",
-            "All Difficulties": [ 1109, 1111, 1113, -23, -628, -639, -641, -892, -937, -939, -941 ]
+            "Todas las dificultades": [ 1109, 1111, 1113, -23, -628, -639, -641, -892, -937, -939, -941 ]
         },
         
         {
             name: "Behind the Scenes Intelligency Agency, CP9",
             thumb: 1137,
             condition: "Only [STR], [QCK], [DEX], [INT], and [PSY] orbs appear",
-            "All Difficulties": [ 1136, 1137, 1138, 1139, -935, -643, -673, -894, -943, -995, -615, -705, -704 ]
+            "Todas las dificultades": [ 1136, 1137, 1138, 1139, -935, -643, -673, -894, -943, -995, -615, -705, -704 ]
         },
         
         {
@@ -1185,69 +1185,69 @@ window.drops = {
             thumb: 1167,
             global: true,
             condition: "None",
-            "All Difficulties": [ 1166, 1168, 1170, -578, -999, -991, -993, -675, -508, -616, -703 ]
+            "Todas las dificultades": [ 1166, 1168, 1170, -578, -999, -991, -993, -675, -508, -616, -703 ]
         },
         
         {
             name: "Rumbar Pirates!",
             thumb: 1203,
             condition: "'Musical' units get their stats boosted by 1.5x (Dancers, Singers, Playing an instrument, etc)",
-            "All Difficulties": [ 1202, 1204, 1206, -1001, -997, -1207, -677, -896, -631, -954, -1206, -617, -1027 ]
+            "Todas las dificultades": [ 1202, 1204, 1206, -1001, -997, -1207, -677, -896, -631, -954, -1206, -617, -1027 ]
         },
         
         {
             name: "World Pirates!",
             thumb: 1215,
             condition: "Total Crew Cost must be lower than 180 (Including friend captain)",
-            "All Difficulties": [ 1215, 1216, 1217, 1218, -1025, -1029, -1033, -671, -956, -964, -633, -504, -1218 ]
+            "Todas las dificultades": [ 1215, 1216, 1217, 1218, -1025, -1029, -1033, -671, -956, -964, -633, -504, -1218 ]
         },
         
         {
             name: "Revolutionary Armed Forces!",
             thumb: 1242,
             condition: "Free Spirit Characters have their cooldowns reduced by 10 turns at the start of the fight",
-            "All Difficulties": [ 1241, 1243, -1035, -965, -1031, -1081, -754, -966, -502, -707, -955 ]
+            "Todas las dificultades": [ 1241, 1243, -1035, -965, -1031, -1081, -754, -966, -502, -707, -955 ]
         },
         
         {
             name: "Gather! Whitebeard Alliance",
             thumb: 1254,
             condition: "Driven Characters have their cooldowns reduced by 10 turns at the start of the fight",
-            "All Difficulties": [ 1254, 1255, 1256, -669, -1077, -1079, -967, -972, -974, -750, -701, -500 ]
+            "Todas las dificultades": [ 1254, 1255, 1256, -669, -1077, -1079, -967, -972, -974, -750, -701, -500 ]
         },
         
         {
             name: "Young Donquixote Pirates - Baby 5 And Buffalo",
             thumb: 1287,
             condition: "Child-like characters get their ATK and HP boosted by 3.5x, RCV by 1.5x, and cooldowns reduced by 7 turns at the start of the fight",
-            "All Difficulties": [ 1286, 1288, 1290, -963, -1045, -251, -760, -1083, -1129, -506, -1062, -702 ]
+            "Todas las dificultades": [ 1286, 1288, 1290, -963, -1045, -251, -760, -1083, -1129, -506, -1062, -702 ]
         },
         
         {
             name: "Jailbreak Battle! Mr. 3 and Buggy",
             thumb: 1304,
             condition: "Shooter and Fighter characters are Silenced for 99 turns and have their ATK reduced by a variable amount. (75% on 30 stamina)",
-            "All Difficulties": [ 1301, 1303, 1152, 1151, 551, 539, -718, -752, -1125, -1133, -15, -203, -733, -1056, -1060 ]
+            "Todas las dificultades": [ 1301, 1303, 1152, 1151, 551, 539, -718, -752, -1125, -1133, -15, -203, -733, -1056, -1060 ]
         },
         
         {
             name: "Tontatta Kingdom Island Part 1: Leo",
             thumb: 1330,
             condition: "Slasher characters are Silenced for 99 turns and have their ATK reduced by a variable amount. (75% on 30 stamina)",
-            "All Difficulties": [ 1327, 1329, 1330, -1085, -1127, -1131, -1058, -758, -760, -735, -4, -508 ]
+            "Todas las dificultades": [ 1327, 1329, 1330, -1085, -1127, -1131, -1058, -758, -760, -735, -4, -508 ]
         },
         
         {
             name: "Tontatta Kingdom Island Part 2: Mansherry",
             thumb: 1332,
             condition: "Striker characters are Silenced for 99 turns and have their ATK reduced by a variable amount. (70% on 30 stamina)",
-            "All Difficulties": [ 1331, 1333, 1334, -720, -1186, -1190, -756, -1188, -1151, -1153, -738 ]
+            "Todas las dificultades": [ 1331, 1333, 1334, -720, -1186, -1190, -756, -1188, -1151, -1153, -738 ]
         },
         
         {
             name: "Big Mom Pirates!",
             thumb: null,
-            "All Difficulties": [ -1123, -1184, -1182, -1152, -1157, -8, -840, -736, -610 ]
+            "Todas las dificultades": [ -1123, -1184, -1182, -1152, -1157, -8, -840, -736, -610 ]
         },
         
     ],
@@ -1449,7 +1449,7 @@ window.drops = {
             thumb: 893,
             challenge:'Total number of hits above 50,000',
             challengeData: [['6 Times','1x Forbidden Tome + 1x Red Elder'],['14 Times','1x Forbidden Tome, 1x RCV Cotton Candy, 1x Rainbow Gem'],['32 Times','1x Anti-Bind Forbidden Tome, 2x Rainbow Gems']],
-            "All Difficulties": [ -367, -316, -314, -312, -308, -259, -257, -255, -253, -251, -221, -218, -217, -210, -75, -30, -16, -15, -8 ]
+            "Todas las dificultades": [ -367, -316, -314, -312, -308, -259, -257, -255, -253, -251, -221, -218, -217, -210, -75, -30, -16, -15, -8 ]
         },
 
         {
@@ -1458,20 +1458,20 @@ window.drops = {
             global: true,
             challenge: 'Total number of hits over 30,000',
             challengeData: [['10 Times','Vivi\'s Breather Unit'],['35 Times','1x HP Cotton Candy'],['72 Times','3x Rainbow Gems']],
-            "All Difficulties": [ 659, 680, 682, 684, 1200, 1198 ],
+            "Todas las dificultades": [ 659, 680, 682, 684, 1200, 1198 ],
             "Completion Units": [686]
         },
         
         {
             name: 'Halloween Event Characters',
             thumb: 1300,
-            "All Difficulties": [ 1299, 1305, 1325 ],
+            "Todas las dificultades": [ 1299, 1305, 1325 ],
         },
         
         {
             name: '2nd Anniversary Celebration! Duel! Ace',
             thumb: 1023,
-            "All Difficulties": [ 1023 ]
+            "Todas las dificultades": [ 1023 ]
         },
 
         {
@@ -1486,28 +1486,28 @@ window.drops = {
             name: 'Rescue Ace Event - Akainu',
             thumb: 1283,
             challenge: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
-            "All Difficulties": [ -261, -562, -720, -748, -935 ]
+            "Todas las dificultades": [ -261, -562, -720, -748, -935 ]
         },
         
         {
             name: 'Rescue Ace Event - Aokiji',
             thumb: 1280,
             challenge: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
-            "All Difficulties": [ -416, -459, -530, -669, -578 ]
+            "Todas las dificultades": [ -416, -459, -530, -669, -578 ]
         },
         
         {
             name: 'Rescue Ace Event - Kizaru',
             thumb: 1228,
             challenge: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
-            "All Difficulties": [ -367, -649, -718, -870, -1001 ]
+            "Todas las dificultades": [ -367, -649, -718, -870, -1001 ]
         },
         
         {
             name: 'Young Whitebeard Event',
             thumb: 1258,
             challenge: "Has a chance of appearing at the end of ANY Raid boss. You MUST use the same team that you just used to complete the raid boss to fight Young Whitebeard.",
-            "All Difficulties": [ 1257 ]
+            "Todas las dificultades": [ 1257 ]
         },
 
    ]
