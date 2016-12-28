@@ -6259,7 +6259,7 @@ window.details = {
 		captain:"Aumenta el ATK de los personajes Striker y Driven 1.75x y reduce el RCV de todos los personajes en un 50%. Si Smoker se convierte en capitán con su especial, reduce el daño recibido en un 30% y aumenta el ATK de los personajes Striker y Driven 1.25x (este bonus se acumula con el normal, por lo que aumentaría el ATK 2.18x)",
 		captainNotes:"",
 		specialName:"Armed - White Launcher",
-		special: "Hace una gran cantidad de daño [DEX] a un solo enemigo. Cambia esta unidad por tu capitán durante 2 turnos",
+		special: "Hace una gran cantidad de daño [DEX] a un solo enemigo. Intercambia su posición con la del capitán durante 2 turnos",
 		specialNotes:"Es la misma habilidad que podemos ver en Shiki Raid Boss. No se puede usar el especial si se ha producido el mismo efecto (por ejemplo si Shiki cambia primero el capitán)",
 		sailor:"Aumenta el ATK de los personajes Striker 50 puntos"
 	},
@@ -6267,7 +6267,7 @@ window.details = {
 		captain:"Aumenta el ATK de los personajes Striker y Driven 2.25x y reduce el RCV de todos los personajes en un 50%. Si Smoker se convierte en capitán con su especial, reduce el daño recibido en un 30% y aumenta el ATK de los personajes Striker y Driven 1.3x (este bonus se acumula con el normal, por lo que aumentaría el ATK 2.96x)",
 		captainNotes:"",
 		specialName:"Armed - White Launcher",
-		special: "Hace una gran cantidad de daño [DEX] a un solo enemigo. Cambia esta unidad por tu capitán durante 2 turnos",
+		special: "Hace una gran cantidad de daño [DEX] a un solo enemigo. Intercambia su posición con la del capitán durante 2 turnos",
 		specialNotes:"Es la misma habilidad que podemos ver en Shiki Raid Boss. No se puede usar el especial si se ha producido el mismo efecto (por ejemplo si Shiki cambia primero el capitán)",
 		sailor:"Aumenta el ATK de los personajes Striker 50 puntos"
 	},
@@ -7397,7 +7397,7 @@ window.details = {
 	1387: { 
 		captain:"Aumenta el ATK de todos los personajes 2.25x y su HP 1.25x. Aumenta el ATK de todos los personajes un 1.25x adicional tras hacer 4 Perfects seguidos",
 		captainNotes:"Tras hacer 4 Perfects seguidos, el aumento de ATK será 2.8125x",
-		specialName:"Luffy+ Special",
+		specialName:"Gum Gum: Elephant Gun",
 		special: "Hace su ATK 40x como daño [STR] a todos los enemigos y retrasa a todos los enemigos 1 turno"
 	},
 	1388: { 
@@ -7434,4 +7434,102 @@ window.details = {
 		specialName:"Three Forked Tongue",
 		special: "Aumenta el ATK de todos los personajes 1.1x, aumenta ligeramente la probabilidad de obtener orbes favorables e incrementa la efectividad de los orbes 1.1x durante 7 turnos"
 	},
+	1394: { 
+		captain:"Aumenta el ATK de los personajes [STR] y [QCK] 1.5x y su RCV 1.1x",
+		specialName:"Nation's Ambition",
+		special: "Recupera una cantidad de HP equivalente a su RCV 7x y aumenta el ATK de los personajes Slasher y Striker 1.5x durante 1 turno"
+	},
+	1395: { 
+		captain:"Aumenta el ATK de los personajes [STR] y [QCK] 2.25x y su RCV 1.2x",
+		specialName:"Nation's Ambition",
+		special: "Recupera una cantidad de HP equivalente a su RCV 7x y aumenta el ATK de los personajes Slasher y Striker 1.5x durante 1 turno"
+	},
+	1396: { 
+		captain:"Aumenta el ATK de los personajes Driven 1.75x y la HP de los personajes Striker 1.25x",
+		specialName:"Surprise Jitte Onslaught",
+		special: "Inflige 7 golpes de daño [DEX] aleatorio a enemigos aleatorios, reduce la defensa de todos los enemigos un 80% y retrasa a todos los enemigos 1 turno"
+	},
+	1397: { 
+		captain:"Aumenta el ATK de los personajes Driven 2x y la HP de los personajes Striker 1.5x",
+		specialName:"Surprise Jitte Onslaught",
+		special: "Inflige 7 golpes de daño [DEX] aleatorio a enemigos aleatorios, reduce la defensa de todos los enemigos un 80% y retrasa a todos los enemigos 1 turno"
+	},
+	1398: { 
+		captain:"Aumenta el ATK de los personajes Slasher y Cerebral 1.5x",
+		specialName:"Out-of-Control White Smoke",
+		special: "Aleatoriza los orbes no favorables de los personajes Slasher e intercambia su posición con la del capitán durante 2 turnos"
+	},
+	1399: { 
+		captain:"Aumenta el ATK de los personajes Slasher y Cerebral 1.5x y reduce el daño recibido un 15%",
+		specialName:"Out-of-Control White Smoke",
+		special: "Aleatoriza los orbes no favorables de los personajes Slasher e intercambia su posición con la del capitán durante 2 turnos"
+	},
+	1403: { 
+		captain:"Aumenta el ATK de los personajes Free Spirit 2.5x y reduce el daño recibido un 15%. Si se usa 'Gomu Gomu no Red Hawk' (especial de Monkey D. Luffy, Reunión de los Mugiwaras), en dicho turno aumentará el ATK 4x",
+		specialName:"Gomu Gomu no Red Hawk",
+		special: "Hace gran daño [QCK] a un solo enemigo y hace que los orbes [DEX], [QCK] y [PSY] cuenten como favorables durante 3 turnos"
+	},
+	1404: { 
+		captain:"Aumenta el ATK de los personajes Free Spirit 2.5x y reduce el daño recibido un 15%. Si se usa 'Gomu Gomu no Red Hawk' (especial de Monkey D. Luffy, Reunión de los Mugiwaras), en dicho turno aumentará el ATK 4x",
+		specialName:"Gomu Gomu no Red Hawk",
+		special: "Hace gran daño [QCK] a un solo enemigo y hace que los orbes [DEX], [QCK] y [PSY] cuenten como favorables durante 3 turnos"
+	},
+	1405: { 
+		captain:"Aumenta el ATK de los personajes Shooter 1.75x y su RCV 1.25x",
+		specialName:"Usopp Special",
+		special: "Inflige 10 golpes de 2.000 puntos de daño fijo a enemigos aleatorios, aumenta el ATK de los personajes Shooter contra enemigos con escudo antidelay 1.75x e incrementa la efectividad de los orbes 1.75x durante 1 turno",
+		sailor:"Aumenta el ATK y el RCV de los personajes Shooter 100 puntos si la HP del equipo es baja"
+	},
+	1406: { 
+		captain:"",
+		specialName:"Usopp Special",
+		special: "Inflige 10 golpes de 2.000 puntos de daño fijo a enemigos aleatorios, aumenta el ATK de los personajes Shooter contra enemigos con escudo antidelay 1.75x e incrementa la efectividad de los orbes 1.75x durante 1 turno",
+		sailor:"Aumenta el ATK y el RCV de los personajes Shooter 100 puntos si la HP del equipo es baja"
+	},
+	1407: { 
+		captain:"Aumenta el ATK de los personajes [DEX] y [PSY] 1.75x y su RCV 1.25x",
+		specialName:"Robin Special",
+		special: "Reduce la duración del Despair 3 turnos y aumenta el ATK de los personajes [DEX] y [PSY] 2x durante 1 turno",
+		sailor:"Reduce la duración de la Ceguera 3 turnos"
+	},
+	1408: { 
+		captain:"",
+		specialName:"Robin Special",
+		special: "Reduce la duración del Despair 3 turnos y aumenta el ATK de los personajes [DEX] y [PSY] 2x durante 1 turno",
+		sailor:"Reduce la duración de la Ceguera 3 turnos"
+	},
+	1409: { 
+		captain:"Sobrevives a cualquier golpe si la HP del equipo se encuentra por encima del x%",
+		specialName:"Brook Special",
+		special: "Retrasa a todos los enemigos 1 turno y aumenta el ATK de los personajes Free Spirit y Slasher 1.75x durante 1 turno",
+		sailor:"Esta unidad resiste totalmente a la Parálisis"
+	},
+	1410: { 
+		captain:"Sobrevives a cualquier golpe si la HP del equipo se encuentra por encima del x%",
+		specialName:"Brook Special",
+		special: "Retrasa a todos los enemigos 1 turno y aumenta el ATK de los personajes Free Spirit y Slasher 1.75x durante 1 turno",
+		sailor:"Esta unidad resiste totalmente a la Parálisis"
+	},
+	1411: { 
+		captain:"Aumenta el ATK de los personajes Powerhouse 2.25x y reduce su RCV a 0",
+		specialName:"Chopper Special",
+		special: "Reduce la reducción de daño enemiga, aumenta la duración de la defensa del equipo 3 turnos y hace gran daño sin tipo a todos los enemigos",
+		sailor:"Si esta unidad hace un Perfect teniendo un orbe [STR], mantiene dicho orbe para el siguiente turno",
+	},
+	1412: { 
+		captain:"",
+		specialName:"Chopper Special",
+		special: "Reduce la reducción de daño enemiga, aumenta la duración de la defensa del equipo 3 turnos y hace gran daño sin tipo a todos los enemigos",
+		sailor:"Si esta unidad hace un Perfect teniendo un orbe [STR], mantiene dicho orbe para el siguiente turno",
+	},
+	1413: { 
+		captain:"Aumenta la HP de todos los personajes 1.25x y aumenta el ATK de todos los personajes 3x si la HP se encuentra por debajo del 30%, aumentando 1.75x si se encuentra por encima del 30%",
+		specialName:"Seaquake",
+		special: "Reduce la HP actual de los enemigos un 30%, reduce la carga de todos los especiales 1 turno y aleatoriza los orbes no favorables, incluidos los [NEGATIVO]"
+	},
+	1414: { 
+		captain:"Aumenta el ATK de los personajes Powerhouse 2.5x",
+		specialName:"Sanji Special",
+		special: "Cambia su propio orbe a [INT] y reduce la carga de los especiales de los personajes Powerhouse 1 turno"
+	}
 };
