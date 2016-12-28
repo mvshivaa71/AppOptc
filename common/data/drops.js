@@ -1247,7 +1247,19 @@ window.drops = {
         {
             name: "Big Mom Pirates!",
             thumb: null,
-            "Todas las dificultades": [ -1123, -1184, -1182, -1152, -1157, -8, -840, -736, -610 ]
+            "Todas las dificultades": [ 1356, 1358, -1123, -1184, -1182, -1152, -1157, -8, -840, -736, -610 ]
+        },
+        
+        {
+            name: "Soldier-san's Training!",
+            thumb: 1384,
+            "Todas las dificultades": [ 1383, 1385, -748, -1234, -1075, -1230, -1155, -1154, -846, -842, -739 ]
+        },
+        
+        {
+            name: "Shambles! Tashigi and Smoker?!?",
+            thumb: 1397,
+            "Todas las dificultades": [ 1396, 1398, -1192, -1232, -1238, -844, -838, -1159, -1389, -12, -737, -257 ]
         },
         
     ],
