@@ -666,7 +666,7 @@ window.drops = {
         },
     ],
 
-    'Fortnight': [
+    'Quincenal': [
 
         {
             name: 'Buggy\'s Counterattack!!',
