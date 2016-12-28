@@ -297,7 +297,7 @@ window.drops = {
         },
 
         {
-            name: "Sky Island: Angel Island - Upper Yard",
+            name: "Isla de los Ángeles - Upper Yard",
             shortName: "Angel Island",
             thumb: 467,
             global: true,
@@ -320,7 +320,7 @@ window.drops = {
         },
 
         {
-            name: "Sky Island: Upper Yard - Ark Maxim",
+            name: "Arca Maxim",
             shortName: "Ark Maxim",
             thumb: 545,
             global: true,
@@ -380,7 +380,7 @@ window.drops = {
         },
 
         {
-            name: "Enies Lobby: Entrance",
+            name: "Enies Lobby",
             shortName: "Enies Lobby 1",
             thumb: 706,
             global: true,
@@ -399,7 +399,7 @@ window.drops = {
         },
 
         {
-            name: "Enies Lobby: Tower of Justice - Gates of Justice",
+            name: "Enies Lobby, Isla Judicial, Puerta de la Justicia",
             shortName: "Enies Lobby 2",
             thumb: 737,
             global: true,
@@ -422,7 +422,7 @@ window.drops = {
         },
 
         {
-            name: "Thriller Bark: Mouth Gate - Hogback's Residence",
+            name: "Thriller Bark: Compuerta de Entrada Mansión de Moria",
             shortName: "Thriller Bark 1",
             thumb: 816,
             global: true,
@@ -441,7 +441,7 @@ window.drops = {
         },
 
         {
-            name: "Thriller Bark: Moria's Mast Mansion",
+            name: "Thriller Bark: Mástil de la Mansión de Moria",
             shortName: "Thriller Bark 2",
             thumb: 894,
             global: true,
@@ -462,7 +462,7 @@ window.drops = {
         },
         
         {
-            name: "Sabaody Archipelago",
+            name: "Archipiélago Sabaody",
             shortName: "Sabaody Archipelago",
             thumb: 974,
             global: true,
@@ -525,7 +525,7 @@ window.drops = {
         },
         
         {
-            name: "Marineford",
+            name: "Bahía de Marineford",
             shortName: "Marineford",
             thumb: 1228,
             completion: '5x Rainbow Gems',
@@ -591,14 +591,14 @@ window.drops = {
     'Weekly Island': [
 
         {
-            name: 'Rush of Turtles',
+            name: 'Isla de Tortugas',
             day: 0,
             thumb: 193,
             global: true,
             ' ': [ 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 189, 190, 191, 192, 193 ]
         },
         {
-            name: 'Princess Turtle\'s Dragon Palace',
+            name: 'Princesas Tortuga',
             thumb: 595,
             ' ': [ 110, 111, 112, 113, 114, 189, 190, 191, 192, 193, 591, 592, 593, 594, 595 ]
         },
@@ -629,7 +629,7 @@ window.drops = {
 
 
         {
-            name: 'Dragon Sanctuary',
+            name: 'Santuario del Dragón',
             day: 3,
             thumb: 267,
             global: true,
@@ -645,7 +645,7 @@ window.drops = {
         },
 
         {
-            name: 'Scissor Cavern, Inner Cave',
+            name: 'Isla de Langostas',
             day: 4,
             thumb: 304,
             ' ': [ 89, 90, 91, 92, 93, 95, 96, 97, 98, 99, 300, 301, 302, 303, 304 ]
@@ -1256,7 +1256,7 @@ window.drops = {
     'Raid': [
 
         {
-            name: 'Clash!! Mihawk',
+            name: 'Mihawk Ojos de Halcón',
             thumb: 227,
             global: true,
             Master: [ 86, 112, 118, 226 ],
@@ -1264,7 +1264,7 @@ window.drops = {
         },
 
         {
-            name: 'Clash!! Chopper\'s Rampage',
+            name: 'Monster Chopper',
             thumb: 249,
             global: true,
             Master: [ 84, 110, 118, 248 ],
@@ -1272,14 +1272,14 @@ window.drops = {
         },
 
         {
-            name: 'Clash!! Vice-Admiral Garp',
+            name: 'Garp el Héroe',
             thumb: 306,
             global: true,
             Master: [ 113, 118, 262, 264, 305 ],
         },
 
         {
-            name: 'Clash!! Black Arm Zephyr',
+            name: 'Zephyr Brazo Negro',
             thumb: 353,
             global: true,
             Master: [ 88, 114, 118, 352, 354 ],
@@ -1287,7 +1287,7 @@ window.drops = {
         },
 
         {
-            name: 'Clash!! Ivankov',
+            name: 'Emporio Ivankov',
             thumb: 390,
             global: true,
             Master: [ 85, 111, 118, 389 ],
@@ -1295,7 +1295,7 @@ window.drops = {
         },
 
         {
-            name: 'Clash!! Doflamingo',
+            name: 'Donquixote Doflamingo',
             thumb: 418,
             global: true,
             Ultimate: [ 86, 112, 118, 302, 417 ],
@@ -1303,7 +1303,7 @@ window.drops = {
         },
 
         {
-            name: 'Clash!! Blackbeard',
+            name: 'Kurohige',
             thumb: 447,
             global: true,
             Master: [ 84, 110, 118, 300, 446 ],
@@ -1311,7 +1311,7 @@ window.drops = {
         },
 
         {
-            name: 'Clash!? Usopp\'n',
+            name: 'Usopp\'n',
             thumb: 518,
             showManual: true,
             global: true,
@@ -1319,7 +1319,7 @@ window.drops = {
         },
 
         {
-            name: 'Clash!! Heracles\'n',
+            name: 'Heracles\'n, Héroe del Bosque',
             thumb: 516,
             global: true,
             Master: [ 87, 97, 113, 117, 118, 294, 295, 303, 429, 515 ],
@@ -1327,7 +1327,7 @@ window.drops = {
         },
 
         {
-            name: 'Clash!! Aokiji',
+            name: 'Aokiji',
             thumb: 575,
             global: true,
             Ultimate: [ 88, 114, 118, 304, 574 ],
@@ -1335,7 +1335,7 @@ window.drops = {
         },
 
         {
-            name: 'Clash!! Eneru',
+            name: 'Dios Enel',
             thumb: 603,
             global: true,
             Ultimate: [ 85, 111, 118, 301, 602 ],
@@ -1344,7 +1344,7 @@ window.drops = {
         },
 
         {
-            name: 'Clash!! Duval',
+            name: 'Duval',
             thumb: 654,
             global: true,
             Master: [ 112, 118, 302, 652 ],
@@ -1352,7 +1352,7 @@ window.drops = {
         },
 
         {
-            name: 'Clash!! Buster Call',
+            name: 'Buster Call',
             thumb: 771,
             global: true,
             Master: [ 110, 111, 112, 113, 114, 770, 771, 772, 773, 774, 775 ],
@@ -1360,14 +1360,14 @@ window.drops = {
         },
 
         {
-            name: 'Clash!! Nightmare Luffy',
+            name: 'Nightmare Luffy',
             thumb: 795,
             Master: [ 794 ],
             Expert: [ 794 ]
         },
 
         {
-            name: 'Clash!! Tyrant Kuma',
+            name: 'Tyrant Kuma',
             thumb: 836,
             global: true,
             Ultimate: [ 835 ],
@@ -1375,7 +1375,7 @@ window.drops = {
         },
 
         {
-            name: 'Clash!! Pirate Empress Hancock',
+            name: 'Emperatriz Pirata Boa Hancock',
             thumb: 865,
             Ultimate: [ 864 ],
             Master: [ 864 ],
@@ -1383,28 +1383,28 @@ window.drops = {
         },
         
         {
-            name: 'Clash!! Pica',
+            name: 'Pica',
             thumb: 932,
             Master: [ 932 ],
             Expert: [ 932 ]
         },
         
         {
-            name: 'Clash!! Kizaru',
+            name: 'Kizaru',
             thumb: 978,
             Ultimate: [ 977 ],
             Master: [ 977 ]
         },
         
         {
-            name: 'Clash!? Impostor Straw Hat Pirates',
+            name: 'Impostor Straw Hat Pirates',
             showManual: true,
             thumb: 989,
             Ultimate: [ 985, 986, 987, 988, -989, -4, -8, -11, -12, -15, -16, -556, -528, -520, -554, -558, -20, -217, -709]
         },
         
         {
-            name: 'Clash!! Sabo',
+            name: 'Sabo',
             thumb: 1047,
             Ultimate: [ 1046 ],
             Master: [ 1046 ],
@@ -1412,7 +1412,7 @@ window.drops = {
         },
         
         {
-            name: 'Clash!! Shiki',
+            name: 'Shiki el León Dorado',
             thumb: 1108,
             global: true,
             Ultimate: [ 1107 ],
@@ -1421,7 +1421,7 @@ window.drops = {
         },
         
         {
-            name: 'Clash!! Tesoro',
+            name: 'Tesoro',
             thumb: 1163, 
             global: true,
             Master: [ 1162, 1164 ],
@@ -1429,7 +1429,7 @@ window.drops = {
         },
         
         {
-            name: 'Clash!! Akainu',
+            name: 'Akainu',
             thumb: 1298,
             Ultimate: [ 1297 ]
         },
@@ -1475,7 +1475,7 @@ window.drops = {
         },
 
         {
-            name: 'Coliseum',
+            name: 'Coliseo',
             thumb: 779,
             Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1294, 1311 ],
             Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1294, 1311 ],
