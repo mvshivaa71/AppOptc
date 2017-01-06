@@ -7,6 +7,7 @@
  **************/
 
 var ImportCtrl = function($scope, $rootScope, $state, $stateParams) {
+	history.replaceState(null, null, '#/');
 
     var checkInt = function(n, min, max) {
         var temp = parseInt(n, 10);
@@ -188,7 +189,7 @@ var ExportCtrl = function($scope) {
         // others
         
         result += data.ship[0] + ',' + data.ship[1] + 'B';
-        result += (data.defense && data.defense.constructor == Number ? data.defense : 0) + 'D';
+        result += (data.defense && data.defense.constructor == Number ? data.defense : parseInt(data.defense)) + 'D';
         result += ($scope.data.effect ? window.effects[$scope.data.effect].id : 0) + 'E';
         result += parseInt(team.map(function(x) { return ({ '2': 1, '0.5': 2, 'g': 3, '1': 0 }['' + x.orb] || 0); }).join(''),4) + 'Q';
         result += parseInt(team.map(function(x) { return x.lock; }).join(''),3) + 'L';

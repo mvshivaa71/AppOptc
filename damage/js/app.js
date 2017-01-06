@@ -9,6 +9,7 @@ var app = angular.module('optc', [ 'ui.router', 'ui.bootstrap', 'ngSanitize', 'n
 var SharedRootCtrl = function($scope, $rootScope, $timeout) {
 
     $rootScope.data = {
+		//setting default values
 
         team: [
             { unit: null, level: -1, candies: { hp: 0, atk: 0, rcv: 0 } },
@@ -20,8 +21,7 @@ var SharedRootCtrl = function($scope, $rootScope, $timeout) {
         ],
 
         percHP: 100.0,
-
-        ship: [ 1, 5 ],
+        ship: [ 1, 10 ],
 
         defense: 0,
 

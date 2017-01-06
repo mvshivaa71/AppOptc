@@ -36,6 +36,16 @@ var MainCtrl = function($scope, $rootScope, $controller, $filter, $storage) {
             });
         }
     });
+	
+	$scope.$watch('conflictingMultipliers',function(value) {
+        if (value) {
+            $scope.notify({
+                text: 'Sólo puede estar activo un multiplicador de ataque a la vez,'+
+                        'tratar de calcular la mejor combinación.',
+                type: 'error'
+            });
+        }
+    });
 
     var zombieNoty = null;
     $scope.$watch('numbers.zombie',function(zombie) {
