@@ -179,10 +179,10 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
             var multipliers = [ ];
             if (orb == 'g') orb = 1.5;
             atk += getShipBonus('atk',true,x.unit,n);
-            multipliers.push([ orb, 'orbe' ]); // orb multiplier (fixed)
-            multipliers.push([ getTypeMultiplierOfUnit(x.unit.type,type, x), 'tipo' ]); // type multiplier
-            multipliers.push([ getEffectBonus('atk',x.unit), 'efecto mapa' ]); // effect bonus (fixed)
-            multipliers.push([ ship, 'barco' ]); // ship bonus (fixed)
+            multipliers.push([ orb, 'orb' ]); // orb multiplier (fixed)
+            multipliers.push([ getTypeMultiplierOfUnit(x.unit.type,type, x), 'type' ]); // type multiplier
+            multipliers.push([ getEffectBonus('atk',x.unit), 'map effect' ]); // effect bonus (fixed)
+            multipliers.push([ ship, 'ship' ]); // ship bonus (fixed)
             result.push({ unit: x, orb: orb, base: Math.floor(atk), multipliers: multipliers, position: n });
         });
         // apply static multipliers and static bonuses
@@ -209,7 +209,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
                 if (!override[k]) continue;
                 var currentMultiplier = getTypeMultiplierOfUnit(result[k].unit.unit.type, type, result[k].unit);
                 var newMultiplier = getTypeMultiplierOfUnit(result[k].unit.unit.type, override[k], result[k].unit);
-                result[k].multipliers.push([ newMultiplier / currentMultiplier, 'tipo anulación' ]);
+                result[k].multipliers.push([ newMultiplier / currentMultiplier, 'type override' ]);
             }
         }
         return result;
@@ -232,6 +232,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
         // apply chain and bonus multipliers
         result = applyChainAndBonusMultipliers(result,hitModifiers);
         if (mapEffect.damage) result.result = applyEffectDamage(result.result, mapEffect.damage);
+
         var overallDamage = result.result.reduce(function(prev,x) { return prev + x.damage; },0);
         return { damage: result.result, overall: overallDamage,
             hitModifiers: hitModifiers, chainMultipliers: result.chainMultipliers };
@@ -419,7 +420,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
         return damage.map(function(x,n) {
             var params = jQuery.extend({ damage: damage, modifiers: modifiers, sourceSlot: sourceSlot },getParameters(x.position, n));
             if (isStatic) x.base += func(params);
-            else x.multipliers.push([ func(params), 'efecto capitán' ]);
+            else x.multipliers.push([ func(params), 'captain effect' ]);
             return { unit: x.unit, orb: x.orb, base: x.base, multipliers: x.multipliers, position: x.position, sourceSlot: sourceSlot };
         });
     };
@@ -484,11 +485,11 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
                     chainMultiplier = Math.min(special.chainLimiter(params[n]), chainMultiplier);
                 // add or update chain multiplier to multiplier list
                 for (i=0;i<x.multipliers.length;++i) {
-                    if (x.multipliers[i][1] != 'cadena') continue;
+                    if (x.multipliers[i][1] != 'chain') continue;
                     x.multipliers[i][0] = chainMultiplier;
                     break;
                 }
-                if (i == x.multipliers.length) x.multipliers.push([ chainMultiplier, 'cadena' ]);
+                if (i == x.multipliers.length) x.multipliers.push([ chainMultiplier, 'chain' ]);
                 // compute damage
                 var unitAtk = Math.floor(x.base * totalMultiplier(x.multipliers));
                 var temp = computeDamageOfUnit(x.unit.unit, unitAtk, modifiers[n], currentHits);
@@ -547,7 +548,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
 
     var applyEffectDamage = function(damage,func) {
         for (var i=0;i<damage.length;++i)
-            damage[i].multipliers.push([ func(damage[i].unit.unit), 'efecto mapa' ]);
+            damage[i].multipliers.push([ func(damage[i].unit.unit), 'map effect' ]);
         return damage;
     };
 
