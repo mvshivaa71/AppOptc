@@ -1166,10 +1166,16 @@ window.specials = {
         type: "class"
     },
     977: {
-        chainAddition: function(p) {return 0.5;}
+        chainAddition: function(p) {
+			if (!window.specials[977].stage) return 0.0;
+            if (window.specials[977].stage == 1) return p.chainPosition > 0 ? 0.5 : 0.0;
+		}
     },
     978: {
-        chainAddition: function(p){ return 0.5;}
+        chainAddition: function(p){ 
+			if (!window.specials[978].stage) return 0.0;
+            if (window.specials[978].stage == 1) return p.chainPosition > 0 ? 0.5 : 0.0;
+		}
     },
     981: {
         atk: function(p) { return p.slot == p.sourceSlot ? 1.75 : 1; },
