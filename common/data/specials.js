@@ -1169,13 +1169,29 @@ window.specials = {
         chainAddition: function(p) {
 			if (!window.specials[977].stage) return 0.0;
             if (window.specials[977].stage == 1) return p.chainPosition > 0 ? 0.5 : 0.0;
-		}
+		},
+        stage: -1,
+        onActivation: function(p) {
+            window.specials[977].stage = (window.specials[977].stage + 1) % 2;
+            p.scope.notify({
+                text: 'Activating stage #' + (window.specials[977].stage + 1) + '. To move onto the next stage, disable and re-enable this special.',
+                name: '1339warning'
+            });
+        }
     },
     978: {
         chainAddition: function(p){ 
 			if (!window.specials[978].stage) return 0.0;
             if (window.specials[978].stage == 1) return p.chainPosition > 0 ? 0.5 : 0.0;
-		}
+		},
+        stage: -1,
+        onActivation: function(p) {
+            window.specials[978].stage = (window.specials[978].stage + 1) % 2;
+            p.scope.notify({
+                text: 'Activating stage #' + (window.specials[978].stage + 1) + '. To move onto the next stage, disable and re-enable this special.',
+                name: '1339warning'
+            });
+        }
     },
     981: {
         atk: function(p) { return p.slot == p.sourceSlot ? 1.75 : 1; },
