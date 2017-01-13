@@ -179,10 +179,10 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
             var multipliers = [ ];
             if (orb == 'g') orb = 1.5;
             atk += getShipBonus('atk',true,x.unit,n);
-            multipliers.push([ orb, 'orb' ]); // orb multiplier (fixed)
-            multipliers.push([ getTypeMultiplierOfUnit(x.unit.type,type, x), 'type' ]); // type multiplier
-            multipliers.push([ getEffectBonus('atk',x.unit), 'map effect' ]); // effect bonus (fixed)
-            multipliers.push([ ship, 'ship' ]); // ship bonus (fixed)
+            multipliers.push([ orb, 'orbe' ]); // orb multiplier (fixed)
+            multipliers.push([ getTypeMultiplierOfUnit(x.unit.type,type, x), 'tipo' ]); // type multiplier
+            multipliers.push([ getEffectBonus('atk',x.unit), 'efecto mapa' ]); // effect bonus (fixed)
+            multipliers.push([ ship, 'barco' ]); // ship bonus (fixed)
             result.push({ unit: x, orb: orb, base: Math.floor(atk), multipliers: multipliers, position: n });
         });
         // apply static multipliers and static bonuses
@@ -209,7 +209,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
                 if (!override[k]) continue;
                 var currentMultiplier = getTypeMultiplierOfUnit(result[k].unit.unit.type, type, result[k].unit);
                 var newMultiplier = getTypeMultiplierOfUnit(result[k].unit.unit.type, override[k], result[k].unit);
-                result[k].multipliers.push([ newMultiplier / currentMultiplier, 'type override' ]);
+                result[k].multipliers.push([ newMultiplier / currentMultiplier, 'tipo anulación' ]);
             }
         }
         return result;
@@ -420,7 +420,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
         return damage.map(function(x,n) {
             var params = jQuery.extend({ damage: damage, modifiers: modifiers, sourceSlot: sourceSlot },getParameters(x.position, n));
             if (isStatic) x.base += func(params);
-            else x.multipliers.push([ func(params), 'captain effect' ]);
+            else x.multipliers.push([ func(params), 'efecto capitán' ]);
             return { unit: x.unit, orb: x.orb, base: x.base, multipliers: x.multipliers, position: x.position, sourceSlot: sourceSlot };
         });
     };
@@ -489,7 +489,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
                     x.multipliers[i][0] = chainMultiplier;
                     break;
                 }
-                if (i == x.multipliers.length) x.multipliers.push([ chainMultiplier, 'chain' ]);
+                if (i == x.multipliers.length) x.multipliers.push([ chainMultiplier, 'cadena' ]);
                 // compute damage
                 var unitAtk = Math.floor(x.base * totalMultiplier(x.multipliers));
                 var temp = computeDamageOfUnit(x.unit.unit, unitAtk, modifiers[n], currentHits);
@@ -548,7 +548,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
 
     var applyEffectDamage = function(damage,func) {
         for (var i=0;i<damage.length;++i)
-            damage[i].multipliers.push([ func(damage[i].unit.unit), 'map effect' ]);
+            damage[i].multipliers.push([ func(damage[i].unit.unit), 'efecto mapa' ]);
         return damage;
     };
 
@@ -615,7 +615,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
 			if (data.hasOwnProperty('chainAddition'))
                 chainAddition.push({chainAddition: data.chainAddition || function(){ return 0.0; } });
             if (data.hasOwnProperty('staticMult'))
-                staticMultiplier.push({staticMultiplier: "Yes" });
+                staticMultiplier.push({staticMultiplier: "Si" });
             if (data.hasOwnProperty('affinity'))
                 affinityMultiplier.push({affinityMultiplier: data.affinity || function(){ return 1.0; }});
         });
