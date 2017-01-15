@@ -456,13 +456,12 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
     };
 
     var applyChainAndBonusMultipliers = function(damage,modifiers) {
-        var currentMax = -1, currentResult = null, addition = 0.0, additionPosition = 0;
+        var currentMax = -1, currentResult = null, addition = 0.0;
 		
 		//get the highest Chain Addition if it exists
         chainAddition.forEach(function(special){
                     if(addition<special.chainAddition())
                         addition = special.chainAddition();
-						additionPosition = = special.chainAdditionPosition;
                 });
         chainSpecials.forEach(function(special) {
             var multipliersUsed = [ ], currentHits = 0, overall = 0;
@@ -478,10 +477,8 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
                     chainModifier = Math.min(mapEffect.chainModifier(params[n]), chainModifier);
                 var chainMultiplier = getChainMultiplier(special.chain(params[n]), modifiers.slice(0,n), chainModifier);
 				//Add flat Multiplier Bonuses if they exist
-                if(addition>0.0){
-					if( n >= additionPosition)
-						chainMultiplier = chainMultiplier + addition;
-				}
+                if(addition>0.0)
+                    chainMultiplier = chainMultiplier + addition;
                 if (mapEffect.hasOwnProperty('chainLimiter'))
                     chainMultiplier = Math.min(mapEffect.chainLimiter(params[n]), chainMultiplier);
                 else if (special.hasOwnProperty('chainLimiter'))
