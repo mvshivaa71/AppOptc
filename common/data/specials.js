@@ -1191,7 +1191,8 @@ window.specials = {
                 text: 'Activating stage #' + (window.specials[978].stage + 1) + '. To move onto the next stage, disable and re-enable this special.',
                 name: '1339warning'
             });
-        }
+        },
+		chainAdditionPosition: 1
     },
     981: {
         atk: function(p) { return p.slot == p.sourceSlot ? 1.75 : 1; },
