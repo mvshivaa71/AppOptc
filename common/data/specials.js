@@ -1167,9 +1167,9 @@ window.specials = {
     },
     977: {
         chainAddition: function(p) {
-			if (!window.specials[977].stage) return 0.0;
-            if (window.specials[977].stage == 1) return p.chainPosition > 0 ? 0.5 : 0.0;
-		},
+            if (!window.specials[977].stage) return 0.0;
+            if (window.specials[977].stage == 1) return 0.5;
+        },
         stage: -1,
         onActivation: function(p) {
             window.specials[977].stage = (window.specials[977].stage + 1) % 2;
@@ -1180,10 +1180,10 @@ window.specials = {
         }
     },
     978: {
-        chainAddition: function(p){ 
-			if (!window.specials[978].stage) return 0.0;
-            if (window.specials[978].stage == 1) return p.chainPosition > 0 ? 0.5 : 0.0;
-		},
+        chainAddition: function(p) {
+            if (!window.specials[978].stage) return 0.0;
+            if (window.specials[978].stage == 1) return 0.5;
+        },
         stage: -1,
         onActivation: function(p) {
             window.specials[978].stage = (window.specials[978].stage + 1) % 2;
