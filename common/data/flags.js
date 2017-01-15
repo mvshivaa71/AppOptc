@@ -1195,8 +1195,6 @@ window.flags = {
     1382: { rr: 1, rro: 1, lrr: 1, global: 1 },
     1390: { rr: 1, rro: 1 },
     1391: { rr: 1, rro: 1 },
-	1392: { rr: 1, rro: 1 },
-    1393: { rr: 1, rro: 1 },
     1394: { rr: 1, rro: 1, lrr: 1, },
     1395: { rr: 1, rro: 1, lrr: 1, },
     1403: { rr: 1, rro: 1 },
