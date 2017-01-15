@@ -479,7 +479,7 @@ var CruncherCtrl = function($scope, $rootScope, $timeout) {
                 var chainMultiplier = getChainMultiplier(special.chain(params[n]), modifiers.slice(0,n), chainModifier);
 				//Add flat Multiplier Bonuses if they exist
                 if(addition>0.0){
-					if(additionPosition >= n)
+					if( n >= additionPosition)
 						chainMultiplier = chainMultiplier + addition;
 				}
                 if (mapEffect.hasOwnProperty('chainLimiter'))
