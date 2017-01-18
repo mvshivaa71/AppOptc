@@ -3918,13 +3918,13 @@ window.details = {
 	861: { 
 		captain:"Reduce el daño recibido en un 10%",
 		specialName:"Bewitching Lovely Iron Mace",
-		special: "Hace su ATK 13x como daño [QCK] a un solo enemigo, reduce el daño recibido en un 75% durante 1 turno e incrementa la efectividad de los orbes 1.5x",
+		special: "Hace su ATK 13x como daño [QCK] a un solo enemigo, reduce el daño recibido en un 75% durante 1 turno e incrementa la efectividad de los orbes 1.5x durante 1 turno",
 		specialNotes:"#{orb : 1.5x}"
 	},
 	862: { 
 		captain:"Aumenta el ATK de los personajes [QCK] 2x y reduce el daño recibido en un 10%",
 		specialName:"Bewitching Lovely Iron Mace",
-		special: "Hace su ATK 13x como daño [QCK] a un solo enemigo, reduce el daño recibido en un 75% durante 1 turno e incrementa la efectividad de los orbes 1.5x",
+		special: "Hace su ATK 13x como daño [QCK] a un solo enemigo, reduce el daño recibido en un 75% durante 1 turno e incrementa la efectividad de los orbes 1.5x durante 1 turno",
 		specialNotes:"#{orb : 1.5x}"
 	},
 	863: { 
@@ -4744,11 +4744,11 @@ window.details = {
 		special: [
 			{
 				"description": "Cambia los orbes [VACIO] y desfavorables de los personajes Powerhouse a favorables",
-				"cooldown": 11
+				"cooldown": [11,5]
 			},
 			{
 				"description": "Cambia los orbes [VACIO] y desfavorables de todos los personajes a favorables",
-				"cooldown": 20
+				"cooldown": [20,14]
 			}
 		],
 		specialNotes:"#{stages}"
@@ -4760,11 +4760,11 @@ window.details = {
 		special: [
 			{
 				"description": "Cambia los orbes [VACIO] y desfavorables de los personajes Powerhouse a favorables",
-				"cooldown": 11
+				"cooldown": [11,5]
 			},
 			{
 				"description": "Cambia los orbes [VACIO] y desfavorables de todos los personajes a favorables",
-				"cooldown": 20
+				"cooldown": [20,14]
 			}
 		],
 		specialNotes:"#{stages}"
@@ -5300,11 +5300,13 @@ window.details = {
 		captain:"Aumenta la HP de los personajes Driven 1.5x y su ATK 3x si tienen orbe favorable, siendo 1.5x con cualquier otro. Hace que los orbes [RCV] y [TND] cuenten como favorables para los personajes Driven",
 		specialName:"Gravito: Heavens Fall",
 		special: "Reduce la HP actual de los enemigos un 20%. Además, reduce la HP de los enemigos un 20% al final de cada turno durante 3 turnos",
+		specialNotes:""
 	},
 	1085: { 
 		captain:"Aumenta la HP de los personajes Driven 1.5x y su ATK 3x si tienen orbe favorable, siendo 1.5x con cualquier otro. Hace que los orbes [RCV] y [TND] cuenten como favorables para los personajes Driven",
 		specialName:"Gravito: Heavens Fall",
 		special: "Reduce la HP actual de los enemigos un 20%. Además, reduce la HP de los enemigos un 20% al final de cada turno durante 3 turnos",
+		specialNotes:""
 	},
 	1086: { 
 		captain:"Aumenta el ATK y el RCV de los personajes Driven 1.5x",
@@ -5535,14 +5537,14 @@ window.details = {
 		captain:"Aumenta el ATK de los personajes [STR] [QCK] [DEX] en 2.5x pero SU PROPIO ATK es de 4x",
 		captainNotes:"Cavendish solo aumenta el ATK del Cavendish amigo o sub 2.5x, y un total de 10x a sí mismo en caso de que ambos capitanes sean Cavendish.",
 		specialName:"Slicing Winds of Rommel",
-		special: "Hace su ATK 15x como daño sin tipo a todos los enemigos. Elimina todos los buffs aliados y aumenta su propio ATK 1.75x, cambia su propio orbe a [QCK], incrementa la efectividad de su propio orbe 1.75x y lo fija durante 2 turnos. Durante este especial se queda transformado en Hakuba",
+		special: "Hace su ATK 15x como daño sin tipo a todos los enemigos. Elimina todos los buffs aliados y aumenta su propio ATK 2.25x, cambia su propio orbe a [QCK], incrementa la efectividad de su propio orbe 1.5x y lo fija durante 2 turnos. Durante este especial se queda transformado en Hakuba",
 		specialNotes:"El aumento de ATK y la efectividad de orbe solo funciona con el Cavendish que haya usado el especial."
 	},
 	1123: { 
 		captain:"Aumenta el ATK de los personajes [STR] [QCK] [DEX] en 2.5x pero SU PROPIO ATK es de 4x",
 		captainNotes:"Cavendish solo aumenta el ATK del Cavendish amigo o sub 2.5x, y un total de 10x a sí mismo en caso de que ambos capitanes sean Cavendish.",
 		specialName:"Slicing Winds of Rommel",
-		special: "Hace su ATK 15x como daño sin tipo a todos los enemigos. Elimina todos los buffs aliados y aumenta su propio ATK 1.75x, cambia su propio orbe a [QCK], incrementa la efectividad de su propio orbe 1.75x y lo fija durante 2 turnos. Durante este especial se queda transformado en Hakuba",
+		special: "Hace su ATK 15x como daño sin tipo a todos los enemigos. Elimina todos los buffs aliados y aumenta su propio ATK 2.25x, cambia su propio orbe a [QCK], incrementa la efectividad de su propio orbe 1.5x y lo fija durante 2 turnos. Durante este especial se queda transformado en Hakuba",
 		specialNotes:"El aumento de ATK y la efectividad de orbe solo funciona con el Cavendish que haya usado el especial."
 	},
 	1124: { 
@@ -5560,13 +5562,13 @@ window.details = {
 	1126: { 
 		captain:"Aumenta el ATK y la HP de los personajes [DEX] 1.5x",
 		specialName:"Admiral Killer Bowling",
-		special: "Vacía los orbes [NEGATIVO] y hace una cantidad de daño variable, según el número de orbes [NEGATIVO] vaciados, a todos los enemigos. Además, cambia los orbes [VACIO] a favorables",
+		special: "Vacía los orbes [NEGATIVO], los cambia a favorables y hace una cantidad de daño variable, según el número de orbes [NEGATIVO] vaciados, a todos los enemigos. Además, también cambia los orbes [VACIO] a favorables",
 		specialNotes:""
 	},
 	1127: { 
 		captain:"Aumenta el ATK de los personajes [DEX] 2.25x y su HP 1.5x",
 		specialName:"Admiral Killer Bowling",
-		special: "Vacía los orbes [NEGATIVO] y hace una cantidad de daño variable, según el número de orbes [NEGATIVO] vaciados, a todos los enemigos. Además, cambia los orbes [VACIO] a favorables",
+		special: "Vacía los orbes [NEGATIVO], los cambia a favorables y hace una cantidad de daño variable, según el número de orbes [NEGATIVO] vaciados, a todos los enemigos. Además, también cambia los orbes [VACIO] a favorables",
 		specialNotes:""
 	},
 	1128: { 
@@ -6273,7 +6275,7 @@ window.details = {
 	},
 	1233: { 
 		captain:"Aumenta el ATK de los personajes Slasher y Cerebral 1.5x y su RCV 1.2x",
-		captainNotes:"El multiplicador de ATK se acumula si una unidad cuenta con las 2 clases y tendrá 2.25x de ATK",
+		captainNotes:"#{boostAcumulado : Slasher : Cerebral}",
 		specialName:"Cutting Drizzle",
 		special: "Hace su ATK 15x como daño [QCK] a todos los enemigos. Aumenta la Afinidad de Tipo de los personajes Slasher y Cerebral 1.5x durante 2 turnos",
 		specialNotes:"#{afinidad : 3 : 0.25}",
@@ -6281,7 +6283,7 @@ window.details = {
 	},
 	1234: { 
 		captain:"Aumenta el ATK de los personajes Slasher y Cerebral 1.6x y su RCV 1.3x",
-		captainNotes:"El multiplicador de ATK se acumula si una unidad cuenta con las 2 clases y tendrá 2.56x de ATK",
+		captainNotes:"#{boostAcumulado : Slasher : Cerebral}",
 		specialName:"Cutting Drizzle",
 		special: "Hace su ATK 15x como daño [QCK] a todos los enemigos. Aumenta la Afinidad de Tipo de los personajes Slasher y Cerebral 1.5x durante 2 turnos",
 		specialNotes:"#{afinidad : 3 : 0.25}",
@@ -6878,12 +6880,14 @@ window.details = {
 		captain:"Aumenta el ATK de los personajes [STR] y [PSY] 2.5x",
 		specialName:"Super Large Iron Ball",
 		special: "Hace su ATK 30x como daño [STR] fijo a todos los enemigos ignorando cualquier bufo defensivo o escudo enemigo. Retrasa a los enemigos 1 turno. Reduce la defensa de todos los enemigos en un 80% durante 1 turno",
+		specialNotes:"#{fixed}",
 		sailor:"Aumenta la HP de todos los personajes 75 puntos"
 	},
 	1318: { 
 		captain:"Aumenta el ATK de los personajes [STR] y [PSY] 2.5x",
 		specialName:"Super Large Iron Ball",
 		special: "Hace su ATK 30x como daño [STR] fijo a todos los enemigos ignorando cualquier bufo defensivo o escudo enemigo. Retrasa a los enemigos 1 turno. Reduce la defensa de todos los enemigos en un 80% durante 1 turno",
+		specialNotes:"#{fixed}",
 		sailor:"Aumenta la HP de todos los personajes 75 puntos"
 	},
 	1319: { 
@@ -6916,7 +6920,7 @@ window.details = {
 		captain:"Reduce la carga de los especiales de todos los personajes 2 turnos al principio de la batalla. Aumenta el ATK de los personajes Slasher y Driven 1.6x",
 		captainNotes:"#{boostAcumulado : Slasher : Driven}",
 		specialName:"Onigumo of Dismantling Swordsmanship",
-		special: "Aleatoriza los orbes [RCV], [TND] y [BOMBA]. Hace que los orbes [STR], [DEX] y [QCK] cuenten como favorables para los personajes Slasher y Driven durante 2 turnos",
+		special: "Aleatoriza los orbes [RCV], [TND], [BOMBA] y [NEGATIVO]. Hace que los orbes [STR], [DEX] y [QCK] cuenten como favorables para los personajes Slasher y Driven durante 2 turnos",
 		specialNotes:"",
 		sailor:"Reduce la duración de la Parálisis 5 turnos para esta unidad"
 	},
@@ -6924,7 +6928,7 @@ window.details = {
 		captain:"Reduce la carga de los especiales de todos los personajes 2 turnos al principio de la batalla. Aumenta el ATK de los personajes Slasher y Driven 1.6x",
 		captainNotes:"#{boostAcumulado : Slasher : Driven}",
 		specialName:"Onigumo of Dismantling Swordsmanship",
-		special: "Aleatoriza los orbes [RCV], [TND] y [BOMBA]. Hace que los orbes [STR], [DEX] y [QCK] cuenten como favorables para los personajes Slasher y Driven durante 2 turnos",
+		special: "Aleatoriza los orbes [RCV], [TND], [BOMBA] y [NEGATIVO]. Hace que los orbes [STR], [DEX] y [QCK] cuenten como favorables para los personajes Slasher y Driven durante 2 turnos",
 		specialNotes:"",
 		sailor:"Reduce la duración de la Parálisis 5 turnos para esta unidad"
 	},
@@ -6976,14 +6980,15 @@ window.details = {
 				"cooldown": [9,3]
 			},
 			{
-				"description": "Hace 15 puntos de daño fijo a todos los enemigos. Recupera una cantidad de HP equivalente a su RCV x3",
+				"description": "Hace 15 puntos de daño fijo a todos los enemigos. Recupera una cantidad de HP equivalente a su RCV x3.",
 				"cooldown": [11,5]
 			},
 			{
-				"description": "Hace 300 puntos de daño fijo a todos los enemigos. Aumenta la Afinidad de Tipo de los personajes Fighter y Free Spirit 1.25x",
+				"description": "Hace 300 puntos de daño fijo a todos los enemigos. Aumenta la Afinidad de Tipo de los personajes Fighter y Free Spirit 1.25x.",
 				"cooldown": [16,10]
 			}
-		]
+		],
+		specialNotes:"#{stages}"
 	},
 	1330: { 
 		captain:"Aumenta el ATK de los personajes Striker 1.5x y recupera una cantidad de HP equivalente a su RCV 2x al final de cada turno",
@@ -6999,7 +7004,7 @@ window.details = {
 				"cooldown": [18,11]
 			},
 			{
-				"description": "Reduce la duración de los Encadenamientos 7 turnos. Recupera una cantidad de HP equivalente a su RCV 15x",
+				"description": "Reduce la duración de los Encadenamientos 7 turnos. Recupera una cantidad de HP equivalente a su RCV 15x.",
 				"cooldown": [24,17]
 			}
 		]
@@ -7013,7 +7018,7 @@ window.details = {
 				"cooldown": [18,11]
 			},
 			{
-				"description": "Reduce la duración de los Encadenamientos 7 turnos. Recupera una cantidad de HP equivalente a su RCV 15x",
+				"description": "Reduce la duración de los Encadenamientos 7 turnos. Recupera una cantidad de HP equivalente a su RCV 15x.",
 				"cooldown": [24,17]
 			}
 		]
@@ -7464,72 +7469,194 @@ window.details = {
 		specialName:"Out-of-Control White Smoke",
 		special: "Aleatoriza los orbes no favorables de los personajes Slasher e intercambia su posición con la del capitán durante 2 turnos"
 	},
+	1400: { 
+		captain:"Aumenta el ATK de los personajes Shooter 1.75x y aumenta el ATK de los personajes Driven 1.3x",
+		captainNotes:"#{boostAcumulado : Shooter : Driven}",
+		specialName:"Stonewall Punk",
+		special: [
+			{
+				"description": "Hace daño [STR] a todos los enemigos, reduce la duración de los Encadenamientos y Despair 1 turno y aumenta la Afinidad de Tipo de los personajes Shooter 1.5x durante 1 turno.",
+				"cooldown": [26,11]
+			},
+			{
+				"description": "Hace gran daño [STR] a todos los enemigos, reduce la duración de los Encadenamientos y Despair 2 turnos y aumenta la Afinidad de Tipo para los personajes Shooter 1.75x durante 1 turno",
+				"cooldown": [33,18]
+			}
+		],
+		specialNotes:"#{afinidad: 3 o 3.5 : 0.25 o 0.125} <br> #{stages}"
+	},
+	1401: { 
+		captain:"Aumenta el ATK de los personajes Shooter 1.75x y aumenta el ATK de los personajes Driven 1.5x",
+		captainNotes:"#{boostAcumulado : Shooter : Driven}",
+		specialName:"Stonewall Punk",
+		special: [
+			{
+				"description": "Hace daño [STR] a todos los enemigos, reduce la duración de los Encadenamientos y Despair 1 turno y aumenta la Afinidad de Tipo de los personajes Shooter 1.5x durante 1 turno.",
+				"cooldown": [26,11]
+			},
+			{
+				"description": "Hace gran daño [STR] a todos los enemigos, reduce la duración de los Encadenamientos y Despair 2 turnos y aumenta la Afinidad de Tipo para los personajes Shooter 1.75x durante 1 turno",
+				"cooldown": [33,18]
+			}
+		],
+		specialNotes:"#{afinidad: 3 o 3.5 : 0.25 o 0.125} <br> #{stages}"
+	},
+	1402: { 
+		captain:"Aumenta el ATK de los personajes [PSY] y [QCK] 2x",
+		specialName:"Offense Battle Axe",
+		special: [
+			{
+				"description": "Hace su ATK 3x como daño [PSY] a un solo enemigo y aumenta el ATK de los personajes [PSY] 1.3x durante 1 turno.",
+				"cooldown": [14,null]
+			},
+			{
+				"description": "Hace su ATK 13x como daño [PSY] a un solo enemigo y aumenta el ATK de los personajes [PSY] 1.5x durante 1 turno",
+				"cooldown": [18,null]
+			}
+		]
+	},
 	1403: { 
-		captain:"Aumenta el ATK de los personajes Free Spirit 2.5x y reduce el daño recibido un 15%. Si se usa 'Gomu Gomu no Red Hawk' (especial de Monkey D. Luffy, Reunión de los Mugiwaras), en dicho turno aumentará el ATK 4x",
+		captain:"Aumenta el ATK de los personajes Free Spirit 2.5x y reduce el daño recibido un 15%. Si se usa 'Gomu Gomu no Red Hawk' (especial de Monkey D. Luffy, Reunión de los Mugiwaras), aumentará el ATK 4x mientras se encuentre activo el efecto del especial (3 turnos si se activa la segunda carga)",
+		captainNotes:"El uso de su especial solo afectará al Luffy que lo usa, de forma que el Luffy que no haya usado el especial aumentará el ATK de los personajes Free Spirit 2.5x, mientras que el que lo ha usado aumentará el ATK 4x. Este efecto solo se aplicará lanzando la segunda carga del especial. Lanzando los especiales de ambos Luffys, ambos aumentarán x4, es decir, se pueden usar los dos especiales en el mismo turno.",
 		specialName:"Gomu Gomu no Red Hawk",
-		special: "Hace gran daño [QCK] a un solo enemigo y hace que los orbes [DEX], [QCK] y [PSY] cuenten como favorables durante 3 turnos"
+		special: [
+			{
+				"description": "Hace su ATK 25x como daño [QCK] a un solo enemigo y hace que los orbes [DEX], [QCK] y [PSY] cuenten como favorables durante 1 turno.",
+				"cooldown": [14,9]
+			},
+			{
+				"description": "Hace su ATK 60x como daño [QCK] a un solo enemigo y hace que los orbes [DEX], [QCK] y [PSY] cuenten como favorables durante 3 turnos.",
+				"cooldown": [18,13]
+			}
+		]
 	},
 	1404: { 
-		captain:"Aumenta el ATK de los personajes Free Spirit 2.5x y reduce el daño recibido un 15%. Si se usa 'Gomu Gomu no Red Hawk' (especial de Monkey D. Luffy, Reunión de los Mugiwaras), en dicho turno aumentará el ATK 4x",
+		captain:"Aumenta el ATK de los personajes Free Spirit 2.5x y reduce el daño recibido un 15%. Si se usa 'Gomu Gomu no Red Hawk' (especial de Monkey D. Luffy, Reunión de los Mugiwaras), aumentará el ATK 4x mientras se encuentre activo el efecto del especial (3 turnos si se activa la segunda carga)",
+		captainNotes:"El uso de su especial solo afectará al Luffy que lo usa, de forma que el Luffy que no haya usado el especial aumentará el ATK de los personajes Free Spirit 2.5x, mientras que el que lo ha usado aumentará el ATK 4x. Este efecto solo se aplicará lanzando la segunda carga del especial. Lanzando los especiales de ambos Luffys, ambos aumentarán x4, es decir, se pueden usar los dos especiales en el mismo turno.",
 		specialName:"Gomu Gomu no Red Hawk",
-		special: "Hace gran daño [QCK] a un solo enemigo y hace que los orbes [DEX], [QCK] y [PSY] cuenten como favorables durante 3 turnos"
+		special: [
+			{
+				"description": "Hace su ATK 25x como daño [QCK] a un solo enemigo y hace que los orbes [DEX], [QCK] y [PSY] cuenten como favorables durante 1 turno.",
+				"cooldown": [14,9]
+			},
+			{
+				"description": "Hace su ATK 60x como daño [QCK] a un solo enemigo y hace que los orbes [DEX], [QCK] y [PSY] cuenten como favorables durante 3 turnos.",
+				"cooldown": [18,13]
+			}
+		]
 	},
 	1405: { 
 		captain:"Aumenta el ATK de los personajes Shooter 1.75x y su RCV 1.25x",
-		specialName:"Usopp Special",
+		specialName:"Assault Meteor Shower",
 		special: "Inflige 10 golpes de 2.000 puntos de daño fijo a enemigos aleatorios, aumenta el ATK de los personajes Shooter contra enemigos con escudo antidelay 1.75x e incrementa la efectividad de los orbes 1.75x durante 1 turno",
+		specialNotes:"#{orb : 1.75x} <br> Es un nuevo tipo de aumento condicional",
 		sailor:"Aumenta el ATK y el RCV de los personajes Shooter 100 puntos si la HP del equipo es baja"
 	},
 	1406: { 
-		captain:"",
-		specialName:"Usopp Special",
+		captain:"Aumenta el ATK de los personajes Shooter 2.25x y su RCV 1.5x",
+		specialName:"Assault Meteor Shower",
 		special: "Inflige 10 golpes de 2.000 puntos de daño fijo a enemigos aleatorios, aumenta el ATK de los personajes Shooter contra enemigos con escudo antidelay 1.75x e incrementa la efectividad de los orbes 1.75x durante 1 turno",
+		specialNotes:"#{orb : 1.75x} <br> Es un nuevo tipo de aumento condicional",
 		sailor:"Aumenta el ATK y el RCV de los personajes Shooter 100 puntos si la HP del equipo es baja"
 	},
 	1407: { 
 		captain:"Aumenta el ATK de los personajes [DEX] y [PSY] 1.75x y su RCV 1.25x",
-		specialName:"Robin Special",
+		specialName:"Mil Fleur: Gigantesco Mano Stomp",
 		special: "Reduce la duración del Despair 3 turnos y aumenta el ATK de los personajes [DEX] y [PSY] 2x durante 1 turno",
 		sailor:"Reduce la duración de la Ceguera 3 turnos"
 	},
 	1408: { 
-		captain:"",
-		specialName:"Robin Special",
+		captain:"Aumenta el ATK de los personajes [DEX] y [PSY] 2.25x y su RCV 1.5x",
+		specialName:"Mil Fleur: Gigantesco Mano Stomp",
 		special: "Reduce la duración del Despair 3 turnos y aumenta el ATK de los personajes [DEX] y [PSY] 2x durante 1 turno",
 		sailor:"Reduce la duración de la Ceguera 3 turnos"
 	},
 	1409: { 
-		captain:"Sobrevives a cualquier golpe si la HP del equipo se encuentra por encima del x%",
-		specialName:"Brook Special",
+		captain:"Sobrevives a cualquier golpe si la HP del equipo se encuentra por encima del 50%",
+		captainNotes:"#{zombie}",
+		specialName:"Soul's Murder Soul: Soul Solid",
 		special: "Retrasa a todos los enemigos 1 turno y aumenta el ATK de los personajes Free Spirit y Slasher 1.75x durante 1 turno",
 		sailor:"Esta unidad resiste totalmente a la Parálisis"
 	},
 	1410: { 
-		captain:"Sobrevives a cualquier golpe si la HP del equipo se encuentra por encima del x%",
-		specialName:"Brook Special",
+		captain:"Aumenta el multiplicador de cadena 2.5x y sobrevives a cualquier golpe si la HP del equipo se encuentra por encima del 50%",
+		captainNotes:"#{zombie}",
+		specialName:"Soul's Murder Soul: Soul Solid",
 		special: "Retrasa a todos los enemigos 1 turno y aumenta el ATK de los personajes Free Spirit y Slasher 1.75x durante 1 turno",
 		sailor:"Esta unidad resiste totalmente a la Parálisis"
 	},
 	1411: { 
 		captain:"Aumenta el ATK de los personajes Powerhouse 2.25x y reduce su RCV a 0",
-		specialName:"Chopper Special",
-		special: "Reduce la reducción de daño enemiga, aumenta la duración de la defensa del equipo 3 turnos y hace gran daño sin tipo a todos los enemigos",
-		sailor:"Si esta unidad hace un Perfect teniendo un orbe [STR], mantiene dicho orbe para el siguiente turno",
+		specialName:"Carving Hoof Palm: Coconut",
+		special: "Reduce la Reducción de Daño enemiga y el Aumento de la Defensa durante 3 turnos y hace su ATK 60x como daño sin tipo a todos los enemigos",
+		specialNotes:"Esto no afecta al Limitador de Daño. Reducción de daño es el Escudo Arco-Iris que tienen los enemigos y Aumento de Defensa es el Escudo Azul",
+		sailor:"Si esta unidad hace un Perfect teniendo un orbe [STR], mantiene dicho orbe para el siguiente turno"
 	},
 	1412: { 
-		captain:"",
-		specialName:"Chopper Special",
-		special: "Reduce la reducción de daño enemiga, aumenta la duración de la defensa del equipo 3 turnos y hace gran daño sin tipo a todos los enemigos",
-		sailor:"Si esta unidad hace un Perfect teniendo un orbe [STR], mantiene dicho orbe para el siguiente turno",
+		captain:"Aumenta el ATK de los personajes Powerhouse 2.75x y reduce su RCV a 1",
+		specialName:"Carving Hoof Palm: Coconut",
+		special: "Reduce la Reducción de Daño enemiga y el Aumento de la Defensa durante 3 turnos y hace su ATK 60x como daño sin tipo a todos los enemigos",
+		specialNotes:"Esto no afecta al Limitador de Daño. Reducción de daño es el Escudo Arco-Iris que tienen los enemigos y Aumento de Defensa es el Escudo Azul",
+		sailor:"Si esta unidad hace un Perfect teniendo un orbe [STR], mantiene dicho orbe para el siguiente turno"
 	},
 	1413: { 
-		captain:"Aumenta la HP de todos los personajes 1.25x y aumenta el ATK de todos los personajes 3x si la HP se encuentra por debajo del 30%, aumentando 1.75x si se encuentra por encima del 30%",
+		captain:"Aumenta la HP de todos los personajes 1.2x y aumenta el ATK de todos los personajes 3x si la HP se encuentra por debajo del 30%, aumentando 1.75x si se encuentra por encima del 30%",
 		specialName:"Seaquake",
 		special: "Reduce la HP actual de los enemigos un 30%, reduce la carga de todos los especiales 1 turno y aleatoriza los orbes no favorables, incluidos los [NEGATIVO]"
 	},
 	1414: { 
 		captain:"Aumenta el ATK de los personajes Powerhouse 2.5x",
-		specialName:"Sanji Special",
+		specialName:"Are you ready?",
 		special: "Cambia su propio orbe a [INT] y reduce la carga de los especiales de los personajes Powerhouse 1 turno"
+	},
+	1415: { 
+		captain:"Aumenta el ATK de los personajes con coste 30 o menor 1.5x",
+		specialName:"Unshakeable Resolution of the Wise Master",
+		special: "Reduce la carga de los especiales de todos los personajes 1 turno y aumenta el ATK de los personajes con coste 30 o menor 1.5x durante 1 turno"
+	},
+	1416: { 
+		captain:"Aumenta el ATK de los personajes con coste 30 o menor 2.25x y la HP 1.2x",
+		specialName:"Unshakeable Resolution of the Wise Master",
+		special: "Reduce la carga de los especiales de todos los personajes 1 turno y aumenta el ATK de los personajes con coste 30 o menor 1.5x durante 1 turno"
+	},
+	1417: { 
+		captain:"Aumenta el ATK y la HP de los personajes [STR] 1.5x",
+		specialName:"Raid Battle-Axe: One Flash",
+		special: "Reduce la HP actual de los enemigos un 10%. Cambia orbes [NEGATIVO] a [STR] para personajes Slasher"
+	},
+	1418: { 
+		captain:"Aumenta el ATK y el RCV de los personajes [INT] 1.5x",
+		specialName:"Defence of the Command Line",
+		special: "Reduce el daño recibido a partir de los 5000 puntos en un 99% durante 1 turno"
+	},
+	1419: { 
+		captain:"Aumenta el ATK de los personajes Powerhouse 2.5x y reduce el daño recibido un 10%",
+		specialName:"Lucci Special",
+		special: "Recupera 5000 puntos de HP y aumenta el ATK de todos los personajes 1.5x durante 1 turno contra enemigos con defensa reducida"
+	},
+	1420: { 
+		captain:"Aumenta el ATK de los personajes Powerhouse 2.5x y reduce el daño recibido un 10%",
+		specialName:"Lucci Special",
+		special: "Recupera 5000 puntos de HP y aumenta el ATK de todos los personajes 1.5x durante 1 turno contra enemigos con defensa reducida"
+	},
+	1421: { 
+		captain:"Aumenta el ATK de los personajes Driven 2x",
+		specialName:"Diamante Special",
+		special: "Hace un gran daño [INT] a todos los enemigos. Aumenta el ATK de los personajes Driven 1.5x durante 1 turno. Si la HP del equipo se encuentra al 100%, aumenta el ATK de los personajes Driven 2x."
+	},
+	1422: { 
+		captain:"Aumenta el ATK de los personajes Driven 2.25x y la HP de los personajes Slasher y Striker 1.5x",
+		specialName:"Diamante Special",
+		special: "Hace un gran daño [INT] a todos los enemigos. Aumenta el ATK de los personajes Driven 1.5x durante 1 turno. Si la HP del equipo se encuentra al 100%, aumenta el ATK de los personajes Driven 2x."
+	},
+	1423: { 
+		captain:"Aumenta el ATK de todos los personajes 1.75x y recupera 918 puntos de HP al final de cada turno",
+		specialName:"T-Bone Special",
+		special: "Reduce el daño recibido en un 99% si la HP del equipo se encuentra por debajo de 500 puntos"
+	},
+	1424: { 
+		captain:"Aumenta el ATK de los personajes Striker proporcionalmente a la HP del equipo",
+		specialName:"Gin Special",
+		special: "Hace 500 puntos de daño fijo a todos los enemigos. Reduce la carga de los especiales de los personajes Striker 1 turno"
 	}
 };
