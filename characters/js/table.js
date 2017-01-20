@@ -160,7 +160,7 @@ angular.module('optc') .run(function($rootScope, $timeout, $storage, MATCHER_IDS
         // filter by rr pool
         if ((filters.rr === 'No en RR' && flags.rr) || (filters.rr === 'Solo RR' && !flags.rr)) return false;
         //filter by farmable Sockets
-        if ((filters.socket === 'Sockets No Farmeable ' && farmableSocket) || (filters.socket === 'Sockets Farmeable' && !farmableSocket)) return false;
+        if ((filters.socket === '   Sockets No Farmeable   ' && farmableSocket) || (filters.socket === 'Sockets Farmeable' && !farmableSocket)) return false;
         // filter by active matchers
         if (filters.custom.length > 0 && !window.details.hasOwnProperty(id)) return false;
         for (var i=0;i<filters.custom.length;++i) {
