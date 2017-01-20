@@ -403,7 +403,7 @@ window.specials = {
     637: {
         atk: function(p) { return 1.3; },
         type: "condition",
-        warning: "Selected special (%name%) assumes that the enemy has a defense buff active."
+        warning: "El especial seleccionado (%name%) asume que el enemigo tiene un buff de defensa activo."
     },
     642: {
         orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.75); }
@@ -414,12 +414,12 @@ window.specials = {
     644: {
         atk: function(p) { return 1.2; },
         type: "condition",
-        warning: "Selected special (%name%) assumes that the enemy has been delayed."
+        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay."
     },
     645: {
         atk: function(p) { return 1.2; },
         type: "condition",
-        warning: "Selected special (%name%) assumes that the enemy has been delayed."
+        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay."
     },
     648: {
         orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.5); }
@@ -460,7 +460,7 @@ window.specials = {
             var n = (window.specials[668].multiplier == 1.5 ? 1 : 0);
             window.specials[668].multiplier = [1.5, 2][n];
             p.scope.notify({
-                text: 'Using the ' + [1.5, 2][n] + 'x ATK multiplier. To switch to the ' + [2, 1.5][n] + 'x multiplier, disable and re-enable this special',
+                text: 'Usando el multiplicador de ATK ' + [1.5, 2][n] + '. Para cambiar al ' + [2, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '668warning'
             });
         }
@@ -472,7 +472,7 @@ window.specials = {
             var n = (window.specials[669].multiplier == 1.5 ? 1 : 0);
             window.specials[669].multiplier = [1.5, 2][n];
             p.scope.notify({
-                text: 'Using the ' + [1.5, 2][n] + 'x ATK multiplier. To switch to the ' + [2, 1.5][n] + 'x multiplier, disable and re-enable this special',
+                text: 'Usando el multiplicador de ATK ' + [1.5, 2][n] + '. Para cambiar al ' + [2, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '669warning'
             });
         }
@@ -540,7 +540,7 @@ window.specials = {
             var n = (p.percHP <= 30 ? 2 : 1.5);
             window.specials[719].multiplier = n;
             p.scope.notify({
-                text: 'HP ' + (n == 2 ? 'below' : 'above') + ' 30%, using the ' + n + 'x multiplier.',
+                text: 'HP ' + (n == 2 ? 'por debajo' : 'por encima') + ' del 30%, usando el multiplicador ' + n + 'x.',
                 name: '719warning'
             });
         }
@@ -552,7 +552,7 @@ window.specials = {
             var n = (p.percHP <= 30 ? 2 : 1.5);
             window.specials[720].multiplier = n;
             p.scope.notify({
-                text: 'HP ' + (n == 2 ? 'below' : 'above') + ' 30%, using the ' + n + 'x multiplier.',
+                text: 'HP ' + (n == 2 ? 'por debajo' : 'por encima') + ' del 30%, usando el multiplicador ' + n + 'x.',
                 name: '720warning'
             });
         }
