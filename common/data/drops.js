@@ -528,6 +528,7 @@ window.drops = {
             name: "Bahía de Marineford",
             shortName: "Marineford",
             thumb: 1228,
+			global: true,
             completion: '5x Rainbow Gems',
             "01": [  ],
             "02": [ 1223 ],
@@ -586,6 +587,22 @@ window.drops = {
             "14": [ 1353 ],
         },
         
+		{
+            name: "De vuelta al Archipiélago Sabaody",
+            shortName: "Straw Hat Return",
+            thumb: 1393,
+            completion: '5x Rainbow Gems',
+            "01": [  ],
+            "02": [  ],
+            "03": [ 1393 ],
+            "04": [  ],
+            "05": [  ],
+            "06": [  ],
+            "07": [  ],
+            "08": [  ],
+            "09": [ 1392 ],
+        },
+		
     ],
 
     'Weekly Island': [
@@ -804,7 +821,7 @@ window.drops = {
             global: true,
             condition: 'You may only bring PSY units for 15 and 30 Stamina',
             challenge: 'High Score calculated with Crew Cost, Turns Taken and Tap Accuracy',
-            challengeData: [['10,000 Points','1x Black Elder'],['40,000 Points','1x Rainbow Gem, 1x ATK Cotton Candy'],['70,000 Points','2x Rainbow Gems, 1x Damage Reduction Forbidden Tome']],
+            challengeData: [['10,000 Points','1x Black Elder'],['40,000 Points','1x Rainbow Gem, 1x ATK Cotton Candy'],['70,000 Points','2x Rainbow Gems, 1x Defence Boost Forbidden Tome']],
             "Todas las dificultades": [ 385, 387, -388, -335, -314, -36, -16, -11 ]
         },
 
@@ -880,7 +897,7 @@ window.drops = {
             global: true,
             condition: '30: Non-Striker, Evolver, or Booster class characters are weakend; 15: Fighter and Shooter class characters are weakened (Note: Multi-class characters such as Striker / Slasher are not affected)',
             challenge: 'Total Damage dealt to enemies in one turn',
-            challengeData: [['120,000 Damage','1x Blue Elder'],['600,000 Damage','1x HP Cotton Candy, 1x Rainbow Gem'],['2,500,000 Damage','1x CDR Forbidden Tome, 2x Rainbow Gems']],
+            challengeData: [['120,000 Damage','1x Blue Elder'],['600,000 Damage','1x HP Cotton Candy, 1x Rainbow Gem'],['2,500,000 Damage','1x Cooldown Reduction Forbidden Tome, 2x Rainbow Gems']],
             "Todas las dificultades": [ 509, 511, -402, -400, -374, -357, -259, -212, -209 ]
         },
 
@@ -899,8 +916,8 @@ window.drops = {
             thumb: 550,
             global: true,
             condition: '30: Non-Slasher, Evolver, or Booster class characters are weakend; 15: Striker and Shooter class characters are weakened',
-            challenge: 'High Score calculated with Clear Speed and Crew Cost. (Crew cost can basically be ignored)',
-            challengeData: [['60,000 Points','1x Black Elder'],['160,000 Points','1x ATK Cotton Candy'],['300,000 Points','3x Rainbow Gems']],
+            challenge: 'Cumulative Damage dealt to enemies in a single run',
+            challengeData: [['600,000 Damage','1x Black Elder'],['2,000,000 Damage','1x ATK Cotton Candy, 1x Rainbow Gem'],['5,000,000 Damage','1x Defence Boost Forbidden Tome, 2x Rainbow Gems']],
             "Todas las dificultades": [ 549, 551, 552, -552, -551, -432, -426, -408, -329, -308, -255 ]
         },
 
@@ -963,7 +980,7 @@ window.drops = {
             thumb: 664,
             global: true,
             condition: 'Heatwave causes damage every 2 turns',
-            "Japón": [ 663, 665, 667, -667, -522, -508, -506, -459, -378, -221, -73 ],
+            "Japón": [ 663, 665, 667, -667, -522, -508, -506, -459, -378, -221, -73, -1117 ],
             "Global": [ 663, 665, 667, -667, -639, -508, -506, -459, -378, -221, -73 ]
         },
 
@@ -972,7 +989,7 @@ window.drops = {
             thumb: 688,
             global: true,
             condition: 'Bomb orbs appear',
-            "Japón": [ 687, 689, -542, -524, -528, -429, -428, -402, -365, -218 ],
+            "Japón": [ 687, 689, -542, -524, -528, -429, -428, -402, -365, -218, -1119, -1177  ],
             "Global": [ 687, 689, -542, -645, -647, -429, -428, -402, -365, -218 ]
         },
 
@@ -982,8 +999,8 @@ window.drops = {
             global: true,
             condition: '30: Non-Free Spirit, Evolver, or Booster class characters are weakend; 15: Striker and Shooter class characters are weakened',
             challenge: 'Cumulative Damage dealt to enemies in a single run',
-            challengeData: [['600,000','1x Blue Elder'],['2,000,000','1x RCV Cotton Candy, 1x Rainbow Gem'],['5,000,000','1x Anti-Lock Forbidden Tome, 2x Rainbow Gems']],
-            "Japón": [ 712, 714, 715, -716, -546, -541, -520, -400, -202, -363, -204 ],
+            challengeData: [['600,000','1x Blue Elder'],['2,000,000','1x RCV Cotton Candy, 1x Rainbow Gem'],['5,000,000','1x Lock Resistance Forbidden Tome, 2x Rainbow Gems']],
+            "Japón": [ 712, 714, 715, -716, -546, -541, -520, -1115, -400, -202, -363, -204 ],
             "Global": [ 712, 714, 715, -716, -643, -546, -541, -400, -202, -363, -204 ]
         },
 
@@ -992,7 +1009,7 @@ window.drops = {
             thumb: 724,
             global: true,
             condition: 'You can only bring INT, PSY and QCK units',
-            "Japón": [ 721, 723, -590, -564, -563, -530, -526, -384, -361, -219 ],
+            "Japón": [ 721, 723, -590, -564, -563, -530, -526, -384, -361, -219, -1173 ],
             "Global": [ 721, 723, -590, -564, -563, -530, -641, -384, -361, -219 ]
         },
 
@@ -1001,7 +1018,7 @@ window.drops = {
             thumb: 743,
             global: true,
             condition: 'You can only bring STR, QCK and DEX units',
-            "Japón": [ 740, 742, -560, -558, -586, -567, -566, -412, -225, -18 ],
+            "Japón": [ 740, 742, -560, -558, -586, -567, -566, -412, -225, -18, -1208, -1212 ],
             "Global": [ 740, 742, -671, -673, -586, -567, -566, -412, -225, -18 ]
         },
 
@@ -1010,7 +1027,7 @@ window.drops = {
             thumb: 761,
             global: true,
             condition: "None",
-            "Japón": [ 761, 762, 763, 764, 765, -610, -588, -565, -556, -426, -408, -261, -217 ],
+            "Japón": [ 761, 762, 763, 764, 765, -610, -588, -565, -556, -426, -408, -261, -217, -1210 ],
             "Global": [ 761, 762, 763, 764, 765, -426, -408, -332, -308, -292, -261, -217, -8 ]
         },
 
@@ -1019,7 +1036,7 @@ window.drops = {
             thumb: 766,
             global: true,
             condition: "None",
-            "Japón": [ 762, 766, 767, 768, 769, -629, -611, -569, -554, -431, -410, -367, -223 ],
+            "Japón": [ 762, 766, 767, 768, 769, -629, -611, -569, -554, -431, -410, -367, -223, -1175 ],
             "Global": [ 762, 766, 767, 768, 769, -431, -367, -291, -253, -251, -223, -212, -75 ]
         },
 
@@ -1050,8 +1067,8 @@ window.drops = {
             condition: 'You can only bring Impact and Free Spirit units. (No Evo/Boosters)',
             challenge: 'Total Damage dealt to enemies in one turn',
             challengeData: [['100,000 Damage','1x DEX Elder Turtle'],['500,000 Damage','1x Rainbow Gem, 1x ATK Cotton Candy'],['2,000,000 Damage','2x Rainbow Gems, 1x Auto-Heal Forbidden Tome']],
-            "Japón": [ 847, 849, 850, -849, -647, -617, -616, -615, -578, -508, -455 ],
-            "Global": [ 847, 849, 850, -849, -750, -617, -616, -615, -578, -508, -455 ]
+            "Japón": [ 847, 849, 850, -849, -647, -617, -616, -615, -578, -508, -455, -1121 ],
+            "Global": [ 847, 849, 850, -849, -750, -617, -616, -615, -578, -508, -455, -1121 ]
         },
 
         {
@@ -1060,7 +1077,7 @@ window.drops = {
             global: true,
             condition: 'You can only bring Shooter and Driven units. (No Evo/Boosters)',
             challenge: 'Cumulative Damage dealt to enemies in a single run',
-            challengeData: [['400,000 Damage','1x QCK Elder Turtle'],['1,400,000 Damage','1x ATK Cotton Candy, 1x Rainbow Gem'],['4,000,000 Damage','2x Rainbow Gems, 1x Despair Forbidden Tome']],
+            challengeData: [['400,000 Damage','1x QCK Elder Turtle'],['1,400,000 Damage','1x ATK Cotton Candy, 1x Rainbow Gem'],['4,000,000 Damage','2x Rainbow Gems, 1x Despair Resistance Forbidden Tome']],
             "Todas las dificultades": [ 328, 330, 331, 333, 851, 853, 854, -854, -649, -643, -614, -463, -457, -327, -22 ]
         },
 
@@ -1069,7 +1086,7 @@ window.drops = {
             thumb: 866,
             condition: "None",
             challenge:'Total number of hits above 50,000',
-            challengeData: [['4 Times','1x INT Elder'],['9 Times','1x ATK Cotton Candy, 1x Rainbow Gem'],['22 Times','1x Anti-Silence Forbidden Tome, 2x Rainbow Gems']],
+            challengeData: [['4 Times','1x INT Elder'],['9 Times','1x ATK Cotton Candy, 1x Rainbow Gem'],['22 Times','1x Despair Resistance Forbidden Tome, 2x Rainbow Gems']],
             "Todas las dificultades": [ 41, 42, 53, 235, 395, 397, 419, 426, 427, 432, 563, 564, 866, 867, 868, -709, -673, -671, -633, -500, -467, -465, -451, -431 ]
         },
 
@@ -1084,28 +1101,32 @@ window.drops = {
             name: "Mountaintop Banquet! Enter the Generals!",
             thumb: 897,
             condition: 'Only STR/DEX/QCK/PSY/INT orbs will appear',
-            "Todas las dificultades": [ 897, 898, 899, -899, -754, -702, -701, -669, -528, -466, -449, -464 ]
+            "Todas las dificultades": [ 897, 898, 899, -899, -754, -702, -701, -669, -528, -466, -449, -464, -1177  ]
         },
 
         {
             name: "Men are Forbidden!? The Secret Flower Garden",
             thumb: 918,
+			global: true,
             condition: 'You can only bring DEX units',
-            "Todas las dificultades": [ 917, 919, 920, -920, -791, -756, -720, -706, -705, -542, -541, -522 ]
+            "Todas las dificultades": [ 917, 919, 920, -920, -791, -756, -720, -706, -705, -542, -541, -522, -1117  ]
         },
         
         {
             name: "Hannyabal's Great Ambition",
             thumb: 929,
+			global: true,
             condition: 'You can only bring STR units',
-            "Todas las dificultades": [ 928, 930, 931, -752, -758, -520, -729, -733, -787, -930, -544, -506 ]
+            "Todas las dificultades": [ 928, 930, 931, -752, -758, -520, -729, -733, -787, -930, -544, -506, -1115  ]
         },
         
         {
             name: "Encounter! Whitebeard Pirates",
             thumb: 946,
+			global: true,
             condition: "You can only bring PSY units",
-            "Todas las dificultades": [ 946, 947, 948, 949, -718, -750, -760, -526, -793, -735, -546, -738]
+			"Japón": [ 946, 947, 948, 949, -718, -750, -760, -526, -793, -735, -546, -738, -1173 ],
+            "Global": [ 946, 947, 948, 949, -718, -524, -1119, -528, -1177, -526, -793, -735, -546, -738, -1173 ]
         },
         
         {
@@ -1114,14 +1135,14 @@ window.drops = {
             condition: "You can only bring INT units",
             challenge: 'High Score calculated with Crew Cost, Turns Taken and Tap Accuracy',
             challengeData: [['150,000','1x Blue Elder'],['420,000','1x HP Cotton Candy, 1x Rainbow Gem'],['700,000','2x Rainbow Gems, 1x Orb Forbidden Tome']],
-            "Todas las dificultades": [ 979, 980, 981, 949, -459, -838, -842, -524, -789, -736, -731, -563 ]
+            "Todas las dificultades": [ 979, 980, 981, 949, -459, -838, -842, -524, -789, -736, -731, -563, -1119 ]
         },
         
         {
             name: "Let's Find Our Captain! Heart Pirates!",
             condition: "You can only bring QCK units",
             thumb: 1003,
-            "Todas las dificultades": [ 1002, 1004, 1005, -748, -844, -558, -846, -737, -1006, -785, -564 ]
+            "Todas las dificultades": [ 1002, 1004, 1005, -748, -844, -558, -846, -737, -1006, -785, -564, -1208 ]
         },
         
         {
@@ -1130,21 +1151,21 @@ window.drops = {
             condition: "None",
             global: true,
             "Global": [ 1010, 1012, 1013, 1014, -1014, -530, -840, -671, -880, -739, -812, -565 ],
-            "Japón": [ 1010, 1012, 1013, 1014, -1014, -530, -840, -560, -880, -739, -812, -565 ]
+            "Japón": [ 1010, 1012, 1013, 1014, -1014, -530, -840, -560, -880, -739, -812, -565, -1212 ]
         },
         
         {
             name: "Temptation!? The Queen of Kamabakka Queendom!",
             thumb: 1037,
             condition: "Only DEX/RCV/TND orbs will appear",
-            "Todas las dificultades": [ 1036, 1038, -874, -876, -878, -554, -813, -814, -566]
+            "Todas las dificultades": [ 1036, 1038, -874, -876, -878, -554, -813, -814, -566, -1175 ]
         },
         
         {
             name: "The One Who Seeks the Truth of History: Archaeologist Nico Olvia",
             thumb: 1049,
             condition: "Only TND/RCV/INT orbs will appear",
-            "Todas las dificultades": [ 1048, 1050, 1052, -556, -567, -586, -614, -816, -870, -872, -908]
+            "Todas las dificultades": [ 1048, 1050, 1052, -556, -567, -586, -614, -816, -870, -872, -908, -1210 ]
         },
         
         {
@@ -1185,7 +1206,7 @@ window.drops = {
             thumb: 1167,
             global: true,
             condition: "None",
-            "Todas las dificultades": [ 1166, 1168, 1170, -578, -999, -991, -993, -675, -508, -616, -703 ]
+            "Todas las dificultades": [ 1166, 1168, 1170, -578, -999, -991, -993, -675, -508, -616, -703, -1121 ]
         },
         
         {
@@ -1259,9 +1280,17 @@ window.drops = {
         {
             name: "Shambles! Tashigi and Smoker?!?",
             thumb: 1397,
+			condition: "Your captain will be switched with your middle right character when you encounter Law.",
             "Todas las dificultades": [ 1396, 1398, -1192, -1232, -1238, -844, -838, -1159, -1389, -12, -737, -257 ]
         },
         
+		{
+            name: "Marines! Sengoku the Fleet Admiral!",
+            thumb: 1416,
+            condition: "You can only bring INT units",
+            "Todas las dificultades": [ 1415, 1417, 1418, -1418, -870, -1276, -1274, -1236, -874, -253, -1223, -813 ]
+        },
+		
     ],
 
             
@@ -1389,6 +1418,7 @@ window.drops = {
         {
             name: 'Emperatriz Pirata Boa Hancock',
             thumb: 865,
+			global: true,
             Ultimate: [ 864 ],
             Master: [ 864 ],
             Expert: [ 864 ]
@@ -1412,7 +1442,7 @@ window.drops = {
             name: 'Impostor Straw Hat Pirates',
             showManual: true,
             thumb: 989,
-            Ultimate: [ 985, 986, 987, 988, -989, -4, -8, -11, -12, -15, -16, -556, -528, -520, -554, -558, -20, -217, -709]
+            Ultimate: [ 985, 986, 987, 988, -989, -4, -8, -11, -12, -15, -16, -556, -528, -520, -554, -558, -20, -217, -709, -1115, -1177, -1175, -1210, -1208 ]
         },
         
         {
@@ -1445,6 +1475,13 @@ window.drops = {
             thumb: 1298,
             Ultimate: [ 1297 ]
         },
+		{
+            name: 'Guardián Magellan',
+            thumb: 1374,
+            condition: "Take 7% MAX Health in Environmental Damage",
+            Master: [ 1373 ],
+            Expert: [ 1373 ],
+        },
 
     ],
 
@@ -1460,7 +1497,7 @@ window.drops = {
             name: 'Battle Royal! Oars',
             thumb: 893,
             challenge:'Total number of hits above 50,000',
-            challengeData: [['6 Times','1x Forbidden Tome + 1x Red Elder'],['14 Times','1x Forbidden Tome, 1x RCV Cotton Candy, 1x Rainbow Gem'],['32 Times','1x Anti-Bind Forbidden Tome, 2x Rainbow Gems']],
+            challengeData: [['6 Times','1x Forbidden Tome + 1x Red Elder'],['14 Times','1x Forbidden Tome, 1x RCV Cotton Candy, 1x Rainbow Gem'],['32 Times','1x Bind Resistance Forbidden Tome, 2x Rainbow Gems']],
             "Todas las dificultades": [ -367, -316, -314, -312, -308, -259, -257, -255, -253, -251, -221, -218, -217, -210, -75, -30, -16, -15, -8 ]
         },
 
@@ -1469,7 +1506,7 @@ window.drops = {
             thumb: 683,
             global: true,
             challenge: 'Total number of hits over 30,000',
-            challengeData: [['10 Times','Vivi\'s Breather Unit'],['35 Times','1x HP Cotton Candy'],['72 Times','3x Rainbow Gems']],
+            challengeData: [['Japan Rewards', ''],['10 Times','#686 Vivi\'s Breather Unit'],['35 Times','1x HP Cotton Candy'],['72 Times','3x Rainbow Gems'], ['Global Rewards', ''],['10 Times','1x Bind Resistance Forbidden Tome, 1x Despair Resistance Forbidden Tome, 1x Auto-Heal Forbidden Tome, 1x Rainbow Gem'],['35 Times','1x Red Elder Turtle, 1x Blue Elder Turtle, 1x Green Elder Turtle, 1x Yellow Elder Turtle, 1x Black Elder Turtle, 2x Rainbow Gems'],['72 Times','5x Rainbow Gems']],
             "Todas las dificultades": [ 659, 680, 682, 684, 1200, 1198 ],
             "Completion Units": [686]
         },
@@ -1489,37 +1526,51 @@ window.drops = {
         {
             name: 'Coliseo',
             thumb: 779,
-            Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1294, 1311, 1339, 1340, 1377, 1402 ],
-            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1294, 1311, 1339, 1340, 1377, 1402 ],
-            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1292, 1294, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1402 ]
+            Exhibition: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1294, 1311, 1339, 1340, 1377, 1402, 1423, 1424 ],
+            Underground: [ 776, 778, 803, 832, 834, 859, 861, 883, 902, 904, 925, 927, 952, 984, 1017, 1019, 1197, 1221, 1252, 1253, 1294, 1311, 1339, 1340, 1377, 1402, 1423, 1424 ],
+            Chaos: [ 776, 778, 780, 803, 805, 830, 832, 834, 859, 861, 881, 883, 900, 902, 923, 925, 950, 982, 984, 1017, 1015, 1040, 1042, 1086, 1088, 1090, 1101, 1103, 1105, 1140, 1142, 1144, 1195, 1219, 1221, 1250, 1252, 1291, 1294, 1309, 1311, 1337, 1339, 1340, 1375, 1377, 1400, 1402, 1421, 1423, 1424 ]
         },
         
         {
             name: 'Rescue Ace Event - Akainu',
             thumb: 1283,
-            challenge: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
+            condition: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
             "Todas las dificultades": [ -261, -562, -720, -748, -935 ]
         },
         
         {
             name: 'Rescue Ace Event - Aokiji',
             thumb: 1280,
-            challenge: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
-            "Todas las dificultades": [ -416, -459, -530, -669, -578 ]
+            condition: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
+            "Todas las dificultades": [ -416, -459, -530, -669, -578, -1121 ]
         },
         
         {
             name: 'Rescue Ace Event - Kizaru',
             thumb: 1228,
-            challenge: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
+            condition: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
             "Todas las dificultades": [ -367, -649, -718, -870, -1001 ]
         },
         
         {
             name: 'Young Whitebeard Event',
             thumb: 1258,
-            challenge: "Has a chance of appearing at the end of ANY Raid boss. You MUST use the same team that you just used to complete the raid boss to fight Young Whitebeard.",
+            condition: "Has a chance of appearing at the end of ANY Raid boss. You MUST use the same team that you just used to complete the raid boss to fight Young Whitebeard.",
             "Todas las dificultades": [ 1257 ]
+        },
+		{
+            name: 'Invasión! Shanks el Pelirrojo',
+            thumb: 1380,
+            condition: "Has a chance of appearing at the end of ANY Chaos Coliseum boss. You MUST use the same team that you just used to complete the Coliseum boss to fight Shanks.",
+            "All Difficulties": [ 1379 ]
+        },
+        
+        {
+            name: 'The Flashback Before the Reunion! Fight all your Enemies!',
+            thumb: null,
+            condition: "The fight gets more difficult every time you complete it until it gets to 40 stamina.",
+            "Final Stage": [ 37, 38, 53, 55, 43, 36, 45, 57, 65, 203, 205, 383, 395, 397, 399, 401, 464, 465, 541, 545, 630, 632, 728, 730, 815, 889, 893, 973, 1055, 1057, 1158, 1156, 1227, 1228, 1280, 1283, 1353],
+            "Evolvers and Boosters": [ 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 115, 116, 117, 118, 266, 300, 301, 302, 303, 304, 1180, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 189, 190, 191, 192, 193, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351 ]
         },
 
    ]

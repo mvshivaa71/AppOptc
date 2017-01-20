@@ -295,4 +295,24 @@ window.zombies = {
         type: 'healer',
         multiplier: 3
     },
+    1358: {//Rayleigh
+        type: 'healer',
+        multiplier: 1.5
+    },
+    1359: {//Rayleigh
+        type: 'healer',
+        multiplier: 1.5
+    },
+    1409: { // New World Brook
+        type: 'zombie',
+        threshold: 0.5
+    },
+    1410: { // New World Brook
+        type: 'zombie',
+        threshold: 0.5
+    },
+    1423: { // Colo T-Bone
+        type: 'healer',
+        amount: 918
+    },
 };
