@@ -1139,7 +1139,7 @@ window.specials = {
             window.specials[964].multiplier = [1.1, 1.5][n];
             p.scope.notify({
                 text: 'Usando ' + [1.1, 1.5][n] + 'x como multiplicador de ATK. Para cambiar al ' + [1.5, 1.1][n] + 'x, desactiva y vuelve a activar el especial',
-                name: '965warning'
+                name: '964warning'
             });
         }
     },
