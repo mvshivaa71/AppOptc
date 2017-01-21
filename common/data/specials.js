@@ -1958,7 +1958,7 @@ window.specials = {
         },
     },
     1402: {
-        atk: function(p) { return !p.unit.type == "PSY" ? window.specials[1402].multiplier : 1; },
+        atk: function(p) { return p.unit.type == "PSY" ? window.specials[1402].multiplier : 1; },
         onActivation: function(p) {
             var n = (window.specials[1402].multiplier == 1.3 ? 1 : 0);
             window.specials[1402].multiplier = [1.3, 1.5][n];
