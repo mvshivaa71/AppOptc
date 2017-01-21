@@ -540,7 +540,7 @@ window.specials = {
             var n = (p.percHP <= 30 ? 2 : 1.5);
             window.specials[719].multiplier = n;
             p.scope.notify({
-                text: 'HP ' + (n == 2 ? 'por debajo' : 'por encima') + ' del 30%, usando el multiplicador ' + n + 'x.',
+                text: 'HP ' + (n == 2 ? 'por debajo' : 'por encima') + ' del 30%, usando ' + n + 'x como multiplicador.',
                 name: '719warning'
             });
         }
@@ -552,7 +552,7 @@ window.specials = {
             var n = (p.percHP <= 30 ? 2 : 1.5);
             window.specials[720].multiplier = n;
             p.scope.notify({
-                text: 'HP ' + (n == 2 ? 'por debajo' : 'por encima') + ' del 30%, usando el multiplicador ' + n + 'x.',
+                text: 'HP ' + (n == 2 ? 'por debajo' : 'por encima') + ' del 30%, usando ' + n + 'x como multiplicador.',
                 name: '720warning'
             });
         }
