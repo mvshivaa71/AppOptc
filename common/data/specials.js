@@ -1963,7 +1963,7 @@ window.specials = {
             var n = (window.specials[1402].multiplier == 1.3 ? 1 : 0);
             window.specials[1402].multiplier = [1.3, 1.5][n];
             p.scope.notify({
-                text: 'Usando ' + [1.3, 1.5][n] + 'x como multiplicador de ATK. Para cambiar al ' + [1.5, 1.3][n] + 'x, desactiva y vuelve a activar el especial',
+                text: 'Using the ' + [1.3, 1.5][n] + 'x Affinity boost. To switch to the ' + [1.5, 1.3][n] + 'x Affinity boost, disable and re-enable this special',
                 name: '1402warning'
             });
         },
