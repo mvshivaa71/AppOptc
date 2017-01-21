@@ -403,7 +403,7 @@ window.specials = {
     637: {
         atk: function(p) { return 1.3; },
         type: "condition",
-        warning: "El especial seleccionado (%name%) asume que el enemigo tiene un buff de defensa activo."
+        warning: "El especial seleccionado (%name%) asume que el enemigo tiene un bufo de defensa activo."
     },
     642: {
         orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.75); }
@@ -460,7 +460,7 @@ window.specials = {
             var n = (window.specials[668].multiplier == 1.5 ? 1 : 0);
             window.specials[668].multiplier = [1.5, 2][n];
             p.scope.notify({
-                text: 'Usando el multiplicador de ATK ' + [1.5, 2][n] + '. Para cambiar al ' + [2, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
+                text: 'Usando ' + [1.5, 2][n] + 'x como multiplicador de ATK. Para cambiar al ' + [2, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '668warning'
             });
         }
@@ -472,7 +472,7 @@ window.specials = {
             var n = (window.specials[669].multiplier == 1.5 ? 1 : 0);
             window.specials[669].multiplier = [1.5, 2][n];
             p.scope.notify({
-                text: 'Usando el multiplicador de ATK ' + [1.5, 2][n] + '. Para cambiar al ' + [2, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
+                text: 'Usando ' + [1.5, 2][n] + 'x como multiplicador de ATK. Para cambiar al ' + [2, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '669warning'
             });
         }
@@ -577,12 +577,12 @@ window.specials = {
     740: {
         atk: function(p) { return 1.3; },
         type: "condition",
-        warning: "Selected special (%name%) assumes that the enemy has a defense buff active."
+        warning: "El especial seleccionado (%name%) asume que el enemigo tiene un bufo de defensa activo."
     },
     741: {
         atk: function(p) { return 1.3; },
         type: "condition",
-        warning: "Selected special (%name%) assumes that the enemy has a defense buff active."
+        warning: "El especial seleccionado (%name%) asume que el enemigo tiene un bufo de defensa activo."
     },
     742: {
         orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.25); }
@@ -615,7 +615,7 @@ window.specials = {
     770: {
         atk: function(p) { return 1.3; },
         type: "condition",
-        warning: "Selected special (%name%) assumes that the enemy has been delayed."
+        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay."
     },
     771: {
         atk: function(p) { return p.unit.class.has("Cerebral") ? 1.75 : 1; },
@@ -628,7 +628,7 @@ window.specials = {
             var n = (p.percHP <= 20 ? 2 : (p.percHP <= 50 ? 1.75 : 1.5));
             window.specials[780].multiplier = n;
             p.scope.notify({
-                text: 'Using the ' + n + 'x multiplier.',
+                text: 'Usando ' + n + 'x como multiplicador.',
                 name: '780warning'
             });
         }
@@ -640,7 +640,7 @@ window.specials = {
             var n = (p.percHP <= 20 ? 2 : (p.percHP <= 50 ? 1.75 : 1.5));
             window.specials[781].multiplier = n;
             p.scope.notify({
-                text: 'Using the ' + n + 'x multiplier.',
+                text: 'Usando ' + n + 'x como multiplicador.',
                 name: '781warning'
             });
         }
@@ -721,7 +721,7 @@ window.specials = {
     827: {
         atk: function(p) { return 1.05; },
         type: "condition",
-        warning: "Selected special (%name%) assumes that the enemy has been poisoned."
+        warning: "El especial seleccionado (%name%) asume que el enemigo ha sido envenenado."
     },
     828: {
         atk: function(p) { return p.unit.class.has("Slasher") || p.unit.class.has("Driven") ? window.specials[828].multiplier : 1; },
@@ -730,7 +730,7 @@ window.specials = {
             var n = (p.percHP < 20 ? 1.75 : 1);
             window.specials[828].multiplier = n;
             p.scope.notify({
-                text: 'HP ' + (n == 1.75 ? 'below' : 'above') + ' 20%, using the ' + n + 'x multiplier.',
+                text: 'HP ' + (n == 1.75 ? 'por debajo' : 'por encima') + ' del 20%, usando ' + n + 'x como multiplicador.',
                 name: '828warning'
             });
         }  
@@ -742,7 +742,7 @@ window.specials = {
             var n = (p.percHP < 20 ? 1.75 : 1);
             window.specials[829].multiplier = n;
             p.scope.notify({
-                text: 'HP ' + (n == 1.75 ? 'below' : 'above') + ' 20%, using the ' + n + 'x multiplier.',
+                text: 'HP ' + (n == 1.75 ? 'por debajo' : 'por encima') + ' del 20%, usando ' + n + 'x como multiplicador.',
                 name: '829warning'
             });
         }
@@ -780,12 +780,12 @@ window.specials = {
     841: {
         atk: function(p) { return 1.25; },
         type: "condition",
-        warning: "Selected special (%name%) assumes that the enemy has been delayed."
+        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay."
     },
     842: {
         atk: function(p) { return 1.25; },
         type: "condition",
-        warning: "Selected special (%name%) assumes that the enemy has been delayed."
+        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay."
     },
     843: {
         atk: function(p) {
@@ -797,8 +797,8 @@ window.specials = {
             window.specials[843].first = !window.specials[843].first;
             p.scope.notify({
                 text: (window.specials[843].first ?
-                    'Boosting Shooters. To switch to the second multiplier, disable and re-enable this special' :
-                    'Boosting Shooters, Slashers and Strikers. To switch to the first multiplier, disable and re-enable this special'),
+                    'Potenciando Shooter. Para cambiar al segundo multiplicador, desactiva y vuelve a activar este especial' :
+                    'Potenciando Shooter, Slasher y Striker. Para cambiar al primer multiplicador, desactiva y vuelve a activar este especial'),
                 name: '843warning'
             });
         }
@@ -813,8 +813,8 @@ window.specials = {
             window.specials[844].first = !window.specials[844].first;
             p.scope.notify({
                 text: (window.specials[844].first ?
-                    'Boosting Shooters. To switch to the second multiplier, disable and re-enable this special' :
-                    'Boosting Shooters, Slashers and Strikers. To switch to the first multiplier, disable and re-enable this special'),
+                    'Potenciando Shooter. Para cambiar al segundo multiplicador, desactiva y vuelve a activar este especial' :
+                    'Potenciando Shooter, Slasher y Striker. Para cambiar al primer multiplicador, desactiva y vuelve a activar este especial'),
                 name: '844warning'
             });
         }
@@ -883,8 +883,8 @@ window.specials = {
             window.specials[873].first = !window.specials[873].first;
             p.scope.notify({
                 text: (window.specials[873].first ?
-                    'Activating the first stage. To switch to the second stage, disable and re-enable this special' :
-                    'Activating the second stage. To switch to the first stage, disable and re-enable this special'),
+                    'Primera carga activada. Para cambiar a la segunda carga, desactiva y vuelve a activar este especial' :
+                    'Segunda carga activada. Para cambiar a la primera carga, desactiva y vuelve a activar este especial'),
                 name: '873warning'
             });
         }
@@ -899,8 +899,8 @@ window.specials = {
             window.specials[874].first = !window.specials[874].first;
             p.scope.notify({
                 text: (window.specials[874].first ?
-                    'Activating the first stage. To switch to the second stage, disable and re-enable this special' :
-                    'Activating the second stage. To switch to the first stage, disable and re-enable this special'),
+                    'Primera carga activada. Para cambiar a la segunda carga, desactiva y vuelve a activar este especial' :
+                    'Segunda carga activada. Para cambiar a la primera carga, desactiva y vuelve a activar este especial'),
                 name: '874warning'
             });
         }
@@ -926,7 +926,7 @@ window.specials = {
             var n = (window.specials[883].multiplier == 1.5 ? 1 : 0);
             window.specials[883].multiplier = [1.5, 2][n];
             p.scope.notify({
-                text: 'Using the ' + [1.5, 2][n] + 'x ATK multiplier. To switch to the ' + [2, 1.5][n] + 'x multiplier, disable and re-enable this special',
+                text: 'Usando ' + [1.5, 2][n] + 'x como multiplicador de ATK. Para cambiar al ' + [2, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '883warning'
             });
         }
@@ -938,7 +938,7 @@ window.specials = {
             var n = (window.specials[884].multiplier == 1.5 ? 1 : 0);
             window.specials[884].multiplier = [1.5, 2][n];
             p.scope.notify({
-                text: 'Using the ' + [1.5, 2][n] + 'x ATK multiplier. To switch to the ' + [2, 1.5][n] + 'x multiplier, disable and re-enable this special',
+                text: 'Usando ' + [1.5, 2][n] + 'x como multiplicador de ATK. Para cambiar al ' + [2, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '884warning'
             });
         }
@@ -965,7 +965,7 @@ window.specials = {
             var n = (window.specials[902].multiplier == 1.5 ? 1 : 0);
             window.specials[902].multiplier = [1.5, 2][n];
             p.scope.notify({
-                text: 'Using the ' + [1.5, 2][n] + 'x ATK multiplier. To switch to the ' + [2, 1.5][n] + 'x multiplier, disable and re-enable this special',
+                text: 'Usando ' + [1.5, 2][n] + 'x como multiplicador de ATK. Para cambiar al ' + [2, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '902warning'
             });
         }
@@ -977,7 +977,7 @@ window.specials = {
             var n = (window.specials[903].multiplier == 1.5 ? 1 : 0);
             window.specials[903].multiplier = [1.5, 2][n];
             p.scope.notify({
-                text: 'Using the ' + [1.5, 2][n] + 'x ATK multiplier. To switch to the ' + [2, 1.5][n] + 'x multiplier, disable and re-enable this special',
+                text: 'Usando ' + [1.5, 2][n] + 'x como multiplicador de ATK. Para cambiar al ' + [2, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '902warning'
             });
         }
@@ -993,7 +993,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[905].stage = (window.specials[905].stage + 1) % 3;
             p.scope.notify({
-                text: 'Activating stage #' + (window.specials[905].stage + 1) + '. To move onto the next stage, disable and re-enable this special.',
+                text: 'Carga #' + (window.specials[905].stage + 1) + ' activada. Para cambiar a la siguiente carga, desactiva y vuelve a activar este especial.',
                 name: '905warning'
             });
         }
@@ -1009,7 +1009,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[906].stage = (window.specials[906].stage + 1) % 3;
             p.scope.notify({
-                text: 'Activating stage #' + (window.specials[906].stage + 1) + '. To move onto the next stage, disable and re-enable this special.',
+                text: 'Carga #' + (window.specials[905].stage + 1) + ' activada. Para cambiar a la siguiente carga, desactiva y vuelve a activar este especial.',
                 name: '906warning'
             });
         }
@@ -1032,7 +1032,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[911].stage = (window.specials[911].stage + 1) % 2;
             p.scope.notify({
-                text: 'Activating stage #' + (window.specials[911].stage + 1) + '. To move onto the next stage, disable and re-enable this special.',
+                text: 'Carga #' + (window.specials[911].stage + 1) + ' activada. Para cambiar a la siguiente carga, desactiva y vuelve a activar este especial.',
                 name: '911warning'
             });
         }
@@ -1047,7 +1047,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[912].stage = (window.specials[912].stage + 1) % 2;
             p.scope.notify({
-                text: 'Activating stage #' + (window.specials[912].stage + 1) + '. To move onto the next stage, disable and re-enable this special.',
+                text: 'Carga #' + (window.specials[912.stage + 1) + ' activada. Para cambiar a la siguiente carga, desactiva y vuelve a activar este especial.',
                 name: '912warning'
             });
         }
@@ -1085,12 +1085,12 @@ window.specials = {
     928: {
         atk: function(p) { return 1.3; },
         type: "condition",
-        warning: "Selected special (%name%) assumes that the enemy has been poisoned."
+        warning: "El especial seleccionado (%name%) asume que el enemigo ha sido envenenado."
     },
     929: {
         atk: function(p) { return 1.3; },
         type: "condition",
-        warning: "Selected special (%name%) assumes that the enemy has been poisoned."
+        warning: "El especial seleccionado (%name%) asume que el enemigo ha sido envenenado."
     },
     940: {
         atk: function(p) { return p.unit.type == "DEX" ? 1.75 : 1; },
@@ -1138,7 +1138,7 @@ window.specials = {
             var n = (window.specials[964].multiplier == 1.1 ? 1 : 0);
             window.specials[964].multiplier = [1.1, 1.5][n];
             p.scope.notify({
-                text: 'Using the ' + [1.1, 1.5][n] + 'x ATK multiplier. To switch to the ' + [1.5, 1.1][n] + 'x multiplier, disable and re-enable this special',
+                text: 'Usando ' + [1.1, 1.5][n] + 'x como multiplicador de ATK. Para cambiar al ' + [1.5, 1.1][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '965warning'
             });
         }
@@ -1150,7 +1150,7 @@ window.specials = {
             var n = (window.specials[965].multiplier == 1.1 ? 1 : 0);
             window.specials[965].multiplier = [1.1, 1.5][n];
             p.scope.notify({
-                text: 'Using the ' + [1.1, 1.5][n] + 'x ATK multiplier. To switch to the ' + [1.5, 1.1][n] + 'x multiplier, disable and re-enable this special',
+                text: 'Usando ' + [1.1, 1.5][n] + 'x como multiplicador de ATK. Para cambiar al ' + [1.5, 1.1][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '965warning'
             });
         }
@@ -1174,7 +1174,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[977].stage = (window.specials[977].stage + 1) % 2;
             p.scope.notify({
-                text: 'Activating stage #' + (window.specials[977].stage + 1) + '. To move onto the next stage, disable and re-enable this special.',
+                text: 'Carga #' + (window.specials[977].stage + 1) + ' activada. Para cambiar a la siguiente carga, desactiva y vuelve a activar este especial.',
                 name: '1339warning'
             });
         }
@@ -1188,7 +1188,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[978].stage = (window.specials[978].stage + 1) % 2;
             p.scope.notify({
-                text: 'Activating stage #' + (window.specials[978].stage + 1) + '. To move onto the next stage, disable and re-enable this special.',
+                text: 'Carga #' + (window.specials[978].stage + 1) + ' activada. Para cambiar a la siguiente carga, desactiva y vuelve a activar este especial.',
                 name: '1339warning'
             });
         }
@@ -1216,7 +1216,7 @@ window.specials = {
     1013: {
         atk: function(p) { return 1.2; },
         type: "condition",
-        warning: "Selected special (%name%) assumes that the enemy has been delayed."
+        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay."
     },
     1015: {
         atk: function(p) { return p.unit.type == "INT" ? 1.5 : 1; },
@@ -1295,12 +1295,12 @@ window.specials = {
     1055: {
         atk: function(p) { return 1.4; },
         type: "condition",
-        warning: "Selected special (%name%) assumes that the enemy has been STRONGLY Poisoned."
+        warning: "El especial seleccionado (%name%) asume que el enemigo ha sido GRAVEMENTE envenenado."
     },
     1056: {
         atk: function(p) { return 1.4; },
         type: "condition",
-        warning: "Selected special (%name%) assumes that the enemy has been STRONGLY Poisoned."
+        warning: "El especial seleccionado (%name%) asume que el enemigo ha sido GRAVEMENTE envenenado."
     },
     1059: {
         orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.5); }
@@ -1451,7 +1451,7 @@ window.specials = {
             var n = (window.specials[1132].multiplier == 1.5 ? 1 : 0);
             window.specials[1132].multiplier = [1.5, 1.75][n];
             p.scope.notify({
-                text: 'Using the ' + [1.5, 1.75][n] + 'x ATK multiplier. To switch to the ' + [1.75, 1.5][n] + 'x multiplier, disable and re-enable this special',
+                text: 'Usando ' + [1.5, 1.75][n] + 'x como multiplicador de ATK. Para cambiar al ' + [1.75, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '1132warning'
             });
         }
@@ -1463,7 +1463,7 @@ window.specials = {
             var n = (window.specials[1133].multiplier == 1.5 ? 1 : 0);
             window.specials[1133].multiplier = [1.5, 1.75][n];
             p.scope.notify({
-                text: 'Using the ' + [1.5, 1.75][n] + 'x ATK multiplier. To switch to the ' + [1.75, 1.5][n] + 'x multiplier, disable and re-enable this special',
+                text: 'Usando ' + [1.5, 1.75][n] + 'x como multiplicador de ATK. Para cambiar al ' + [1.75, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '1133warning'
             });
         }
@@ -1499,7 +1499,7 @@ window.specials = {
             var n = (p.percHP <= 30 ? 1.75 : 1.1);
             window.specials[1168].multiplier = n;
             p.scope.notify({
-                text: 'HP ' + (n == 1.75 ? 'below' : 'above') + ' 30%, using the ' + n + 'x multiplier.',
+                text: 'HP ' + (n == 1.75 ? 'por debajo' : 'por encima') + ' del 30%, usando ' + n + 'x como multiplicador.',
                 name: '1168warning'
             });
         }
@@ -1511,7 +1511,7 @@ window.specials = {
             var n = (p.percHP <= 30 ? 1.75 : 1.1);
             window.specials[1169].multiplier = n;
             p.scope.notify({
-                text: 'HP ' + (n == 1.75 ? 'below' : 'above') + ' 30%, using the ' + n + 'x multiplier.',
+                text: 'HP ' + (n == 1.75 ? 'por debajo' : 'por encima') + ' del 30%, usando ' + n + 'x como multiplicador.',
                 name: '1169warning'
             });
         }
@@ -1549,7 +1549,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[1219].stage = (window.specials[1219].stage + 1) % 3;
             p.scope.notify({
-                text: 'Activating stage #' + (window.specials[1219].stage + 1) + '. To move onto the next stage, disable and re-enable this special.',
+                text: 'Carga #' + (window.specials[1219].stage + 1) + ' activada. Para cambiar a la siguiente carga, desactiva y vuelve a activar este especial.',
                 name: '1219warning'
             });
         }
@@ -1565,7 +1565,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[1220].stage = (window.specials[1220].stage + 1) % 3;
             p.scope.notify({
-                text: 'Activating stage #' + (window.specials[1220].stage + 1) + '. To move onto the next stage, disable and re-enable this special.',
+                text: 'Carga #' + (window.specials[1220].stage + 1) + ' activada. Para cambiar a la siguiente carga, desactiva y vuelve a activar este especial.',
                 name: '1219warning'
             });
         }
@@ -1579,7 +1579,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[1231].turnedOn = true;
             p.scope.notify({
-                text: 'Only affects damage if Smoker is your captain',
+                text: 'Solo afecta al daño si Smoker es capitán',
                 name: '1231warning'
             });
         },
@@ -1592,7 +1592,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[1232].turnedOn = true;
             p.scope.notify({
-                text: 'Only affects damage if Smoker is your captain',
+                text: 'Solo afecta al daño si Smoker es capitán',
                 name: '1232warning'
             });
         },
@@ -1611,7 +1611,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[1239].turnedOn = true;
             p.scope.notify({
-                text: 'Only affects damage if Kizaru is your captain',
+                text: 'Solo afecta al daño si Borsalino es capitán',
                 name: '1239warning'
             });
         },
@@ -1624,7 +1624,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[1240].turnedOn = true;
             p.scope.notify({
-                text: 'Only affects damage if Kizaru is your captain',
+                text: 'Solo afecta al daño si Borsalino es capitán',
                 name: '1240warning'
             });
         },
@@ -1645,7 +1645,7 @@ window.specials = {
             var n = (window.specials[1245].multiplier == 1.3 ? 1 : 0);
             window.specials[1245].multiplier = [1.3, 2][n];
             p.scope.notify({
-                text: 'Using the ' + [1.3, 2][n] + 'x ATK multiplier. To switch to the ' + [2, 1.3][n] + 'x multiplier, disable and re-enable this special',
+                text: 'Usando ' + [1.3, 2][n] + 'x como multiplicador de ATK. Para cambiar al ' + [2, 1.3][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '1245warning'
             });
         }
@@ -1657,7 +1657,7 @@ window.specials = {
             var n = (window.specials[1246].multiplier == 1.3 ? 1 : 0);
             window.specials[1246].multiplier = [1.3, 2][n];
             p.scope.notify({
-                text: 'Using the ' + [1.3, 2][n] + 'x ATK multiplier. To switch to the ' + [2, 1.3][n] + 'x multiplier, disable and re-enable this special',
+                text: 'Usando ' + [1.3, 2][n] + 'x como multiplicador de ATK. Para cambiar al ' + [2, 1.3][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '1246warning'
             });
         }
@@ -1669,7 +1669,7 @@ window.specials = {
             var n = (window.specials[1247].multiplier == 1.3 ? 1 : 0);
             window.specials[1247].multiplier = [1.3, 2][n];
             p.scope.notify({
-                text: 'Using the ' + [1.3, 2][n] + 'x ATK multiplier. To switch to the ' + [2, 1.3][n] + 'x multiplier, disable and re-enable this special',
+                text: 'Usando ' + [1.3, 2][n] + 'x como multiplicador de ATK. Para cambiar al ' + [2, 1.3][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '1247warning'
             });
         }
@@ -1695,7 +1695,7 @@ window.specials = {
     1256: {
         atk: function(p) { return 1.3 },
         type: "condition",
-        warning: "Selected special (%name%) assumes that the enemy has a defense buff active."
+        warning: "El especial seleccionado (%name%) asume que el enemigo tiene un bufo de defensa activo."
     },
     1261: {//Young Senor Pink
         affinity: function(p){ return p.unit.class.has("Shooter") || p.unit.class.has("Free Spirit") ? 1.5 : 1; }
@@ -1783,12 +1783,12 @@ window.specials = {
     1321: {
         atk: function(p) { return 1.5; },
         type: "condition",
-        warning: "Selected special (%name%) assumes that the enemy has been delayed."
+        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay."
     },
     1322: {
         atk: function(p) { return 1.5; },
         type: "condition",
-        warning: "Selected special (%name%) assumes that the enemy has been delayed."
+        warning: "El especial seleccionado (%name%) asume que el enemigo sufre delay."
     },
     1329: {
         affinity: function(p){ return p.unit.class.has("Fighter") || p.unit.class.has("Free Spirit") ? 1.25 : 1; }
@@ -1809,7 +1809,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[1339].stage = (window.specials[1339].stage + 1) % 3;
             p.scope.notify({
-                text: 'Activating stage #' + (window.specials[1339].stage + 1) + '. To move onto the next stage, disable and re-enable this special.',
+                text: 'Carga #' + (window.specials[1339].stage + 1) + ' activada. Para cambiar a la siguiente carga, desactiva y vuelve a activar este especial.',
                 name: '1339warning'
             });
         }
@@ -1869,7 +1869,7 @@ window.specials = {
             var n = (window.specials[1367].multiplier == 1.5 ? 1 : 0);
             window.specials[1367].multiplier = [1.5, 1.75][n];
             p.scope.notify({
-                text: 'Using the ' + [1.5, 1.75][n] + 'x Orb boost. To switch to the ' + [1.75, 1.5][n] + 'x Orb boost, disable and re-enable this special',
+                text: 'Usando ' + [1.5, 1.75][n] + 'x como potenciación de orbes. Para cambiar al ' + [1.75, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '1367warning'
             });
         },
@@ -1880,7 +1880,7 @@ window.specials = {
             var n = (window.specials[1368].multiplier == 1.5 ? 1 : 0);
             window.specials[1368].multiplier = [1.5, 1.75][n];
             p.scope.notify({
-                text: 'Using the ' + [1.5, 1.75][n] + 'x Orb boost. To switch to the ' + [1.75, 1.5][n] + 'x Orb boost, disable and re-enable this special',
+                text: 'Usando ' + [1.5, 1.75][n] + 'x como potenciación de orbes. Para cambiar al ' + [1.75, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '1368warning'
             });
         },
@@ -1941,7 +1941,7 @@ window.specials = {
             var n = (window.specials[1400].multiplier == 1.5 ? 1 : 0);
             window.specials[1400].multiplier = [1.5, 1.75][n];
             p.scope.notify({
-                text: 'Using the ' + [1.5, 1.75][n] + 'x Affinity boost. To switch to the ' + [1.75, 1.5][n] + 'x Affinity boost, disable and re-enable this special',
+                text: 'Usando ' + [1.5, 1.75][n] + 'x como Afinidad de Tipo. Para cambiar al ' + [1.75, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '1400warning'
             });
         },
@@ -1952,18 +1952,18 @@ window.specials = {
             var n = (window.specials[1401].multiplier == 1.5 ? 1 : 0);
             window.specials[1401].multiplier = [1.5, 1.75][n];
             p.scope.notify({
-                text: 'Using the ' + [1.5, 1.75][n] + 'x Affinity boost. To switch to the ' + [1.75, 1.5][n] + 'x Affinity boost, disable and re-enable this special',
+                text: 'Usando ' + [1.5, 1.75][n] + 'x como Afinidad de Tipo. Para cambiar al ' + [1.75, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '1401warning'
             });
         },
     },
     1402: {
-        atk: function(p) { return p.unit.type == "PSY" ? window.specials[1402].multiplier : 1; },
+        atk: function(p) { return !p.unit.type == "PSY" ? window.specials[1402].multiplier : 1; },
         onActivation: function(p) {
             var n = (window.specials[1402].multiplier == 1.3 ? 1 : 0);
             window.specials[1402].multiplier = [1.3, 1.5][n];
             p.scope.notify({
-                text: 'Using the ' + [1.3, 1.5][n] + 'x Affinity boost. To switch to the ' + [1.5, 1.3][n] + 'x Affinity boost, disable and re-enable this special',
+                text: 'Usando ' + [1.3, 1.5][n] + 'x como multiplicador de ATK. Para cambiar al ' + [1.5, 1.3][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '1402warning'
             });
         },
@@ -1974,7 +1974,7 @@ window.specials = {
             window.specials[1403].turnedOn = true;
             window.specials[1403].multiplier = [3.16, 4][n];
             p.scope.notify({
-                text: 'Only affects damage is Luffy is your captain, and each Luffy only boosts his own Captain damage. Using the ' + [10, 16][n] + 'x Captain boost. To switch to the ' + [10, 16][n] + 'x Captain boost, disable and re-enable this special',
+                text: 'Solo afecta al daño si Luffy es capitán y solo afecta al multiplicador de uno de los Luffys. Usando ' + [10, 16][n] + 'x como aumento de ATK del capitán. Para cambiar al ' + [10, 16][n] + 'x, desactiva y vuelve a activar este especial',
                 name: '1403warning'
             });
         },
@@ -1989,7 +1989,7 @@ window.specials = {
             window.specials[1404].turnedOn = true;
             window.specials[1404].multiplier = [3.16, 4][n];
             p.scope.notify({
-                text: 'Only affects damage is Luffy is your captain, and each Luffy only boosts his own Captain damage. Toggle to change between effective captain boosts. Using the ' + [10, 16][n] + 'x Captain boost. To switch to the ' + [10, 16][n] + 'x Captain boost, disable and re-enable this special',
+                text: 'Solo afecta al daño si Luffy es capitán y solo afecta al multiplicador de uno de los Luffys. Usando ' + [10, 16][n] + 'x como aumento de ATK del capitán. Para cambiar al ' + [10, 16][n] + 'x, desactiva y vuelve a activar este especial',
                 name: '1404warning'
             });
         },
@@ -2002,13 +2002,13 @@ window.specials = {
         atk: function(p) { return p.unit.class.has("Shooter") ? 1.75 : 1; },
         type: "class",
         orb: function(p) { return p.unit.class.has("Shooter") ? CrunchUtils.getOrbMultiplier(p.orb, 1, 1.75) : CrunchUtils.getOrbMultiplier(p.orb, 1, 1); },
-        warning: "Selected special (%name%) assumes that the enemy has Delay Protection."
+        warning: "El especial seleccionado (%name%) asume que el enemigo tiene escudo anti-delay."
     },
     1406: {
         atk: function(p) { return p.unit.class.has("Shooter") ? 1.75 : 1; },
         type: "class",
         orb: function(p) { return p.unit.class.has("Shooter") ? CrunchUtils.getOrbMultiplier(p.orb, 1, 1.75) : CrunchUtils.getOrbMultiplier(p.orb, 1, 1); },
-        warning: "Selected special (%name%) assumes that the enemy has Delay Protection."
+        warning: "El especial seleccionado (%name%) asume que el enemigo tiene escudo anti-delay."
     },
     1407: {
         atk: function(p) { return p.unit.type == "PSY" || p.unit.type == "DEX" ? 2 : 1; },
