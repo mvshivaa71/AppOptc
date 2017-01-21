@@ -272,7 +272,7 @@ angular.module('optc') .run(function($rootScope, $timeout, $storage, MATCHER_IDS
 
     $timeout(function() {
         jQuery.fn.dataTable.ext.search.push(tableFilter);
-        var types = { story: 'Story Island', fortnight: 'Quincenal', raid: 'Raid', colosseum: 'Coliseo' };
+        var types = { story: 'Story Island', Quincenal: 'Quincenal', raid: 'Raid', Coliseo: 'Coliseo' };
         $rootScope.$watch('table',function(table) {
             tableData = table;
             if (table.parameters && table.parameters.filters && table.parameters.filters.farmable) {

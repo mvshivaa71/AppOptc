@@ -43,18 +43,18 @@
 
 <div class="filter-container conditional" ng-show="filters.drop == 'Farmeable'">
     <span class="filter-header">Drops Farmeables</span>
-    <span class="filter width-6 drop" ng-class="{ active: filters.farmable.fortnight }"
-        ng-model="filters.farmable.fortnight" ng-click="onDropFilterClick($event,true)">Quincenal</span><!--
- --><span class="filter width-6 exc" ng-class="{ active: filters.farmable.fortnight === false }"
-        ng-model="filters.farmable.fortnight" ng-click="onDropFilterClick($event,false)">Ocultar Quincenal</span>
+    <span class="filter width-6 drop" ng-class="{ active: filters.farmable.Quincenal }"
+        ng-model="filters.farmable.Quincenal" ng-click="onDropFilterClick($event,true)">Quincenal</span><!--
+ --><span class="filter width-6 exc" ng-class="{ active: filters.farmable.Quincenal === false }"
+        ng-model="filters.farmable.Quincenal" ng-click="onDropFilterClick($event,false)">Ocultar Quincenal</span>
     <span class="filter width-6 drop" ng-class="{ active: filters.farmable.raid }"
         ng-model="filters.farmable.raid" ng-click="onDropFilterClick($event,true)">Raid Bosses</span><!--
  --><span class="filter width-6 exc"  ng-class="{ active: filters.farmable.raid === false }"
         ng-model="filters.farmable.raid" ng-click="onDropFilterClick($event,false)">Ocultar Raids</span>
-    <span class="filter width-6 drop" ng-class="{ active: filters.farmable.colosseum }"
-        ng-model="filters.farmable.colosseum" ng-click="onDropFilterClick($event,true)">Coliseo</span><!--
- --><span class="filter width-6 exc"  ng-class="{ active: filters.farmable.colosseum === false }"
-        ng-model="filters.farmable.colosseum" ng-click="onDropFilterClick($event,false)">Ocultar Coliseo</span>
+    <span class="filter width-6 drop" ng-class="{ active: filters.farmable.Coliseo }"
+        ng-model="filters.farmable.Coliseo" ng-click="onDropFilterClick($event,true)">Coliseo</span><!--
+ --><span class="filter width-6 exc"  ng-class="{ active: filters.farmable.Coliseo === false }"
+        ng-model="filters.farmable.Coliseo" ng-click="onDropFilterClick($event,false)">Ocultar Coliseo</span>
 </div>
 
 <div class="filter-container conditional" ng-show="filters.drop == 'No-farmeable'">
