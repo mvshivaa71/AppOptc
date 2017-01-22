@@ -318,13 +318,13 @@ directives.addTags = function($stateParams, $rootScope) {
             if (flags.special) element.append($('<span class="tag flag">Personajes Limitados</div>'));
             if (CharUtils.checkFarmable(id, { 'Story Island': true }))
                 element.append($('<span class="tag flag">Sólo en Modo Historia</div>'));
-            if (CharUtils.checkFarmable(id, { Fortnight: true }))
+            if (CharUtils.checkFarmable(id, { Quincenal: true }))
                 element.append($('<span class="tag flag">Sólo Quincenales</div>'));
             if (CharUtils.checkFarmable(id, { Raid: true }))
                 element.append($('<span class="tag flag">Sólo Raid</div>'));
-            if (CharUtils.checkFarmable(id, { 'Story Island': true, Fortnight: true }))
+            if (CharUtils.checkFarmable(id, { 'Story Island': true, Quincenal: true }))
                 element.append($('<span class="tag flag">Sólo en Modo Historia y Quincenales</div>'));
-            if (CharUtils.checkFarmable(id, { Raid: true, Fortnight: true }))
+            if (CharUtils.checkFarmable(id, { Raid: true, Quincenal: true }))
                 element.append($('<span class="tag flag">Sólo Raid y Quincenales</div>'));
             // matchers
             if (!data) return;

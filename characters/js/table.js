@@ -142,6 +142,9 @@ angular.module('optc') .run(function($rootScope, $timeout, $storage, MATCHER_IDS
                     // special
                     if (filters.nonFarmable.special && !flags.special) return false;
                     if (filters.nonFarmable.special === false && flags.special) return false;
+					// rayleigh shop
+                    if (filters.nonFarmable.shop && !flags.shop) return false;
+                    if (filters.nonFarmable.shop === false && flags.shop) return false;
                 }
             }
         }
