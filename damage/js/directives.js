@@ -731,6 +731,7 @@ directives.special = function($rootScope) {
             var isSelected = scope.tdata.team[scope.slot].special;
             var removeType = function() { ['STR','DEX','QCK','PSY','INT'].forEach(function(x) { element.removeClass(x); }); };
             scope.hasSpecial = false;
+			console.log("NUM---->" + scope.data.team[scope.slot].unit.number);
             scope.$watch('tdata.team[slot].special',function(enabled) {
                 removeType();
                 var unit = scope.data.team[scope.slot].unit;
