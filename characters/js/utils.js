@@ -109,7 +109,7 @@ CharUtils.searchDropLocations = function(id) {
             if (temp.length > 0) {
                 temp.sort();
                 var name = window.drops[type][island].name;
-                if (type == 'Fortnight') name += ' Fortnight';
+                if (type == 'Quincenal') name += ' Quincenal';
                 else if (type == 'Raid') name += ' Raid';
                 var data = { name: name, thumb: window.drops[type][island].thumb, data: temp };
                 if (type == 'Story Island' || window.drops[type][island].hasOwnProperty('day'))
