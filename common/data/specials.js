@@ -1579,7 +1579,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[1231].turnedOn = true;
             p.scope.notify({
-                text: 'Solo afecta al daño si Smoker es capitán',
+                text: 'Solo afecta al daño si Smoker es capitan',
                 name: '1231warning'
             });
         },
@@ -1592,7 +1592,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[1232].turnedOn = true;
             p.scope.notify({
-                text: 'Solo afecta al daño si Smoker es capitán',
+                text: 'Solo afecta al daño si Smoker es capitan',
                 name: '1232warning'
             });
         },
@@ -1611,7 +1611,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[1239].turnedOn = true;
             p.scope.notify({
-                text: 'Solo afecta al daño si Borsalino es capitán',
+                text: 'Solo afecta al daño si Borsalino es capitan',
                 name: '1239warning'
             });
         },
@@ -1624,7 +1624,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[1240].turnedOn = true;
             p.scope.notify({
-                text: 'Solo afecta al daño si Borsalino es capitán',
+                text: 'Solo afecta al daño si Borsalino es capitan',
                 name: '1240warning'
             });
         },
@@ -1869,7 +1869,7 @@ window.specials = {
             var n = (window.specials[1367].multiplier == 1.5 ? 1 : 0);
             window.specials[1367].multiplier = [1.5, 1.75][n];
             p.scope.notify({
-                text: 'Usando ' + [1.5, 1.75][n] + 'x como potenciación de orbes. Para cambiar al ' + [1.75, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
+                text: 'Usando ' + [1.5, 1.75][n] + 'x como potenciacion de orbes. Para cambiar al ' + [1.75, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '1367warning'
             });
         },
@@ -1880,7 +1880,7 @@ window.specials = {
             var n = (window.specials[1368].multiplier == 1.5 ? 1 : 0);
             window.specials[1368].multiplier = [1.5, 1.75][n];
             p.scope.notify({
-                text: 'Usando ' + [1.5, 1.75][n] + 'x como potenciación de orbes. Para cambiar al ' + [1.75, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
+                text: 'Usando ' + [1.5, 1.75][n] + 'x como potenciacion de orbes. Para cambiar al ' + [1.75, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '1368warning'
             });
         },
@@ -1974,7 +1974,7 @@ window.specials = {
             window.specials[1403].turnedOn = true;
             window.specials[1403].multiplier = [3.16, 4][n];
             p.scope.notify({
-                text: 'Solo afecta al daño si Luffy es capitán y solo afecta al multiplicador de uno de los Luffys. Usando ' + [10, 16][n] + 'x como aumento de ATK del capitán. Para cambiar al ' + [10, 16][n] + 'x, desactiva y vuelve a activar este especial',
+                text: 'Solo afecta al daño si Luffy es capitan y solo afecta al multiplicador de uno de los Luffys. Usando ' + [10, 16][n] + 'x como aumento de ATK del capitan. Para cambiar al ' + [10, 16][n] + 'x, desactiva y vuelve a activar este especial',
                 name: '1403warning'
             });
         },
@@ -1989,7 +1989,7 @@ window.specials = {
             window.specials[1404].turnedOn = true;
             window.specials[1404].multiplier = [3.16, 4][n];
             p.scope.notify({
-                text: 'Solo afecta al daño si Luffy es capitán y solo afecta al multiplicador de uno de los Luffys. Usando ' + [10, 16][n] + 'x como aumento de ATK del capitán. Para cambiar al ' + [10, 16][n] + 'x, desactiva y vuelve a activar este especial',
+                text: 'Solo afecta al daño si Luffy es capitan y solo afecta al multiplicador de uno de los Luffys. Usando ' + [10, 16][n] + 'x como aumento de ATK del capitan. Para cambiar al ' + [10, 16][n] + 'x, desactiva y vuelve a activar este especial',
                 name: '1404warning'
             });
         },
