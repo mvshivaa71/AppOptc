@@ -1579,7 +1579,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[1231].turnedOn = true;
             p.scope.notify({
-                text: 'Solo afecta al daño si Smoker es capitan',
+                text: 'Solo afecta al daño si Smoker es capitán',
                 name: '1231warning'
             });
         },
@@ -1592,7 +1592,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[1232].turnedOn = true;
             p.scope.notify({
-                text: 'Solo afecta al daño si Smoker es capitan',
+                text: 'Solo afecta al daño si Smoker es capitán',
                 name: '1232warning'
             });
         },
@@ -1611,7 +1611,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[1239].turnedOn = true;
             p.scope.notify({
-                text: 'Solo afecta al daño si Borsalino es capitan',
+                text: 'Solo afecta al daño si Borsalino es capitán',
                 name: '1239warning'
             });
         },
@@ -1624,7 +1624,7 @@ window.specials = {
         onActivation: function(p) {
             window.specials[1240].turnedOn = true;
             p.scope.notify({
-                text: 'Solo afecta al daño si Borsalino es capitan',
+                text: 'Solo afecta al daño si Borsalino es capitán',
                 name: '1240warning'
             });
         },
@@ -1869,7 +1869,7 @@ window.specials = {
             var n = (window.specials[1367].multiplier == 1.5 ? 1 : 0);
             window.specials[1367].multiplier = [1.5, 1.75][n];
             p.scope.notify({
-                text: 'Usando ' + [1.5, 1.75][n] + 'x como potenciacion de orbes. Para cambiar al ' + [1.75, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
+                text: 'Usando ' + [1.5, 1.75][n] + 'x como potenciación de orbes. Para cambiar al ' + [1.75, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '1367warning'
             });
         },
@@ -1880,7 +1880,7 @@ window.specials = {
             var n = (window.specials[1368].multiplier == 1.5 ? 1 : 0);
             window.specials[1368].multiplier = [1.5, 1.75][n];
             p.scope.notify({
-                text: 'Usando ' + [1.5, 1.75][n] + 'x como potenciacion de orbes. Para cambiar al ' + [1.75, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
+                text: 'Usando ' + [1.5, 1.75][n] + 'x como potenciación de orbes. Para cambiar al ' + [1.75, 1.5][n] + 'x, desactiva y vuelve a activar el especial',
                 name: '1368warning'
             });
         },
@@ -1956,5 +1956,114 @@ window.specials = {
                 name: '1401warning'
             });
         },
+    },
+    1402: {
+        atk: function(p) { return p.unit.type == "PSY" ? window.specials[1402].multiplier : 1; },
+        onActivation: function(p) {
+            var n = (window.specials[1402].multiplier == 1.3 ? 1 : 0);
+            window.specials[1402].multiplier = [1.3, 1.5][n];
+            p.scope.notify({
+                text: 'Using the ' + [1.3, 1.5][n] + 'x Affinity boost. To switch to the ' + [1.5, 1.3][n] + 'x Affinity boost, disable and re-enable this special',
+                name: '1402warning'
+            });
+        },
+    },
+    1403: {
+        onActivation: function(p) {
+            var n = (window.specials[1403].multiplier == 3.16 ? 1 : 0);
+            window.specials[1403].turnedOn = true;
+            window.specials[1403].multiplier = [3.16, 4][n];
+            p.scope.notify({
+                text: 'Solo afecta al daño si Luffy es capitán y solo afecta al multiplicador de uno de los Luffys. Usando ' + [10, 16][n] + 'x como aumento de ATK del capitán. Para cambiar al ' + [10, 16][n] + 'x, desactiva y vuelve a activar este especial',
+                name: '1403warning'
+            });
+        },
+        onDeactivation: function(p) {
+            window.specials[1403].turnedOn = false;
+        }
+        
+    },
+    1404: {
+        onActivation: function(p) {
+            var n = (window.specials[1404].multiplier == 3.16 ? 1 : 0);
+            window.specials[1404].turnedOn = true;
+            window.specials[1404].multiplier = [3.16, 4][n];
+            p.scope.notify({
+                text: 'Solo afecta al daño si Luffy es capitán y solo afecta al multiplicador de uno de los Luffys. Usando ' + [10, 16][n] + 'x como aumento de ATK del capitán. Para cambiar al ' + [10, 16][n] + 'x, desactiva y vuelve a activar este especial',
+                name: '1404warning'
+            });
+        },
+        onDeactivation: function(p) {
+            window.specials[1404].turnedOn = false;
+        }
+        
+    },
+    1405: {
+        atk: function(p) { return p.unit.class.has("Shooter") ? 1.75 : 1; },
+        type: "class",
+        orb: function(p) { return p.unit.class.has("Shooter") ? CrunchUtils.getOrbMultiplier(p.orb, 1, 1.75) : CrunchUtils.getOrbMultiplier(p.orb, 1, 1); },
+        warning: "El especial seleccionado (%name%) asume que el enemigo tiene escudo anti-delay."
+    },
+    1406: {
+        atk: function(p) { return p.unit.class.has("Shooter") ? 1.75 : 1; },
+        type: "class",
+        orb: function(p) { return p.unit.class.has("Shooter") ? CrunchUtils.getOrbMultiplier(p.orb, 1, 1.75) : CrunchUtils.getOrbMultiplier(p.orb, 1, 1); },
+        warning: "El especial seleccionado (%name%) asume que el enemigo tiene escudo anti-delay."
+    },
+    1407: {
+        atk: function(p) { return p.unit.type == "PSY" || p.unit.type == "DEX" ? 2 : 1; },
+        type: "type"
+    },
+    1408: {
+        atk: function(p) { return p.unit.type == "PSY" || p.unit.type == "DEX" ? 2 : 1; },
+        type: "type"
+    },
+    1409: {
+        atk: function(p) {
+            return p.unit.class.has("Slasher") || p.unit.class.has("Free Spirit") ? 1.75 : 1;
+        },
+        type: "class"
+    },
+    1410: {
+        atk: function(p) {
+            return p.unit.class.has("Slasher") || p.unit.class.has("Free Spirit") ? 1.75 : 1;
+        },
+        type: "class"
+    },
+    1415: {
+        atk: function(p) { return p.unit.cost <= 30 ? 1.5 : 1; },
+        type: "class"
+    },
+    1416: {
+        atk: function(p) { return p.unit.cost <= 30 ? 1.5 : 1; },
+        type: "class"
+    },
+    1419: {
+        atk: function(p) { return p.defenseDown ? 1.5 : 1; },
+        type: "condition"
+    },
+    1420: {
+        atk: function(p) { return p.defenseDown ? 1.5 : 1; },
+        type: "condition"
+    },
+    1421: {
+        atk: function(p) {
+            if(p.percHP == 100.0){
+                return p.unit.class.has("Driven") ? 1.75 : 1;
+            }else{
+                return p.unit.class.has("Driven") ? 1.75 : 1;
+            }
+        },
+        type: "class"
+    },
+    1422: {
+        atk: function(p) {
+            if(p.percHP == 100.0){
+                return p.unit.class.has("Driven") ? 1.75 : 1;
+            }else{
+                return p.unit.class.has("Driven") ? 1.75 : 1;
+            }
+        },
+        type: "class"
     },
 };
