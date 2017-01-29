@@ -7507,11 +7507,11 @@ window.details = {
 		special: [
 			{
 				"description": "Hace su ATK 3x como daño [PSY] a un solo enemigo y aumenta el ATK de los personajes [PSY] 1.3x durante 1 turno.",
-				"cooldown": [14,null]
+				"cooldown": [14,4]
 			},
 			{
 				"description": "Hace su ATK 13x como daño [PSY] a un solo enemigo y aumenta el ATK de los personajes [PSY] 1.5x durante 1 turno",
-				"cooldown": [18,null]
+				"cooldown": [18,8]
 			}
 		]
 	},
