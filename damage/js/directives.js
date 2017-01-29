@@ -730,8 +730,7 @@ directives.special = function($rootScope) {
             scope.slot = element.prevAll('.special').length;
             var isSelected = scope.tdata.team[scope.slot].special;
             var removeType = function() { ['STR','DEX','QCK','PSY','INT'].forEach(function(x) { element.removeClass(x); }); };
-            scope.hasSpecial = false;
-			console.log("NUM---->" + scope.data.team[scope.slot].unit.number);
+            scope.hasSpecial = false;			
             scope.$watch('tdata.team[slot].special',function(enabled) {
                 removeType();
                 var unit = scope.data.team[scope.slot].unit;
@@ -748,8 +747,7 @@ directives.special = function($rootScope) {
             scope.$watch('data.team[slot].unit',function(unit) {
                 removeType();
                 if (scope.tdata.team[scope.slot].special) element.addClass(unit.type);
-				if(window.special !== undefined)
-					scope.hasSpecial = unit && window.specials.hasOwnProperty(unit.number+1);
+                scope.hasSpecial = unit && window.specials.hasOwnProperty(unit.number+1);
             });
             element.click(function(e) {
                 isSelected = !isSelected;
