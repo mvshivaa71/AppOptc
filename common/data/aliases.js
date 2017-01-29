@@ -1265,7 +1265,7 @@ window.aliases = {
     1264: ['ヴェルゴ “北の海”の闇','','Young Vergo'],
     1265: ['エース 黄昏の道草','','Kimono Ace'],
     1266: ['エース 月下の艶肌','','Kimono Ace'],
-    1267: ['マーシャル・D・ティーチ 黒ひげ海賊団船長','','', 'Blackbeard', 'Kurohige', 'Teach'],
+    1267: ['マーシャル・D・ティーチ 黒ひげ海賊団船長','','', 'Blackbeard', 'Kurohige', 'Barbanegra', 'Teach'],
     1268: ['黒ひげ 黒ひげ海賊団船長','','', 'Blackbeard', 'Kurohige', 'Barbanegra', 'Teach'],
     1269: ['ラフィット','',''],
     1270: ['“鬼保安官”ラフィット','',''],
