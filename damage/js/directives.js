@@ -748,7 +748,8 @@ directives.special = function($rootScope) {
             scope.$watch('data.team[slot].unit',function(unit) {
                 removeType();
                 if (scope.tdata.team[scope.slot].special) element.addClass(unit.type);
-                scope.hasSpecial = unit && window.specials.hasOwnProperty(unit.number+1);
+				if(window.special !== undefined)
+					scope.hasSpecial = unit && window.specials.hasOwnProperty(unit.number+1);
             });
             element.click(function(e) {
                 isSelected = !isSelected;
