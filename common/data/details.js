@@ -5100,22 +5100,22 @@ window.details = {
 	},
 	1055: { 
 		specialName:"Snake Press",
-		special: "Hace su ATK 20x como daño [DEX] a un solo enemigo. Aumenta el ATK de todos los personajes 1.4x durante 2 turnos contra enemigos fuertemente envenenados"
+		special: "Hace su ATK 20x como daño [DEX] a un solo enemigo. Aumenta el ATK de todos los personajes 1.4x durante 2 turnos contra enemigos gravemente envenenados"
 	},
 	1056: { 
 		captain:"Aumenta el ATK de los personajes Powerhouse 2x y su RCV 1.25x",
 		specialName:"Snake Press",
-		special: "Hace su ATK 20x como daño [DEX] a un solo enemigo. Aumenta el ATK de todos los personajes 1.4x durante 2 turnos contra enemigos fuertemente envenenados"
+		special: "Hace su ATK 20x como daño [DEX] a un solo enemigo. Aumenta el ATK de todos los personajes 1.4x durante 2 turnos contra enemigos gravemente envenenados"
 	},
 	1057: { 
 		specialName:"Deadly Poisonous Corrosive Liquid",
-		special: "Envenena fuertemente a un solo enemigo",
+		special: "Envenena gravemente a un solo enemigo",
 		specialNotes:"#{strongpoison}"
 	},
 	1058: { 
 		captain:"Aumenta el ATK de los personajes Powerhouse 2x y su HP 1.25x",
 		specialName:"Deadly Poisonous Corrosive Liquid",
-		special: "Envenena fuertemente a un solo enemigo",
+		special: "Envenena gravemente a un solo enemigo",
 		specialNotes:"#{strongpoison}"
 	},
 	1059: { 
@@ -5769,13 +5769,13 @@ window.details = {
 	1158: { 
 		captain:"Aumenta el ATK de los personajes Shooter, Striker y Powerhouse 1.75x",
 		specialName:"Poison Puffer Fish",
-		special: "Reduce la HP actual de los enemigos un 20%, envenena gravemente a un enemigo y envenena al restante levemente",
+		special: "Reduce la HP actual de los enemigos un 20%, envenena gravemente a un enemigo y envenena a los demás levemente",
 		specialNotes:"#{strongpoison} <br> #{poison}"
 	},
 	1159: { 
 		captain:"Aumenta el ATK de los personajes Shooter, Striker y Powerhouse 2.25x",
 		specialName:"Poison Puffer Fish",
-		special: "Reduce la HP actual de los enemigos un 20%, envenena gravemente a un enemigo y envenena al restante levemente",
+		special: "Reduce la HP actual de los enemigos un 20%, envenena gravemente a un enemigo y envenena a los demás levemente",
 		specialNotes:"#{strongpoison} <br> #{poison}"
 	},
 	1160: { 
@@ -6837,7 +6837,7 @@ window.details = {
 		special: "Hace su ATK 120x como daño sin tipo a todos los enemigos, aleatoriza los orbes que no sean [STR] y aumenta el ATK de los personajes cuyo coste sea igual o superior a 50 1.75x durante 2 turnos"
 	},
 	1315: { 
-		captain:"Aumenta el ATK de todos los personajes 2.5x tras hacer 2 Perfects, 2.75x tras hacer 3 Perfects, 3x tras hacer 4 Perfects, 3.5x tras hacer 5 Perfects",
+		captain:"Aumenta el ATK de todos los personajes 2x tras hacer 2 Perfects y 3x tras hacer 5 Perfects",
 		specialName:"Echoing Cry of the Soul",
 		special: [
 			{
@@ -6857,7 +6857,7 @@ window.details = {
 		sailor:"Reduce la duración de la Ceguera 5 turnos"
 	},
 	1316: { 
-		captain:"Aumenta el ATK de todos los personajes 2.5x tras hacer 2 Perfects, 2.75x tras hacer 3 Perfects, 3x tras hacer 4 Perfects, 3.5x tras hacer 5 Perfects",
+		captain:"Aumenta el ATK de todos los personajes 2.5x tras hacer 2 Perfects y 3.5x tras hacer 5 Perfects",
 		specialName:"Echoing Cry of the Soul",
 		special: [
 			{
@@ -6879,15 +6879,15 @@ window.details = {
 	1317: { 
 		captain:"Aumenta el ATK de los personajes [STR] y [PSY] 2.5x",
 		specialName:"Super Large Iron Ball",
-		special: "Hace su ATK 30x como daño [STR] fijo a todos los enemigos ignorando cualquier bufo defensivo o escudo enemigo. Retrasa a los enemigos 1 turno. Reduce la defensa de todos los enemigos en un 80% durante 1 turno",
+		special: "Hace su ATK 30x como daño [STR] fijo a todos los enemigos ignorando bufos defensivos o escudos del enemigo. Retrasa a los enemigos 1 turno. Reduce la defensa de todos los enemigos en un 80% durante 1 turno",
 		specialNotes:"#{fixed}",
 		sailor:"Aumenta la HP de todos los personajes 75 puntos"
 	},
 	1318: { 
 		captain:"Aumenta el ATK de los personajes [STR] y [PSY] 2.5x",
 		specialName:"Super Large Iron Ball",
-		special: "Hace su ATK 30x como daño [STR] fijo a todos los enemigos ignorando cualquier bufo defensivo o escudo enemigo. Retrasa a los enemigos 1 turno. Reduce la defensa de todos los enemigos en un 80% durante 1 turno",
-		specialNotes:"#{fixed}",
+		special: "Hace su ATK 30x como daño [STR] fijo a todos los enemigos ignorando bufos defensivos o escudos del enemigo. Retrasa a los enemigos 1 turno. Reduce la defensa de todos los enemigos en un 80% durante 1 turno",
+		specialNotes:"#{fixed} <br> El daño que ignora bufos defensivos (barreras y escudos) es similar a la habilidad de capitán de Blackbeard",
 		sailor:"Aumenta la HP de todos los personajes 75 puntos"
 	},
 	1319: { 
@@ -7630,7 +7630,7 @@ window.details = {
 		special: "Reduce el daño recibido a partir de los 5000 puntos en un 99% durante 1 turno"
 	},
 	1419: { 
-		captain:"Aumenta el ATK de los personajes Powerhouse 2.5x y reduce el daño recibido un 10%",
+		captain:"Aumenta el ATK de los personajes Powerhouse 2x y reduce el daño recibido un 10%",
 		specialName:"Lucci Special",
 		special: "Recupera 5000 puntos de HP y aumenta el ATK de todos los personajes 1.5x durante 1 turno contra enemigos con defensa reducida"
 	},
@@ -7651,12 +7651,62 @@ window.details = {
 	},
 	1423: { 
 		captain:"Aumenta el ATK de todos los personajes 1.75x y recupera 918 puntos de HP al final de cada turno",
-		specialName:"T-Bone Special",
+		specialName:"For the Sake of Justice",
 		special: "Reduce el daño recibido en un 99% si la HP del equipo se encuentra por debajo de 500 puntos"
 	},
 	1424: { 
 		captain:"Aumenta el ATK de los personajes Striker proporcionalmente a la HP del equipo",
-		specialName:"Gin Special",
+		captainNotes:"",
+		specialName:"General Commander's Fight",
 		special: "Hace 500 puntos de daño fijo a todos los enemigos. Reduce la carga de los especiales de los personajes Striker 1 turno"
+	},
+	1425: { 
+		captain:"Aumenta el ATK de los personajes Fighter y Striker 1.75x",
+		specialName:"Military Leg Heel",
+		special: "Hace su ATK 25x como daño [QCK] a un solo enemigo. Si hay un miembro del equipo que sufre Encadenamiento incrementa la efectividad de los orbes 1.5x durante 3 turnos"
+	},
+	1426: { 
+		captain:"Aumenta el ATK de los personajes Fighter y Striker 2x y su HP 1.25x",
+		specialName:"Military Leg Heel",
+		special: "Hace su ATK 25x como daño [QCK] a un solo enemigo. Si hay un miembro del equipo que sufre Encadenamiento incrementa la efectividad de los orbes 1.5x durante 3 turnos"
+	},
+	1427: { 
+		captain:"Aumenta el ATK de los personajes QCK 2x",
+		specialName:"Unblockable Eight Fists",
+		special: "Hace su ATK 15x como daño [QCK] a un solo enemigo ignorando bufos defensivos o escudos del enemigo.",
+		specialNotes:"El daño que ignora bufos defensivos (barreras y escudos) es similar a la habilidad de capitán de Blackbeard"
+	},
+	1428: { 
+		captain:"Aumenta la cantidad de Berries recibido 1.5x y da la posibilidad de duplicar un drop al finalizar la partida",
+		captainNotes:"La habilidad de doblar el drop no funciona si este personaje no era tu capitán al iniciar la batalla. Esta habilidad se acumula con la de otros capitanes que tengan la misma habilidad, otorgando dos posibilidades de drop extra.",
+		specialName:"Looting the Losers",
+		special: "Reduce la carga de los especiales de todos los personajes 1 turno y aumenta su propio ATK 1.75x si los enemigos sufren delay",
+		specialNotes:""
+	},
+	1429: { 
+		captain:"Aumenta el RCV de los personajes Striker y Free Spirit 1.5x",
+		specialName:"Boy's Unknown Taste of Hard Work",
+		special: "Reduce los Encadenamientos, el Despair y la Parálisis 3 turnos. Recupera 2000 puntos de HP al final de cada turno durante 3 turnos."
+	},
+	1430: { 
+		captain:"Aumenta el RCV de los personajes Striker y Free Spirit 2x",
+		specialName:"Boy's Unknown Taste of Hard Work",
+		special: "Reduce los Encadenamientos, el Despair y la Parálisis 3 turnos. Recupera 2000 puntos de HP al final de cada turno durante 3 turnos"
+	},
+	1431: { 
+		captain:"Aumenta el ATK de todos los personajes 2x si el equipo se encuentra formado por personajes [STR], [DEX], [QCK], [PSY] e [INT]. Aumenta la HP de todos los personajes 1.2x si el equipo de encuentra formado por personajes Fighter, Slasher, Shooter, Driven, Free Spirit y Powerhouse",
+		specialName:"General Cannon",
+		special: "Hace su ATK 100x como daño sin tipo a todos los enemigos. Imposibilita la utilización por parte del enemigo de los siguientes bufos: potenciación de ataque, berserker, daño al final del turno y cura al final del turno. Aumenta el ATK de todos los personajes 1.5x."
+	},
+	1432: { 
+		captain:"Aumenta el ATK de todos los personajes 2.5x si el equipo se encuentra formado por personajes [STR], [DEX], [QCK], [PSY] e [INT]. Aumenta la HP de todos los personajes 1.5x si el equipo de encuentra formado por personajes Fighter, Slasher, Shooter, Driven, Free Spirit y Powerhouse",
+		specialName:"General Cannon",
+		special: "Hace su ATK 100x como daño sin tipo a todos los enemigos. Imposibilita la utilización por parte del enemigo de los siguientes bufos: potenciación de ataque, berserker, daño al final del turno y cura al final del turno. Aumenta el ATK de todos los personajes 1.5x."
+	},
+	1445: { 
+		captain:"",
+		captainNotes:"",
+		specialName:"Boa Hancock Special",
+		special: ""
 	}
 };
