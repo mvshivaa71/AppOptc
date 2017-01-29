@@ -306,7 +306,7 @@ window.ships = [
 	{ // 25
         name: 'Thousand Sunny: Coated',
         thumb: 'ship_0026_c.png',
-        description: 'Boosts ATK by 1.5x. Special: reduces damage received by 50% for 1 turn (cooldown: 16 turns).',
+        description: 'Aumenta el ATK de todos los personajes 1.5x. Especial: reduce el daño recibido un 50% durante 1 turno (carga: 16 turnos).',
         atk: function(p) {
             return [ 1.3, 1.3, 1.3, 1.3, 1.35, 1.35, 1.35, 1.4, 1.45, 1.5 ][p.boatLevel - 1];
         }
@@ -315,7 +315,7 @@ window.ships = [
     { // 26
         name: 'Kizaru\'s Cannonball',
         thumb: null,
-        description: 'Boosts ATK of Shooter characters by 1.55x and their HP by 1.2x, reduces cooldown of all specials by 1 turn at the start of the fight. Special: Cuts the current HP of each enemy by 7% (cooldown: 15 turns).',
+        description: 'Aumenta el ATK de los personajes Shooter 1.55x y su HP 1.2x y reduce la carga de todos los especiales 1 turno al principio de la batalla. Especial: Reduce la HP actual de los enemigos un 7% (carga: 15 turnos).',
 
         atk: function(p) {
             return [ 1.2, 1.2, 1.3, 1.3, 1.3, 1.4, 1.4, 1.4, 1.4, 1.55 ][p.boatLevel - 1];
