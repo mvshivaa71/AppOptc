@@ -2060,11 +2060,37 @@ window.specials = {
     1422: {
         atk: function(p) {
             if(p.percHP == 100.0){
-                return p.unit.class.has("Driven") ? 1.75 : 1;
+                return p.unit.class.has("Driven") ? 2 : 1;
             }else{
-                return p.unit.class.has("Driven") ? 1.75 : 1;
+                return p.unit.class.has("Driven") ? 1.5 : 1;
             }
         },
         type: "class"
     },
+	1425: {
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.5); },
+        warning: "Selected special (%name%) assumes that an ally has been inflicted with Bind."
+    },
+    1426: {
+        orb: function(p) { return CrunchUtils.getOrbMultiplier(p.orb, 1, 1.5); },
+        warning: "Selected special (%name%) assumes that an ally has been inflicted with Bind."
+    },
+    1428: {
+        atk: function(p) { return p.slot == p.sourceSlot ? 1.75 : 1; },
+        type: "class",
+        warning: "Selected special (%name%) assumes that the enemy has been Delayed."
+    },
+    1431: {
+        atk: function(p) { return 1.5; },
+        type: "type"
+    },
+    1432: {
+        atk: function(p) { return 1.5; },
+        type: "type"
+    },
+    1445: {
+        atk: function(p) { return p.unit.type == "PSY" || p.unit.type == "QCK" ? 1.75 : 1; },
+        rcv: function(p) { return p.unit.type == "PSY" || p.unit.type == "QCK" ? 1.75 : 1; },
+        type: "type"
+    }
 };

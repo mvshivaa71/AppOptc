@@ -812,7 +812,7 @@ window.drops = {
             condition: 'You may only bring QCK units for 15 and 30 Stamina',
             challenge: 'High Score calculated with Crew Cost, Turns Taken and Tap Accuracy',
             challengeData: [['200,000 Points','1x Red Elder'],['400,000 Points','1x HP Cotton Candy'],['700,000 Points','3x Rainbow Gems']],
-            "Todas las dificultades": [ 28, 40, 60, 213, 215, 340, -292, -291, -290, -261, -257, -214, -71, -44 ]
+            "Todas las dificultades": [ 28, 40, 60, 213, 215, 340, -292, -291, -290, -261, -257, -214, -71, -44, -1413]
         },
 
         {
@@ -989,7 +989,7 @@ window.drops = {
             thumb: 688,
             global: true,
             condition: 'Bomb orbs appear',
-            "Japón": [ 687, 689, -542, -524, -528, -429, -428, -402, -365, -218, -1119, -1177  ],
+            "Japón": [ 687, 689, -542, -524, -528, -429, -428, -402, -365, -218, -1119, -1177 ],
             "Global": [ 687, 689, -542, -645, -647, -429, -428, -402, -365, -218 ]
         },
 
@@ -1027,8 +1027,8 @@ window.drops = {
             thumb: 761,
             global: true,
             condition: "None",
-            "Japón": [ 761, 762, 763, 764, 765, -610, -588, -565, -556, -426, -408, -261, -217, -1210 ],
-            "Global": [ 761, 762, 763, 764, 765, -426, -408, -332, -308, -292, -261, -217, -8 ]
+            "Japón": [ 761, 762, 763, 764, 765, -610, -588, -565, -556, -426, -408, -261, -217, -1210, -1413 ],
+            "Global": [ 761, 762, 763, 764, 765, -426, -408, -332, -308, -292, -261, -217, -8, -1413 ]
         },
 
         {
@@ -1101,7 +1101,7 @@ window.drops = {
             name: "Mountaintop Banquet! Enter the Generals!",
             thumb: 897,
             condition: 'Only STR/DEX/QCK/PSY/INT orbs will appear',
-            "Todas las dificultades": [ 897, 898, 899, -899, -754, -702, -701, -669, -528, -466, -449, -464, -1177  ]
+            "Todas las dificultades": [ 897, 898, 899, -899, -754, -702, -701, -669, -528, -466, -449, -464, -1177 ]
         },
 
         {
@@ -1109,7 +1109,7 @@ window.drops = {
             thumb: 918,
 			global: true,
             condition: 'You can only bring DEX units',
-            "Todas las dificultades": [ 917, 919, 920, -920, -791, -756, -720, -706, -705, -542, -541, -522, -1117  ]
+            "Todas las dificultades": [ 917, 919, 920, -920, -791, -756, -720, -706, -705, -542, -541, -522, -1117 ]
         },
         
         {
@@ -1132,10 +1132,12 @@ window.drops = {
         {
             name: "Clash! Whitebeard Pirates",
             thumb: 979,
+			global: true,
             condition: "You can only bring INT units",
             challenge: 'High Score calculated with Crew Cost, Turns Taken and Tap Accuracy',
             challengeData: [['150,000','1x Blue Elder'],['420,000','1x HP Cotton Candy, 1x Rainbow Gem'],['700,000','2x Rainbow Gems, 1x Orb Forbidden Tome']],
-            "Todas las dificultades": [ 979, 980, 981, 949, -459, -838, -842, -524, -789, -736, -731, -563, -1119 ]
+			"Japón": [ 979, 980, 981, 949, -459, -838, -842, -524, -789, -736, -731, -563, -1119 ],
+            "Global": [ 979, 980, 981, 949, -459, -838, -842, -560, -789, -736, -731, -563, -1212 ]
         },
         
         {
@@ -1290,7 +1292,12 @@ window.drops = {
             condition: "You can only bring INT units",
             "Todas las dificultades": [ 1415, 1417, 1418, -1418, -870, -1276, -1274, -1236, -874, -253, -1223, -813 ]
         },
-		
+		{
+            name: "Happo Navy! The 13th Leader Appears!",
+            thumb: 1426,
+            condition: "You can only bring DEX units",
+            "All Difficulties": [ 1425, 1427, 1428, -1240, -1272, -1270, -1227, -1224, -872, -878, -255, -812 ]
+        },		
     ],
 
             
@@ -1482,7 +1489,12 @@ window.drops = {
             Master: [ 1373 ],
             Expert: [ 1373 ],
         },
-
+		{
+            name: 'Shogun Franky',
+            thumb: 1432,
+            Master: [ 1431, 215, 799 ],
+            Ultimate: [ 1431, 215, 799 ],
+        },
     ],
 
     'Special': [
@@ -1535,7 +1547,7 @@ window.drops = {
             name: 'Rescue Ace Event - Akainu',
             thumb: 1283,
             condition: "10, 20, 30, 35 stamina difficulty. 30 and 35 Stamina has a chance of dropping the Universal Skill Book.",
-            "Todas las dificultades": [ -261, -562, -720, -748, -935 ]
+            "Todas las dificultades": [ -261, -562, -720, -748, -935, -1413]
         },
         
         {
