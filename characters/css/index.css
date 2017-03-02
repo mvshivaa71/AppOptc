@@ -626,7 +626,7 @@ tr.incomplete td:nth-child(2) > a:after {
     padding: 5px;
     border-radius: 10px;
     margin-left: 10px;
-    background: darkgreen;
+    background: mediumspringgreen;
     font-size: 9px;
     color: white;
     text-decoration: none !important;
@@ -638,7 +638,7 @@ tr.preview td:nth-child(2) > a:after {
     padding: 5px;
     border-radius: 10px;
     margin-left: 10px;
-    background: darkslategray;
+    background: darkorange;
     font-size: 9px;
     color: white;
     text-decoration: none !important;
