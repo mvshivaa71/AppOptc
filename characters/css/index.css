@@ -638,9 +638,9 @@ tr.preview td:nth-child(2) > a:after {
     padding: 5px;
     border-radius: 10px;
     margin-left: 10px;
-    background: seagreen;
+    background: lightskyblue;
     font-size: 9px;
-    color: white;
+    color: black;
     text-decoration: none !important;
     display: inline-block;
 }
