@@ -242,8 +242,7 @@ window.ships = [
         thumb: 'ship_0020_c.png',
         description: 'Aumenta el ATK de los personajes Driven 1.5x y su HP 1.35x. Hace más fáciles de acertar los Perfects para los personajes Driven. Especial: añade 0.2x al multiplicador de la cadena (carga: 15 turnos)',
         atk: function(p) { return !p.unit.class.has('Driven') ? 1 : [ 1.2, 1.2, 1.3, 1.3, 1.3, 1.3, 1.4, 1.4, 1.4, 1.5][p.boatLevel - 1]},
-        hp: function(p) { return !p.unit.class.has('Driven') ? 1 : [ 1.1, 1.1, 1.1, 1.15, 1.2, 1.2, 1.2, 1.2, 1.2, 1.35][p.boatLevel - 1]},
-	chainAddition: function(p){ return 0.2;}
+        hp: function(p) { return !p.unit.class.has('Driven') ? 1 : [ 1.1, 1.1, 1.1, 1.15, 1.2, 1.2, 1.2, 1.2, 1.2, 1.35][p.boatLevel - 1]}
     },
     
     { // 20
